@@ -53,7 +53,7 @@ class MinHeap:
         #self.print_heap()
         self.percolate_down(0)
 
-        return max
+        return min
 
     def percolate_down(self, i):
         while 2*i + 2 < self.size:
