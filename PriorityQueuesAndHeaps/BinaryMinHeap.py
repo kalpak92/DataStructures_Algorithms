@@ -1,6 +1,6 @@
 __author__='Kalpak Seal'
 
-class Heap:
+class MinHeap:
     def __init__(self):
         self.heap_list = []
         self.size = 0
@@ -75,7 +75,7 @@ class Heap:
 
 
 def main():
-    h = Heap()
+    h = MinHeap()
     h.insert(9)
     h.insert(8)
     h.insert(7)
