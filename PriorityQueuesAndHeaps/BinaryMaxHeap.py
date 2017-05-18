@@ -82,7 +82,7 @@ def main():
     h.insert(5)
     h.insert(3)
     print ("Current MAX heap after insertion: ")
-    h.print_heap()H
+    h.print_heap()
  
     print ("After deleting 1 element: ")
     h.delete()
