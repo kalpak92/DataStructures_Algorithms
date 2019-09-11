@@ -48,4 +48,5 @@ int main() {
 	int sum = 23;
 	subArrayWithGivenSum(arr, size, sum);
 	return 0;
+
 }
