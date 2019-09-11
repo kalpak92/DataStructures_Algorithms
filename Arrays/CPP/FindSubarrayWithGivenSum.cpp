@@ -1,52 +1,47 @@
 /*
 Given an unsorted array of nonnegative integers, find a continous subarray which adds to a given number.
-
 Examples:
-      Input: arr[] = {1, 4, 20, 3, 10, 5}, sum = 33
-      Ouptut: Sum found between indexes 2 and 4
+        Input: arr[] = {1, 4, 20, 3, 10, 5}, sum = 33
+        Ouptut: Sum found between indexes 2 and 4
 
-      Input: arr[] = {1, 4, 0, 0, 3, 10, 5}, sum = 7
-      Ouptut: Sum found between indexes 1 and 4
+        Input: arr[] = {10, 2, -2, -20, 10}, sum = -10
+        Ouptut: Sum found between indexes 0 to 3
 
-      Input: arr[] = {1, 4}, sum = 0
-      Output: No subarray found
-
+        Input: arr[] = {-10, 0, 2, -2, -20, 10}, sum = 20
+        Ouptut: No subarray with given sum exists
 There may be more than one subarrays with sum as the given sum. The following solutions print first such subarray.
 */
 #include <iostream>
+#include <unordered_map>
 using namespace std;
 
-void subArrayWithGivenSum(int a[], int size, int sum) {
-    int start = 0;
-    int curr_sum = 0;
-    int i;
+void subArraySum(int a[], int n, int sum) {
+    unordered_map<int, int> map;
     
-    for (i = 0; i < size; i++) {
+    int curr_sum = 0;
+    
+    for(int i =0; i < n; i++) {
         curr_sum += a[i];
-        if (curr_sum == sum)
-            break;
-        else if (curr_sum > sum) {
-            while (curr_sum > sum)
-                curr_sum -= a[start++];
-                
-                if (curr_sum == sum)
-                    break;
+        
+        if (curr_sum == sum) {
+            cout << "Sum found between indexes 0 to " << i << ".\n";
+            return;
         }
+        
+        if (map.find(curr_sum - sum) != map.end()) {
+            cout << "Sum found between indexes " << map[curr_sum - sum] + 1 << " to " << i <<endl;
+            return;
+        }
+        map[curr_sum] = i;
     }
     
-    if (curr_sum == sum)
-        cout << "The sub array exists between "<< start << " and " << i <<".\n";
-    else
-        cout << "No Sub Array Found. \n";
-
-    return;
+    cout << "No subarray with given sum exists";
 }
 
 int main() {
-	int arr[] = {15, 2, 4, 8, 9, 5, 10, 23};
+	int arr[] = {10, 2, -2, -20, 10};
 	int size = sizeof(arr)/sizeof(arr[0]);
-	int sum = 23;
-	subArrayWithGivenSum(arr, size, sum);
+	int sum = -2;
+	subArraySum(arr, size, sum);
 	return 0;
-
 }
