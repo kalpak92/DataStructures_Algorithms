@@ -12,7 +12,7 @@ int main()
 {
   unsigned int n = 6;
   unsigned int d = 4; /*d must be a power of 2*/
-  printf("%u moduo %u is %u", n, d, getModulo(n, d));
+  printf("%u modulo %u is %u", n, d, getModulo(n, d));
 
   return 0;
 }     

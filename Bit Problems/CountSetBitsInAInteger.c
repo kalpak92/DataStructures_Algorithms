@@ -20,6 +20,8 @@ unsigned int countSetBits(int n)
 int main()
 {
     int i = 15;
-    printf("%d", countSetBits(i));
+    int y = countSetBits(i);
+    printf("%d ", i^y);
+    // printf("%d", countSetBits(i));
     return 0;
 }
