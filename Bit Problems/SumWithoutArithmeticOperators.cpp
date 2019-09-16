@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <iostream>
+using namespace std;
  
-int Add(int x, int y)
+int add(int x, int y)
 {
     // Iterate till there is no carry  
     while (y != 0)
@@ -19,16 +20,6 @@ int Add(int x, int y)
  
 int main()
 {
-    printf("%d", Add(15, 32));
+    cout << add(15, -32) << endl;
     return 0;
 }
-
-/* Recursive Approach
-int Add(int x, int y)
-{
-    if (y == 0)
-        return x;
-    else
-        return Add( x ^ y, (x & y) << 1);
-}
-*/
