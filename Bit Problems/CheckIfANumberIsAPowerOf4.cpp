@@ -1,10 +1,14 @@
-#include<stdio.h>
-#define bool int
+#include<iostream>
+using namespace std;
  
 bool isPowerOfFour(unsigned int n)
 {
   int count = 0;
- 
+  
+  // sanity check
+  if (n <= 0)
+    return false;
+    
   /*Check if there is only one bit set in n*/
   if ( n && !(n&(n-1)) )
   {
@@ -16,18 +20,18 @@ bool isPowerOfFour(unsigned int n)
      }      
  
     /*If count is even then return true else false*/
-    return (count%2 == 0)? 1 :0;
+    return (count%2 == 0)? true :false;
   }
  
   /* If there are more than 1 bit set
     then n is not a power of 4*/
-  return 0;
+  return false;
 }    
  
 /*Driver program to test above function*/
 int main()
 {
-   int test_no = 64;
+   int test_no = 32;
    if(isPowerOfFour(test_no))
      printf("%d is a power of 4", test_no);
    else
