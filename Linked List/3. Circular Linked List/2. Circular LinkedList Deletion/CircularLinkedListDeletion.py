@@ -16,7 +16,7 @@ class CircularLinkedList:
         new_node = Node(data)
         temp = self.head
 
-        new_node.next = self.head
+        #new_node.next = self.head
 
         #If the linked list is not None, then set the next of last node to head
 
