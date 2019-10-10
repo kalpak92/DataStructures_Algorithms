@@ -2,7 +2,7 @@
 
 ## Linked List
 
-- [x] [Add Two Numbers](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/2. Add Two Numbers)
+- [x] [Add Two Numbers](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/2.%20Add%20Two%20Numbers)
 - [x] [Merge Two Sorted Lists](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/21. Merge Two Sorted Lists)
 - [x] [Reverse Linked List](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/206. Reverse a LinkedList)
 - [x] [Copy list with Random Pointer](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/138. Copy LinkedList with Random Pointer)
@@ -19,3 +19,4 @@
 - [ ] Reverse Linked List II
 - [ ] Remove Nth Node from End of list
 - [ ] Linked List Components
+- [ ] 
