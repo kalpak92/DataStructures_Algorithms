@@ -17,6 +17,5 @@
 - [ ] Swap Nodes in Pairs
 - [ ] Reorder List
 - [ ] Reverse Linked List II
-- [ ] Remove Nth Node from End of list
+- [x] [Remove Nth Node from End of list](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/19.%20Remove%20Nth%20Node%20from%20End%20of%20List)
 - [ ] Linked List Components
-- [ ] 
