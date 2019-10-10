@@ -10,7 +10,7 @@
 - [x] [Linked List Cycle](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/141.%20LinkedList%20Cycle)
 - [x] [Delete Node in a Linked List](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/237.%20Delete%20A%20Node%20in%20a%20LinkedList)
 - [x] [Plus One Linked List](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/369.%20Plus%20One%20Linked%20List)
-- [ ] Merge k Sorted Lists
+- [x] [Merge k Sorted Lists](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/23.%20Merge%20k%20Sorted%20Lists)
 - [ ] Reverse Nodes in k-group
 - [ ] Intersection of Two Linked Lists
 - [ ] Add Two Numers II
