@@ -5,11 +5,8 @@ public class StackUsingLinkedList
 {
     private LinkedList<Integer> list = new LinkedList<>();
 
-    public StackUsingLinkedList()
-    {
-
-    }
-
+    public StackUsingLinkedList() {}
+    
     public StackUsingLinkedList(int elem)
     {
         list.addLast(elem);
