@@ -16,7 +16,7 @@ public class SortStack
         while(!s.isEmpty())
         {
             int temp = s.pop();
-            while(!result.isEmpty() && result.peek() > temp)
+            while(!result.isEmpty() && result.peek() < temp)
             {
                 s.push(result.pop());
             }
