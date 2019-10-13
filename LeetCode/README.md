@@ -19,3 +19,7 @@
 - [ ] Reverse Linked List II
 - [x] [Remove Nth Node from End of list](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/19.%20Remove%20Nth%20Node%20from%20End%20of%20List)
 - [ ] Linked List Components
+
+## Stacks and Queues
+
+- [x] [Min Stack](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/155.%20Min%20Stack)
