@@ -23,3 +23,15 @@
 ## Stacks and Queues
 
 - [x] [Min Stack](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/155.%20Min%20Stack)
+- [ ] Binary Search Tree Iterator
+- [ ] Daily Temperatures
+- [ ] Decode String
+- [ ] Exclusive Time of Functions
+- [ ] Flatten Nested List Iterator
+- [ ] Trapping Rain Water
+- [ ] Valid Parentheses
+- [ ] Maximal Rectangle
+- [ ] Asteroid Collision
+
+## Strings
+- [x] [Longest Palindrome] 
