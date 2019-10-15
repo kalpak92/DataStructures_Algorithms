@@ -40,6 +40,7 @@
 
 ## Trees
 - [x] [N-ary Tree Pre-order Traversal]
+- [x] [N-ary Tree Level-order Traversal]
 
 ## Strings
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
