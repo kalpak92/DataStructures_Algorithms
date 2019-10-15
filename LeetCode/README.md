@@ -32,6 +32,7 @@
 - [ ] Valid Parentheses
 - [ ] Maximal Rectangle
 - [ ] Asteroid Collision
+- [x] [Remove all adjacent duplicated in a string]
 
 ## Hash Tables
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
