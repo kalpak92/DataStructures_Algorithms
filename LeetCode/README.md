@@ -26,7 +26,7 @@
 - [ ] Binary Search Tree Iterator
 - [ ] Daily Temperatures
 - [ ] Decode String
-- [x] Exclusive Time of Functions
+- [x] [Exclusive Time of Functions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/636.%20Exclusive%20Time%20of%20Functions)
 - [ ] Flatten Nested List Iterator
 - [ ] Trapping Rain Water
 - [ ] Valid Parentheses
