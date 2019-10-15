@@ -26,7 +26,7 @@
 - [ ] Binary Search Tree Iterator
 - [ ] Daily Temperatures
 - [ ] Decode String
-- [ ] Exclusive Time of Functions
+- [x] Exclusive Time of Functions
 - [ ] Flatten Nested List Iterator
 - [ ] Trapping Rain Water
 - [ ] Valid Parentheses
