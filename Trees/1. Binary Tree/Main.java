@@ -20,6 +20,12 @@ public class Main{
         node2.setRight(node6);
 
         BinaryTreeTraversals traverse = new BinaryTreeTraversals();
+
+        System.out.println("Pre-Order");
         traverse.preOrder(node);
+        System.out.println("In-Order");
+        traverse.inOrder(node);
+        System.out.println("Post-Order");
+        traverse.postOrder(node);
     }
 }
