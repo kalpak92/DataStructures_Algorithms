@@ -39,8 +39,9 @@
 - [x] [Palindrome Permutation](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/266.%20Palindrome%20Permutation)
 
 ## Trees
-- [x] [N-ary Tree Pre-order Traversal]
-- [x] [N-ary Tree Level-order Traversal]
+- [x] [N-ary Tree Pre-order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/589.%20N-ary%20tree%20Pre-order%20Traversal)
+- [x] [N-ary Tree Level-order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/590.%20N-ary%20Tree%20Postorder%20Traversal)
+- [x] [N-ary Tree Post-order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/590.%20N-ary%20Tree%20Postorder%20Traversal)
 
 ## Strings
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
