@@ -137,4 +137,28 @@ public class BinaryTreeTraversals
         for(int i : result)
             System.out.println(i);
     }
+
+    public void levelOrderIterative(BinaryTreeNode root)
+    {
+        ArrayList<Integer> result = new ArrayList<>();
+        Queue<BinaryTreeNode> q  = new LinkedList<>();
+
+        q.offer(root);
+
+        while(!q.isEmpty())
+        {
+            BinaryTreeNode current = q.poll();
+            result.add(current.getData());
+
+            if (current.getLeft() != null)
+                q.offer(current.getLeft());
+
+            if (current.getRight() != null)
+                q.offer(current.getRight());
+        }
+
+        for (int i : result)
+            System.out.println(i);
+
+    }
 }

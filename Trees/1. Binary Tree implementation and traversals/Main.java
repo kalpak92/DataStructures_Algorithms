@@ -21,17 +21,25 @@ public class Main{
 
         BinaryTreeTraversals traverse = new BinaryTreeTraversals();
 
-        //System.out.println("Pre-Order");
-        //traverse.preOrder(node);
+        System.out.println("Pre-Order");
+        traverse.preOrder(node);
+        
         System.out.println("In-Order");
         traverse.inOrder(node);
+
         System.out.println("Post-Order");
         traverse.postOrder(node);
-        //System.out.println("Pre-Order Iterative");
-        //traverse.preOrderIterative(node);
-        //System.out.println("In-Order Iterative");
-        //traverse.inOrderIterative(node);
+
+        System.out.println("Pre-Order Iterative");
+        traverse.preOrderIterative(node);
+
+        System.out.println("In-Order Iterative");
+        traverse.inOrderIterative(node);
+
         System.out.println("Post-Order Iterative");
         traverse.preOrderIterative(node);
+
+        System.out.println("Level-Order Iterative");
+        traverse.levelOrderIterative(node);
     }
 }
