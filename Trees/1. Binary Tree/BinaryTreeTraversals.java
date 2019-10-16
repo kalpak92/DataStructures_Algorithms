@@ -1,5 +1,7 @@
 import java.util.*;
 
+import javax.lang.model.util.ElementScanner6;
+
 public class BinaryTreeTraversals
 {
     public void preOrder(BinaryTreeNode root)
@@ -63,28 +65,76 @@ public class BinaryTreeTraversals
         Stack<BinaryTreeNode> s = new Stack<>();
 
         BinaryTreeNode current = root;
-        boolean done = false;
-
-        while(!done)
+        
+        while(current != null || s.size() > 0)
         {
-            if(current != null)
+            while(current != null)                  // push the left subtree before processing any node
             {
                 s.push(current);
                 current = current.getLeft();
             }
-            else{
-                if(s.isEmpty())
-                    done = true;
-                
-                else{
-                    current = s.pop();
-                    result.add(current.getData());
-                    current = current.getRight();
-                }
-            }
+
+            current = s.pop();                     
+
+            result.add(current.getData());
+
+            current = current.getRight();
         }
 
         for (int i: result)
+            System.out.println(i);
+    }
+
+    public void postOrderIterative(BinaryTreeNode root)
+    {
+        ArrayList<Integer> result = new ArrayList<>();
+        Stack<BinaryTreeNode> s = new Stack<>();
+
+        if (root == null)
+            return ;
+
+        s.push(root);
+        BinaryTreeNode prev = null;
+
+        while(!s.isEmpty())
+        {
+
+            BinaryTreeNode current = s.peek();
+
+            if (prev == null || prev.getLeft() == null || prev.getRight() == null)
+            {
+                if (current.getLeft() != null)
+                    s.push(current.getLeft());
+                
+                else if (current.getRight() != null)
+                {
+                    s.push(current.getRight());    
+                }
+                else {    
+                    s.pop();
+                    result.add(current.getData());
+                }
+            }
+            else if (current.getLeft() == prev)
+            {
+                if (current.getRight() != null)
+                    s.push(current.getRight());
+                else
+                {
+                    s.pop();
+                    result.add(current.getData());
+                }
+            }
+            else if (current.getRight() == prev) 
+            {
+                s.pop();
+                result.add(current.getData());
+            }
+
+            prev = current;
+        }
+
+        for(int i : result)
             System.out.println(i);
     }
 }
