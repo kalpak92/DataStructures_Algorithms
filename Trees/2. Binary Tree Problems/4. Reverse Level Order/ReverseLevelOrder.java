@@ -44,8 +44,9 @@ public class ReverseLevelOrder
         
         while(!s.isEmpty())
         {
-            System.out.println(s.pop());
+            System.out.print(s.pop() + " ");
         }
+        System.out.println();
     }
 
     public static void main(String[] args) {
