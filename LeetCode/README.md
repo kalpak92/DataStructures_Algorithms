@@ -49,7 +49,7 @@
 - [x] [Maximum Width of Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/662.%20Maximum%20Width%20of%20Binary%20Tree)
 - [x] [Binary Tree Paths](https://github.com/kalpak92/DataStructures_Algorithms/blob/master/LeetCode/257.%20Binary%20Tree%20Paths/Solution.java)
 - [x] [Sum Root to Leaf Numbers](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/129.%20Sum%20Root%20to%20Leaf%20Numbers)
-- [x] [Symmetric Tree]()
+- [x] [Symmetric Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/101.%20Symmetric%20Tree)
 
 ## Strings
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
