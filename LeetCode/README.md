@@ -47,6 +47,7 @@
 - [x] [Binary Tree Level Order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/102.%20Binary%20Tree%20Level%20Order%20Traversal)
 - [x] [Binary Tree Level Order Traversal II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/107.%20Binary%20Tree%20Level%20Order%20Traversal%20II)
 - [x] [Maximum Width of Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/662.%20Maximum%20Width%20of%20Binary%20Tree)
+- [x] [Binary Tree Paths]()
 
 ## Strings
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
