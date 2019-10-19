@@ -54,6 +54,8 @@
 - [x] [Lowest Common Ancestor of a Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree)
 - [x] [Binary Tree Zigzag Level order traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal)
 - [x] [Subtree of another tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/572.%20Subtree%20of%20Another%20Tree)
+- [x] [Serialize and Deserialize Binary Tree]()
+
 ## Strings
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
 - [x] [Palindrome Permutation](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/266.%20Palindrome%20Permutation)

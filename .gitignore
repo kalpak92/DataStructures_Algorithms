@@ -121,5 +121,6 @@ ENV/
 *.out
 *.app
 *.h.gch
+*.class
 
 .DS_Store
