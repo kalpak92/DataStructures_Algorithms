@@ -56,6 +56,8 @@
 - [x] [Subtree of another tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/572.%20Subtree%20of%20Another%20Tree)
 - [x] [Serialize and Deserialize Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/297.%20Serialize%20and%20Deserialize%20Binary%20Tree)
 - [x] [Path Sum]
+- [x] [Path Sum II]
+- [x] [Binary Tree Maximum Path Sum]
 
 ## Strings
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
