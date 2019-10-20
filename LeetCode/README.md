@@ -37,8 +37,8 @@
 ## Hash Tables
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
 - [x] [Palindrome Permutation](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/266.%20Palindrome%20Permutation)
-- [x] [Intersection of Two Arrays]
-- [x] [Intersection of Two Arrays II]
+- [x] [Intersection of Two Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/349.%20Intersection%20of%20Two%20Arrays)
+- [x] [Intersection of Two Arrays II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/350.%20Intersection%20of%20Two%20Arrays%20II)
 
 ## Trees
 - [x] [N-ary Tree Pre-order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/589.%20N-ary%20tree%20Pre-order%20Traversal)
