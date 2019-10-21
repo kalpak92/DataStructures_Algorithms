@@ -4,7 +4,7 @@
 - [x] [Two Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1.%20Two%20Sum)
 - [x] [3Sum Closest](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/16.%203Sum%20closest)
 - [x] [Find the Duplicate Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/287.%20Find%20the%20Duplicate%20Number)
-- [x] [Search in Rotated Sorted Array]()
+- [x] [Search in Rotated Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/33.%20Search%20in%20Rotated%20Sorted%20Array)
 
 ## Linked List
 
