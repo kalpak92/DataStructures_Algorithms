@@ -1,5 +1,8 @@
 # Leetcode Problems
 
+## Arrays
+- [x] [Two Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1.%20Two%20Sum)
+- [x] [3Sum Closest]()
 ## Linked List
 
 - [x] [Add Two Numbers](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/2.%20Add%20Two%20Numbers)
