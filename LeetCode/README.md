@@ -3,6 +3,7 @@
 ## Arrays
 - [x] [Two Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1.%20Two%20Sum)
 - [x] [3Sum Closest](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/16.%203Sum%20closest)
+- [x] [Find the Duplicate Number]()
 
 ## Linked List
 
