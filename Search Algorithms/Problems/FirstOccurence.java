@@ -9,24 +9,26 @@ public class FirstOccurence
         while(low < high)
         {
             int mid = low + (high - low)/2;
-            //System.out.println("mid = " + mid);
 
-            if(arr[mid] > key)
+            if(arr[mid] > key)      // we go left
             {
                 high = mid - 1;
             }
-            else if (arr[mid] == key)
+            else if (arr[mid] == key)   // there's a match but we dont know if it is the first one.
             {
-                result = mid;
+                result = mid;   // update the result and 
+                // check if the mid element is greater than the element before it.
+                // if mid is 0, then break out.
                 if (mid == 0 || (arr[mid] > arr[mid - 1]))
                     break;
-                //System.out.println("result = " + result);
+
+                // else continue going left.
                 high = mid - 1;
             }
             else
             {
+                // mid is less than the key to be searched. so go right.
                 low = mid + 1;
-                //System.out.println("low = " + low);
             } 
         }
         return result;
