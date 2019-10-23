@@ -75,3 +75,7 @@
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
 - [x] [Palindrome Permutation](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/266.%20Palindrome%20Permutation)
 - [x] [Remove all adjacent duplicated in a string](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1047.%20Remove%20all%20adjacent%20duplicated%20in%20String)
+
+## Mathematics
+[x] [Pow(x, n)]()
+[x] [Sqrt(x)]()
