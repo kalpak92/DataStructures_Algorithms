@@ -79,3 +79,4 @@
 ## Mathematics
 [x] [Pow(x, n)]()
 [x] [Sqrt(x)]()
+[x] [Divide Two Integers]()
