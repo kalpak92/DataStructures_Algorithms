@@ -6,6 +6,9 @@
 - [x] [Find the Duplicate Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/287.%20Find%20the%20Duplicate%20Number)
 - [x] [Search in Rotated Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/33.%20Search%20in%20Rotated%20Sorted%20Array)
 - [x] [Single Element in a Sorted Array - O(log n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/540.%20Single%20Element%20in%20a%20Sorted%20Array)
+- [x] [Search Insert position]
+- [x] [Find First and Last position of element in Sorted Array]
+- [x] [Find minimum in Rotated Sorted Array]
 
 ## Linked List
 

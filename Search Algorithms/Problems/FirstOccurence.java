@@ -6,7 +6,7 @@ public class FirstOccurence
         int high = arr.length - 1;
         int result = -1;
 
-        while(low < high)
+        while(low <= high)
         {
             int mid = low + (high - low)/2;
 
@@ -16,7 +16,7 @@ public class FirstOccurence
             }
             else if (arr[mid] == key)   // there's a match but we dont know if it is the first one.
             {
-                result = mid;   // update the result and 
+                result = mid;   // update the result 
                 // check if the mid element is greater than the element before it.
                 // if mid is 0, then break out.
                 if (mid == 0 || (arr[mid] > arr[mid - 1]))
