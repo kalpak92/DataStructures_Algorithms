@@ -12,7 +12,7 @@
 - [x] [Find Median of Two Sorted Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/4.%20Median%20of%20Two%20Sorted%20Arrays)
 - [x] [Search a 2D Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/74.%20Search%20a%202D%20Matrix)
 - [x] [Search a 2D Matrix II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/240.%20Search%20a%202D%20matrix%20II)
-- [x] [Majority Element]
+- [x] [Majority Element](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/169.%20Majority%20Element)
 
 ## Linked List
 

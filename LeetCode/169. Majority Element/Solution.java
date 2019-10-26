@@ -28,4 +28,13 @@ class Solution {
         
         return candidate;
     }
+
+    /**
+     * If the elements are sorted in monotonically increasing (or decreasing) order, 
+     * the majority element can be found at index (n/2) and (n/2 +1) when n is even.
+     */
+    public int majorityElement(int[] nums) {
+        Arrays.sort(nums);
+        return nums[nums.length/2];
+    }
 }
