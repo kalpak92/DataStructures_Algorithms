@@ -7,7 +7,7 @@
 - [x] [Search in Rotated Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/33.%20Search%20in%20Rotated%20Sorted%20Array)
 - [x] [Single Element in a Sorted Array - O(log n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/540.%20Single%20Element%20in%20a%20Sorted%20Array)
 - [x] [Search Insert position](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/35.%20Search%20Insert%20position)
-- [x] [Check If a Number Is Majority Element in a Sorted Array]()
+- [x] [Check If a Number Is Majority Element in a Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1150.%20Check%20If%20a%20Number%20Is%20Majority%20Element%20in%20a%20Sorted%20Array)
 - [x] [Find First and Last position of element in Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/34.%20Find%20First%20and%20Last%20position%20of%20element%20in%20Sorted%20Array)
 - [x] [Find minimum in Rotated Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/153.%20Find%20minimum%20in%20Rotated%20Sorted%20Array)
 - [x] [Find Median of Two Sorted Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/4.%20Median%20of%20Two%20Sorted%20Arrays)
@@ -56,7 +56,7 @@
 - [x] [Intersection of Two Arrays II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/350.%20Intersection%20of%20Two%20Arrays%20II)
 
 ## Heaps
-- [x] [Kth Largest Element in an Array]()
+- [x] [Kth Largest Element in an Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/215.%20kth%20Largest%20element%20in%20an%20array)
 
 ## Trees
 - [x] [N-ary Tree Pre-order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/589.%20N-ary%20tree%20Pre-order%20Traversal)
