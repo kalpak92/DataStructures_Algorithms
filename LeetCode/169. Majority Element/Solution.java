@@ -33,8 +33,30 @@ class Solution {
      * If the elements are sorted in monotonically increasing (or decreasing) order, 
      * the majority element can be found at index (n/2) and (n/2 +1) when n is even.
      */
-    public int majorityElement(int[] nums) {
+    public int majorityElementII(int[] nums) {
         Arrays.sort(nums);
         return nums[nums.length/2];
+    }
+
+    /**
+     * We know that the majority element occurs more than floor(n / 2) times, and a HashMap allows us to count element occurrences efficiently.
+     */
+
+    public int majorityElementIII(int[] nums) {
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        
+        int res = 0;
+        
+        for (int num: nums) 
+        {
+            map.put(num, map.getOrDefault(num, 0) + 1);
+
+            if (map.get(num) > nums.length/2) 
+            {
+                res = num;
+                break;
+            }
+        }
+        return res;
     }
 }
