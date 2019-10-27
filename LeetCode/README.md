@@ -14,6 +14,7 @@
 - [x] [Search a 2D Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/74.%20Search%20a%202D%20Matrix)
 - [x] [Search a 2D Matrix II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/240.%20Search%20a%202D%20matrix%20II)
 - [x] [Majority Element](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/169.%20Majority%20Element)
+- [x] [K closest points to origin]()
 
 ## Linked List
 
@@ -59,6 +60,7 @@
 - [x] [Kth Largest Element in an Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/215.%20kth%20Largest%20element%20in%20an%20array)
 - [x] [Top k frequent elements in an Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/347.%20Top%20K%20frequent%20elements)
 - [x] [Top k frequent words]()
+- [x] [K closest points to origin]()
 
 ## Trees
 - [x] [N-ary Tree Pre-order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/589.%20N-ary%20tree%20Pre-order%20Traversal)
