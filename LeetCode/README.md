@@ -57,6 +57,7 @@
 
 ## Heaps
 - [x] [Kth Largest Element in an Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/215.%20kth%20Largest%20element%20in%20an%20array)
+- [x] [Top k freqquent elements in an Array]
 
 ## Trees
 - [x] [N-ary Tree Pre-order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/589.%20N-ary%20tree%20Pre-order%20Traversal)
