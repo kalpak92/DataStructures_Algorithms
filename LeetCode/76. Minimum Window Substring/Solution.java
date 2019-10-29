@@ -11,7 +11,27 @@
  */
 
 class Solution {
-    public String minWindow(String s, String t) {
+
+    private Map<Character, Integer> charToOccurrence(String s)
+    {
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
+        
+        for(int i = 0; i < s.length(); i++)
+        {
+            map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0) + 1);    
+        }
+        
+        return map;
+    }
+    
+    private void charToHashMap(Map<Character, Integer> map, Character c)
+    {
+        map.put(c, map.getOrDefault(c, 0) + 1);
+    }
+
+    public String minWindow(String s, String t) 
+    {    
+        // Frequency table for string 't'
         Map<Character, Integer> requiredCharacters = charToOccurrence(t);
         
         // For the window, map all the characters in the window to their frequency.
@@ -86,23 +106,5 @@ class Solution {
         }
         
         return minWindow;
-    }
-    
-    private Map<Character, Integer> charToOccurrence(String s)
-    {
-        Map<Character, Integer> map = new HashMap<Character, Integer>();
-        
-        for(int i = 0; i < s.length(); i++)
-        {
-            map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0) + 1);    
-        }
-        
-        return map;
-    }
-    
-    private void charToHashMap(Map<Character, Integer> map, Character c)
-    {
-        map.put(c, map.getOrDefault(c, 0) + 1);
-    }
-    
+    }    
 }
