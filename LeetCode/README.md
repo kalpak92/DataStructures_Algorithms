@@ -4,7 +4,7 @@
 - [x] [Two Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1.%20Two%20Sum)
 - [x] [3Sum Closest](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/16.%203Sum%20closest)
 - [x] [Find the Duplicate Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/287.%20Find%20the%20Duplicate%20Number)
-- [x] [Move Zeroes]()
+- [x] [Move Zeroes](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/283.%20Move%20Zeroes)
 - [x] [Merge Sorted Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/88.%20Merge%20Sorted%20Arrays)
 - [x] [Maximum SubArray - Kadane's Algorithm](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/53.%20Maximum%20Subarray)
 - [x] [Best Time to Buy and Sell Stock](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)
