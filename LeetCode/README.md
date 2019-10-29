@@ -88,11 +88,13 @@
 - [x] [Binary Tree Maximum Path Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/124.%20Binary%20Tree%20Maximum%20Path%20Sum)
 
 ## Strings
+- [x] [Reverse String]
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
 - [x] [Palindrome Permutation](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/266.%20Palindrome%20Permutation)
 - [x] [Remove all adjacent duplicated in a string](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1047.%20Remove%20all%20adjacent%20duplicated%20in%20String)
 - [x] [Valid Anagram](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/242.%20Valid%20Anagram)
-- [x] [Longest Substring Without Repeating Characters]
+- [x] [Longest Substring Without Repeating Characters](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/3.%20Longest%20Substring%20without%20Repeating%20Characters)
+- [x] [Minimum Window Substring]()
 
 ## Mathematics
 - [x] [Pow(x, n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/50.%20Pow(x%2C%20n))
