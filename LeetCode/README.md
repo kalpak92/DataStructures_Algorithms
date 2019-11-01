@@ -22,6 +22,7 @@
 - [x] [Majority Element](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/169.%20Majority%20Element)
 - [x] [K closest points to origin](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/973.%20K%20closest%20points%20to%20origin)
 - [x] [Merge Intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/56.%20Merge%20Intervals)
+- [x] [Meeting Rooms II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/253.%20Meeting%20Rooms%20II)
 
 ## Linked List
 
@@ -112,3 +113,4 @@
 ## Sorting
 - [x] [Meeting Rooms](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/252.%20Meeting%20Rooms)
 - [x] [Merge Intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/56.%20Merge%20Intervals)
+- [x] [Meeting Rooms II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/253.%20Meeting%20Rooms%20II)
