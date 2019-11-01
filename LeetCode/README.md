@@ -101,7 +101,7 @@
 - [x] [Minimum Window Substring](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/76.%20Minimum%20Window%20Substring)
 - [x] [Find all Anagrams in a String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/438.%20Find%20all%20Anagrams%20in%20a%20String)
 - [x] [Substring with Concatenation of All Words](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/30.%20Substring%20with%20Concatenation%20of%20All%20Words)
-- [x] [Longest substring with Atmost Two Distinct Characters]
+- [x] [Longest substring with Atmost Two Distinct Characters](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/159.%20Longest%20Substring%20with%20Atmost%20two%20distinct%20characters)
 
 ## Mathematics
 - [x] [Pow(x, n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/50.%20Pow(x%2C%20n))
@@ -109,4 +109,4 @@
 - [x] [Divide Two Integers](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/29.%20Divide%20two%20integers)
 
 ## Sorting
-- [x] [Meeting Rooms]()
+- [x] [Meeting Rooms](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/252.%20Meeting%20Rooms)
