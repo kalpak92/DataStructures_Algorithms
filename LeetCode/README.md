@@ -116,3 +116,6 @@
 - [x] [Meeting Rooms II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/253.%20Meeting%20Rooms%20II)
 - [x] [Minimum of Arrow to Burst Balloons](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons)
 - [x] [Non-overlapping intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/435.%20Non-overlapping%20intervals)
+
+## DFS
+- [x] [Number of Islands]()
