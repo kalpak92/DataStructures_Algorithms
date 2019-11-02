@@ -118,4 +118,4 @@
 - [x] [Non-overlapping intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/435.%20Non-overlapping%20intervals)
 
 ## DFS
-- [x] [Number of Islands]()
+- [x] [Number of Islands](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/200.%20Number%20of%20Islands)

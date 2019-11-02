@@ -21,6 +21,8 @@
  * 
  * Output: 3
  *
+ * Alternative Solution:
+ * https://github.com/kalpak92/DataStructures_Algorithms/blob/master/Disjoint%20Sets/CountIslands.java
  */
 
 class Solution {
