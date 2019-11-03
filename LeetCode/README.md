@@ -27,7 +27,7 @@
 ## Backtracking
 - [x] [Subsets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/78.%20Subsets)
 - [x] [Subsets II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/80.%20Subsets%20II)
-- [x] [Permutations]()
+- [x] [Permutations](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/46.%20Permutations)
 
 ## Linked List
 
