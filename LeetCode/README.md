@@ -24,6 +24,9 @@
 - [x] [Merge Intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/56.%20Merge%20Intervals)
 - [x] [Meeting Rooms II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/253.%20Meeting%20Rooms%20II)
 
+## Backtracking
+- [x] [Subsets]()
+
 ## Linked List
 
 - [x] [Add Two Numbers](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/2.%20Add%20Two%20Numbers)
