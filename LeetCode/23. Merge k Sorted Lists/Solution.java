@@ -13,6 +13,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
+
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
