@@ -76,6 +76,7 @@
 - [x] [Top k frequent elements in an Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/347.%20Top%20K%20frequent%20elements)
 - [x] [Top k frequent words](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/692.%20Top%20K%20frequent%20words)
 - [x] [K closest points to origin](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/973.%20K%20closest%20points%20to%20origin)
+- [x] [Find Median from Data Stream]()
 
 ## Trees
 - [x] [N-ary Tree Pre-order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/589.%20N-ary%20tree%20Pre-order%20Traversal)
