@@ -15,11 +15,8 @@
  */
 
 class Solution {
-    public int findKthLargest(int[] nums, int k) {
-        return select(nums, 0, nums.length - 1, k - 1);
-    }
 
-    public int findKthLargestII(int[] nums, int k) {
+	public int findKthLargestII(int[] nums, int k) {
         PriorityQueue<Integer> heap = new PriorityQueue<Integer>();
         
         for(int i : nums)
@@ -30,8 +27,12 @@ class Solution {
         }
         
         return heap.poll();
-    }
-    
+	}
+	
+    public int findKthLargest(int[] nums, int k) {
+        return select(nums, 0, nums.length - 1, k - 1);
+	}
+	
     private int select(int[] arr, int low, int high, int k)
 	{
 		int pivot = partition(arr, low, high);
