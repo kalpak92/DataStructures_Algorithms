@@ -35,22 +35,16 @@ class SolutionII {
         Arrays.sort(starts);
         Arrays.sort(ends);
         
-        int i = 0, j = 0, count = 0, len = 0;
+        int i = 0, j = 0, count = 0;
         
-        while(i < intervals.length && j < intervals.length)
+        for (i = 0; i < starts.length; i++)
         {
-            if(starts[i] < ends[j])
-            {
+            if (starts[i] < ends[j])
                 count ++;
-                len = Math.max(count, len);
-                i++;
-            }
             else
-            {
-                count --;
                 j++;
-            }
         }
-        return len;
+        
+        return count;
     }
 }
