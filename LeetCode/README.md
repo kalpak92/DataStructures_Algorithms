@@ -80,7 +80,7 @@
 
 ## Trees
 - [x] [Binary Tree Preorder Traversal]()
-- [x] [Binary Tree Inorder Traversal]()
+- [x] [Binary Tree Inorder Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/94.%20Binary%20Tree%20Inorder%20Traversal)
 - [x] [N-ary Tree Pre-order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/589.%20N-ary%20tree%20Pre-order%20Traversal)
 - [x] [N-ary Tree Level-order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/590.%20N-ary%20Tree%20Postorder%20Traversal)
 - [x] [N-ary Tree Post-order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/590.%20N-ary%20Tree%20Postorder%20Traversal)
