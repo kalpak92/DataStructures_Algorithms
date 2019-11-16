@@ -29,6 +29,7 @@
 - [x] [Subsets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/78.%20Subsets)
 - [x] [Subsets II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/80.%20Subsets%20II)
 - [x] [Permutations](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/46.%20Permutations)
+- [x] [Path Sum II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/113.%20Path%20Sum%20II)
 
 ## Linked List
 
@@ -87,7 +88,7 @@
 - [x] [Search in a Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/700.%20Search%20in%20a%20Binary%20Search%20Tree)
 - [x] [Closest Binary Search Tree value](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/270.%20Closest%20Binary%20Search%20Tree%20Value)
 - [x] [Insert into a Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/701.%20Insert%20into%20a%20Binary%20Search%20Tree)
-- [x] [Same Tree]()
+- [x] [Same Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/100.%20Same%20Tree)
 - [x] [Minimum Depth of Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/111.%20Minimum%20Depth%20of%20Binary%20Tree)
 - [x] [Maximum Depth of Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/104.%20Maximum%20Depth%20of%20Binary%20Tree)
 - [x] [Binary Tree Level Order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/102.%20Binary%20Tree%20Level%20Order%20Traversal)
@@ -103,6 +104,7 @@
 - [x] [Serialize and Deserialize Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/297.%20Serialize%20and%20Deserialize%20Binary%20Tree)
 - [x] [Path Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/112.%20Path%20Sum)
 - [x] [Path Sum II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/113.%20Path%20Sum%20II)
+- [x] [Path Sum III]()
 - [x] [Binary Tree Maximum Path Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/124.%20Binary%20Tree%20Maximum%20Path%20Sum)
 
 ## Strings

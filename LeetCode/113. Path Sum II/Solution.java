@@ -35,22 +35,29 @@
  */
 class Solution {
     
-    private List<List<Integer>> result = new ArrayList<>();
-    private List<Integer> path = new ArrayList<>();
+    List<List<Integer>> result = new ArrayList<>();
+    List<Integer> path = new ArrayList<>();
     
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
         if (root == null)
             return result;
         
+        // add the node to the path
         path.add(root.val);
         
-        if (root.left == null && root.right == null && sum == root.val)
-            result.add(new ArrayList<>(path));                              // insert the path to the result array 
+        // check if the node is the leaf and the path sum matches
+        if(root.left == null && root.right == null && sum == root.val)
+        {
+            // correct path encountered. Add it to the result list.
+            result.add(new ArrayList<>(path));
+        }
         
+        // recursively call the left and right child
         pathSum(root.left, sum - root.val);
         pathSum(root.right, sum - root.val);
         
-        path.remove(path.size() - 1);       // remove the element as we move up the node. **IMPORTANT**
+        // remove the last node from the path list to help backtrack
+        path.remove(path.size() - 1);
         
         return result;
     }
