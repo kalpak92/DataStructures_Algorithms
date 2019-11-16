@@ -30,14 +30,14 @@ class Solution {
 		List<Integer> result = new LinkedList<Integer>();
 		preHelper(root, result);
 		return result;
-	}
-	public void preHelper(TreeNode root, List<Integer> result) 
+    }
+    public void preHelper(TreeNode root, List<Integer> result) 
     {
-		if(root == null) 
+	if(root == null) 
             return;
-        
-		result.add(root.val);
-		preHelper(root.left, result);
-		preHelper(root.right, result);
-	}
+	    
+	result.add(root.val);
+	preHelper(root.left, result);
+	preHelper(root.right, result);
+    }
 }
