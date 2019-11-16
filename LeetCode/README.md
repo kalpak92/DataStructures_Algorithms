@@ -6,7 +6,7 @@
 - [x] [Find the Duplicate Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/287.%20Find%20the%20Duplicate%20Number)
 - [x] [Move Zeroes](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/283.%20Move%20Zeroes)
 - [x] [Merge Sorted Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/88.%20Merge%20Sorted%20Arrays)
-- [x] [Find all Duplicates in an Array]()
+- [x] [Find all Duplicates in an Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/442.%20Find%20All%20Duplicates%20in%20an%20Array)
 - [x] [Maximum SubArray - Kadane's Algorithm](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/53.%20Maximum%20Subarray)
 - [x] [Best Time to Buy and Sell Stock](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)
 - [x] [Best Time to Buy and Sell Stock II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II)
@@ -23,7 +23,7 @@
 - [x] [K closest points to origin](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/973.%20K%20closest%20points%20to%20origin)
 - [x] [Merge Intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/56.%20Merge%20Intervals)
 - [x] [Meeting Rooms II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/253.%20Meeting%20Rooms%20II)
-- [x] [Product of array without self]()
+- [x] [Product of array without self](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/238.%20Product%20of%20Array%20except%20self)
 
 ## Backtracking
 - [x] [Subsets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/78.%20Subsets)
