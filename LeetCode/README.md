@@ -85,7 +85,7 @@
 - [x] [N-ary Tree Level-order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/590.%20N-ary%20Tree%20Postorder%20Traversal)
 - [x] [N-ary Tree Post-order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/590.%20N-ary%20Tree%20Postorder%20Traversal)
 - [x] [Search in a Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/700.%20Search%20in%20a%20Binary%20Search%20Tree)
-- [x] [Closest Binary Search Tree value]()
+- [x] [Closest Binary Search Tree value](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/270.%20Closest%20Binary%20Search%20Tree%20Value)
 - [x] [Minimum Depth of Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/111.%20Minimum%20Depth%20of%20Binary%20Tree)
 - [x] [Maximum Depth of Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/104.%20Maximum%20Depth%20of%20Binary%20Tree)
 - [x] [Binary Tree Level Order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/102.%20Binary%20Tree%20Level%20Order%20Traversal)
