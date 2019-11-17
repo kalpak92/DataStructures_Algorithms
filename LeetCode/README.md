@@ -70,7 +70,7 @@
 - [x] [Palindrome Permutation](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/266.%20Palindrome%20Permutation)
 - [x] [Intersection of Two Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/349.%20Intersection%20of%20Two%20Arrays)
 - [x] [Intersection of Two Arrays II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/350.%20Intersection%20of%20Two%20Arrays%20II)
-- [x] [LRU Cache]()
+- [x] [LRU Cache](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/146.%20LRU%20Cache)
 
 ## Heaps
 - [x] [Kth Largest element in a stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/703.%20Kth%20largest%20element%20in%20a%20stream)
@@ -108,7 +108,7 @@
 - [x] [Binary Tree Zigzag Level order traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal)
 - [x] [Subtree of another tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/572.%20Subtree%20of%20Another%20Tree)
 - [x] [Serialize and Deserialize Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/297.%20Serialize%20and%20Deserialize%20Binary%20Tree)
-- [x] [Serialize and Deserialize BST]()
+- [x] [Serialize and Deserialize BST](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/449.%20Serialize%20and%20Deserialize%20a%20BST)
 - [x] [Path Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/112.%20Path%20Sum)
 - [x] [Path Sum II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/113.%20Path%20Sum%20II)
 - [x] [Path Sum III](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/437.%20Path%20Sum%20III)
