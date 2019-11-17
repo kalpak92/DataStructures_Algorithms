@@ -93,7 +93,7 @@
 - [x] [Convert Sorted Array into Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/108.%20Convert%20Sorted%20array%20into%20BST)
 - [x] [Lowest Common Ancestor of a Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree)
 - [x] [Delete a node in a BST](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/450.%20Delete%20Node%20in%20a%20BST)
-- [x] [Inorder successor in a BST]()
+- [x] [Inorder successor in a BST](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/285.%20Inorder%20Successor%20in%20BST)
 - [x] [Minimum Depth of Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/111.%20Minimum%20Depth%20of%20Binary%20Tree)
 - [x] [Maximum Depth of Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/104.%20Maximum%20Depth%20of%20Binary%20Tree)
 - [x] [Binary Tree Level Order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/102.%20Binary%20Tree%20Level%20Order%20Traversal)
