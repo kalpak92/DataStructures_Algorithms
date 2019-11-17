@@ -34,44 +34,53 @@
  */
 public class Codec {
     
-    private static final String NULL = "X";
+    // static delimiters to distinguish the serialized string in the future
     private static final String DELIMIT = ",";
+    private static final String NULL = "X";
     
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
+        // if the node is null, return NULL alongwith the delimiter
         if (root == null)
-            return NULL + DELIMIT;
+            return NULL + DELIMIT;  
         
+        // recurse the same on the left and right subtree
         String leftSerialize = serialize(root.left);
         String rightSerialize = serialize(root.right);
         
+        // return the current value of the node and the left and right serialized portions of the corresponding tree.
         return root.val + DELIMIT + leftSerialize + rightSerialize;
+        
     }
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        Queue<String> nodesToSerialize = new LinkedList<>();
+        Queue<String> serializeData = new LinkedList<>();
         
-        nodesToSerialize.addAll(Arrays.asList(data.split(DELIMIT))); //split with the comma's
+        serializeData.addAll(Arrays.asList(data.split(DELIMIT)));
         
-        return deserializeHelper(nodesToSerialize);
+        return deserializeHelper(serializeData);
     }
     
-    private TreeNode deserializeHelper(Queue<String> nodesToSerialize)
+    private TreeNode deserializeHelper(Queue<String> serializeData)
     {
-        String valueForNode = nodesToSerialize.poll();
-    
-        if (valueForNode.equals(NULL)) {
-          return null;
-        }
-
-        TreeNode newNode = new TreeNode(Integer.valueOf(valueForNode));
+        // Pop out an item from the queue.
+        String nodeValue = serializeData.poll();
         
-        newNode.left = deserializeHelper(nodesToSerialize);
-        newNode.right = deserializeHelper(nodesToSerialize);
+        //check if the value is null
+        if (nodeValue.equals(NULL))
+        {
+            return null;
+        }
+        
+        // create a node out of the value.
+        TreeNode newNode = new TreeNode(Integer.valueOf(nodeValue));
+        
+        // call the helper to recurse over the left and right subtree.
+        newNode.left = deserializeHelper(serializeData);
+        newNode.right = deserializeHelper(serializeData);
         
         return newNode;
-        
     }
 }
 
