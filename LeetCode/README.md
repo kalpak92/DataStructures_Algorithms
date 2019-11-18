@@ -111,6 +111,7 @@
 - [x] [Subtree of another tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/572.%20Subtree%20of%20Another%20Tree)
 - [x] [Serialize and Deserialize Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/297.%20Serialize%20and%20Deserialize%20Binary%20Tree)
 - [x] [Serialize and Deserialize BST](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/449.%20Serialize%20and%20Deserialize%20a%20BST)
+- [x] [Binary Search Tree Iterator]
 - [x] [Path Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/112.%20Path%20Sum)
 - [x] [Path Sum II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/113.%20Path%20Sum%20II)
 - [x] [Path Sum III](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/437.%20Path%20Sum%20III)
