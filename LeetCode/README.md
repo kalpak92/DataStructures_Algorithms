@@ -56,13 +56,13 @@
 ## Stacks and Queues
 
 - [x] [Min Stack](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/155.%20Min%20Stack)
-- [ ] Binary Search Tree Iterator
+- [x] [Binary Search Tree Iterator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/173.%20Binary%20Search%20Tree%20Iterator)
 - [ ] Daily Temperatures
 - [ ] Decode String
 - [x] [Exclusive Time of Functions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/636.%20Exclusive%20Time%20of%20Functions)
 - [ ] Flatten Nested List Iterator
 - [ ] Trapping Rain Water
-- [ ] Valid Parentheses
+- [x] [Valid Parentheses](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/20.%20Valid%20Parenthesis)
 - [ ] Maximal Rectangle
 - [ ] Asteroid Collision
 - [x] [Remove all adjacent duplicated in a string](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1047.%20Remove%20all%20adjacent%20duplicated%20in%20String)
