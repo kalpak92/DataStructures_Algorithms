@@ -133,6 +133,8 @@
 - [x] [Integer to English words](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/273.%20Integer%20to%20English%20Words)
 - [x] [String to Integer (atoi)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/8.%20String%20to%20Integer%20(atoi))
 - [x] [Reverse Words in a String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/151.%20Reverse%20Words%20in%20a%20String)
+- [x] [Most Common Words](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/819.%20Most%20Common%20Word)
+- [x] [Reorder Data in Log Files]()
 
 ## Mathematics
 - [x] [Pow(x, n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/50.%20Pow(x%2C%20n))
@@ -147,7 +149,7 @@
 - [x] [Meeting Rooms II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/253.%20Meeting%20Rooms%20II)
 - [x] [Minimum of Arrow to Burst Balloons](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons)
 - [x] [Non-overlapping intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/435.%20Non-overlapping%20intervals)
-- [x] [Most Common Words]
+
 
 ## DFS
 - [x] [Number of Islands](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/200.%20Number%20of%20Islands)
