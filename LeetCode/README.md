@@ -2,6 +2,7 @@
 
 ## Arrays
 - [x] [Two Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1.%20Two%20Sum)
+- [x] [3 Sum]()
 - [x] [3Sum Closest](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/16.%203Sum%20closest)
 - [x] [Find the Duplicate Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/287.%20Find%20the%20Duplicate%20Number)
 - [x] [Move Zeroes](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/283.%20Move%20Zeroes)
