@@ -119,6 +119,7 @@
 
 ## Graphs
 - [x] [Clone Graph](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/133.%20Clone%20Graph)
+
 ## Strings
 - [x] [Reverse String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/344.%20Reverse%20String)
 - [x] [Valid Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/125.%20Valid%20Palindrome)
@@ -156,5 +157,6 @@
 
 ## DFS
 - [x] [Number of Islands](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/200.%20Number%20of%20Islands)
+- [x] [Max Area of Island]()
 - [x] [Surrounded Regions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/130.%20Surrounded%20Regions)
 - [x] [Walls and Gates](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/286.%20Walls%20and%20Gates)
