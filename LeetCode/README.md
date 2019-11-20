@@ -157,6 +157,6 @@
 
 ## DFS
 - [x] [Number of Islands](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/200.%20Number%20of%20Islands)
-- [x] [Max Area of Island]()
+- [x] [Max Area of Island](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/695.%20Max%20Area%20of%20Island)
 - [x] [Surrounded Regions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/130.%20Surrounded%20Regions)
 - [x] [Walls and Gates](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/286.%20Walls%20and%20Gates)
