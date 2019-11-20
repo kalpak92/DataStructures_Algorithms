@@ -54,7 +54,8 @@ class Solution {
         max = Math.max(max, root.val + left + right);
         
         // But to the upper layer (after return statement),
-        // we cannot choose both left and right brunches, so we need to select the larger one, so we use max(left, right) + node.val to prune the lower brunch.
+        // we cannot choose both left and right brunches, so we need to select the larger one, 
+        // so we use max(left, right) + node.val to prune the lower brunch.
         return Math.max(left, right) + root.val;
     }
 }
