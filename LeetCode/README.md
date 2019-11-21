@@ -172,4 +172,4 @@
 - [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
 
 ## Dynamic Programming
-- [x] [Longest Increasing Subsequence]()
+- [x] [Longest Increasing Subsequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/300%20Longest%20Increasing%20Subsequence)
