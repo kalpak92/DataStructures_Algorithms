@@ -118,6 +118,7 @@
 - [x] [Path Sum II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/113.%20Path%20Sum%20II)
 - [x] [Path Sum III](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/437.%20Path%20Sum%20III)
 - [x] [Binary Tree Maximum Path Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/124.%20Binary%20Tree%20Maximum%20Path%20Sum)
+- [x] [Binary Tree Right Sided View]()
 
 ## Graphs
 - [x] [Clone Graph](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/133.%20Clone%20Graph)
@@ -142,6 +143,7 @@
 - [x] [Reorder Data in Log Files](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/937.%20Reorder%20Data%20in%20Log%20Files)
 - [x] [Valid Parenthesis](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/20.%20Valid%20Parenthesis)
 - [x] [Group Anagrams](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/49.%20Group%20Anagrams)
+- [x] [Word Search II]()
 
 ## Mathematics
 - [x] [Pow(x, n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/50.%20Pow(x%2C%20n))
@@ -163,3 +165,4 @@
 - [x] [Max Area of Island](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/695.%20Max%20Area%20of%20Island)
 - [x] [Surrounded Regions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/130.%20Surrounded%20Regions)
 - [x] [Walls and Gates](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/286.%20Walls%20and%20Gates)
+- [x] [Word Search II]()
