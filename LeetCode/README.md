@@ -145,7 +145,7 @@
 - [x] [Reorder Data in Log Files](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/937.%20Reorder%20Data%20in%20Log%20Files)
 - [x] [Valid Parenthesis](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/20.%20Valid%20Parenthesis)
 - [x] [Group Anagrams](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/49.%20Group%20Anagrams)
-- [x] [Word Search]()
+- [x] [Word Search](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/79.%20Word%20Search)
 - [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
 
 ## Mathematics
@@ -168,5 +168,5 @@
 - [x] [Max Area of Island](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/695.%20Max%20Area%20of%20Island)
 - [x] [Surrounded Regions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/130.%20Surrounded%20Regions)
 - [x] [Walls and Gates](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/286.%20Walls%20and%20Gates)
-- [x] [Word Search]()
+- [x] [Word Search](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/79.%20Word%20Search)
 - [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
