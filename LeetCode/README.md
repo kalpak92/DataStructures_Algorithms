@@ -26,7 +26,7 @@
 - [x] [Meeting Rooms II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/253.%20Meeting%20Rooms%20II)
 - [x] [Product of array without self](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/238.%20Product%20of%20Array%20except%20self)
 - [x] [Spiral Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/54.%20Spiral%20Matrix)
-= [x] [Rotate Image](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/48.%20Word%20Ladder)
+- [x] [Rotate Image](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/48.%20Word%20Ladder)
 
 ## Backtracking
 - [x] [Subsets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/78.%20Subsets)
