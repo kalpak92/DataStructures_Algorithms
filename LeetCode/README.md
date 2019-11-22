@@ -121,7 +121,7 @@
 - [x] [Binary Tree Maximum Path Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/124.%20Binary%20Tree%20Maximum%20Path%20Sum)
 - [x] [Binary Tree Right Sided View](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/199.%20Binary%20Tree%20RightSideView)
 - [x] [Boundary of a Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/545.%20Boundary%20of%20a%20Binary%20Tree)
-- [x] [Two Sum BSTs]()
+- [x] [Two Sum BSTs](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1214.%20Two%20Sum%20BSTs)
 
 ## Graphs
 - [x] [Clone Graph](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/133.%20Clone%20Graph)
@@ -174,3 +174,4 @@
 
 ## Dynamic Programming
 - [x] [Longest Increasing Subsequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/300%20Longest%20Increasing%20Subsequence)
+- [x] [Word Break](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/139.%20Word%20Break)
