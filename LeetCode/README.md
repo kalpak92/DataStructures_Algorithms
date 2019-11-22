@@ -125,7 +125,7 @@
 
 ## Graphs
 - [x] [Clone Graph](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/133.%20Clone%20Graph)
-- [x] [Number of Connected Components in an Undirected Graph]() 
+- [x] [Number of Connected Components in an Undirected Graph](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/323.%20Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph) 
 
 ## Strings
 - [x] [Reverse String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/344.%20Reverse%20String)
