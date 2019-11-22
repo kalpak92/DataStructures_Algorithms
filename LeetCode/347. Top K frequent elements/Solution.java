@@ -23,20 +23,20 @@ class Solution {
         }
         
         // create the Min heap based on the frequency of occurrence
-        PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>((n1, n2) -> frequency.get(n1)  - frequency.get(n2));
+        PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>((n1, n2) -> frequency.get(n1)  - frequency.get(n2));
         
         for (int i : frequency.keySet())
         {
-            maxHeap.add(i);
+            minHeap.add(i);
             
-            if(maxHeap.size() > k)
-                maxHeap.poll();
+            if(minHeap.size() > k)
+                minHeap.poll();
         }
         
         List<Integer> result = new ArrayList<>();
-        while(!maxHeap.isEmpty())
+        while(!minHeap.isEmpty())
         {
-            result.add(0, maxHeap.poll());
+            result.add(0, minHeap.poll());
         }
         
         return result;
