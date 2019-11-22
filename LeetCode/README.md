@@ -47,7 +47,7 @@
 - [x] [Plus One Linked List](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/369.%20Plus%20One%20Linked%20List)
 - [x] [Merge k Sorted Lists](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/23.%20Merge%20k%20Sorted%20Lists)
 - [x] [Reverse Nodes in k-group](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/25.%20Reverse%20Nodes%20in%20k-Group)
-- [ ] Intersection of Two Linked Lists
+- [x] [Intersection of Two Linked Lists]()
 - [ ] Add Two Numers II
 - [ ] Swap Nodes in Pairs
 - [x] [Reorder List](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/143.%20Reorder%20List)
