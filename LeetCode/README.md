@@ -122,6 +122,7 @@
 - [x] [Binary Tree Right Sided View](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/199.%20Binary%20Tree%20RightSideView)
 - [x] [Boundary of a Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/545.%20Boundary%20of%20a%20Binary%20Tree)
 - [x] [Two Sum BSTs](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1214.%20Two%20Sum%20BSTs)
+- [x] [Flatten a Binary Tree to a LinkedList]()
 
 ## Graphs
 - [x] [Clone Graph](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/133.%20Clone%20Graph)
