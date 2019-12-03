@@ -179,4 +179,5 @@
 - [x] [Longest Increasing Subsequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/300%20Longest%20Increasing%20Subsequence)
 - [x] [Word Break](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/139.%20Word%20Break)
 - [x] [Climbing Stairs](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/70.%20Climbing%20Stairs)
-- [x] [Decode Ways]()
+- [x] [Decode Ways](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/91.%20Decode%20Ways)
+- [x] [Unique Paths]()
