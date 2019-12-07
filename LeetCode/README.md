@@ -70,7 +70,7 @@
 - [ ] Maximal Rectangle
 - [ ] Asteroid Collision
 - [x] [Remove all adjacent duplicated in a string](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1047.%20Remove%20all%20adjacent%20duplicated%20in%20String)
-- [x] [Simplify Path]()
+- [x] [Simplify Path](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/71.%20Simplify%20Path)
 
 ## Hash Tables
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
@@ -125,7 +125,8 @@
 - [x] [Binary Tree Right Sided View](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/199.%20Binary%20Tree%20RightSideView)
 - [x] [Boundary of a Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/545.%20Boundary%20of%20a%20Binary%20Tree)
 - [x] [Two Sum BSTs](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1214.%20Two%20Sum%20BSTs)
-- [x] [Flatten a Binary Tree to a LinkedList]()
+- [x] [Flatten a Binary Tree to a LinkedList](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/114.%20Flatten%20Binary%20Tree%20to%20LinkedList)
+- [x] [Unique Binary Search Tree]()
 
 ## Graphs
 - [x] [Clone Graph](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/133.%20Clone%20Graph)
