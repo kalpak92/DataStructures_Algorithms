@@ -36,6 +36,7 @@
 - [x] [Permutations](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/46.%20Permutations)
 - [x] [Path Sum II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/113.%20Path%20Sum%20II)
 - [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
+- [x] [Generate Parenthesis]()
 
 ## Linked List
 
@@ -126,7 +127,7 @@
 - [x] [Boundary of a Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/545.%20Boundary%20of%20a%20Binary%20Tree)
 - [x] [Two Sum BSTs](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1214.%20Two%20Sum%20BSTs)
 - [x] [Flatten a Binary Tree to a LinkedList](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/114.%20Flatten%20Binary%20Tree%20to%20LinkedList)
-- [x] [Unique Binary Search Tree]()
+- [x] [Unique Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/96.%20Unique%20Binary%20Search%20Trees)
 
 ## Graphs
 - [x] [Clone Graph](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/133.%20Clone%20Graph)
@@ -188,3 +189,4 @@
 - [x] [Unique Paths](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/62.%20Unique%20Paths)
 - [x] [Unique Paths II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/63.%20Unique%20Paths%20II)
 - [x] [Coin Change](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/322.%20Coin%20Change)
+- [x] [Unique Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/96.%20Unique%20Binary%20Search%20Trees)
