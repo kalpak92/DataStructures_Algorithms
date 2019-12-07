@@ -28,6 +28,7 @@
 - [x] [Product of array without self](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/238.%20Product%20of%20Array%20except%20self)
 - [x] [Spiral Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/54.%20Spiral%20Matrix)
 - [x] [Rotate Image](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/48.%20Word%20Ladder)
+- [x] [First Bad Version]()
 
 ## Backtracking
 - [x] [Subsets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/78.%20Subsets)
@@ -180,7 +181,7 @@
 - [x] [Word Break](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/139.%20Word%20Break)
 - [x] [Climbing Stairs](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/70.%20Climbing%20Stairs)
 - [x] [Decode Ways](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/91.%20Decode%20Ways)
-- [x] [Minimum Path Sum]()
+- [x] [Minimum Path Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/64.%20Minimum%20Path%20Sum)
 - [x] [Unique Paths](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/62.%20Unique%20Paths)
 - [x] [Unique Paths II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/63.%20Unique%20Paths%20II)
 - [x] [Coin Change](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/322.%20Coin%20Change)
