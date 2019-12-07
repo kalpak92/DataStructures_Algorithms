@@ -28,7 +28,7 @@
 - [x] [Product of array without self](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/238.%20Product%20of%20Array%20except%20self)
 - [x] [Spiral Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/54.%20Spiral%20Matrix)
 - [x] [Rotate Image](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/48.%20Word%20Ladder)
-- [x] [First Bad Version]()
+- [x] [First Bad Version](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/278.%20First%20Bad%20Version)
 
 ## Backtracking
 - [x] [Subsets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/78.%20Subsets)
@@ -152,6 +152,7 @@
 - [x] [Group Anagrams](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/49.%20Group%20Anagrams)
 - [x] [Word Search](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/79.%20Word%20Search)
 - [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
+- [x] [Compare Version Number]()
 
 ## Mathematics
 - [x] [Pow(x, n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/50.%20Pow(x%2C%20n))
