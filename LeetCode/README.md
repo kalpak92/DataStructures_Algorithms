@@ -29,7 +29,7 @@
 - [x] [Spiral Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/54.%20Spiral%20Matrix)
 - [x] [Rotate Image](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/48.%20Word%20Ladder)
 - [x] [First Bad Version](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/278.%20First%20Bad%20Version)
-- [x] [Two Sum Less Than K]()
+- [x] [Two Sum Less Than K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1099.%20Two%20Sum%20less%20than%20K)
 
 ## Backtracking
 - [x] [Subsets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/78.%20Subsets)
@@ -144,6 +144,7 @@
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
 - [x] [Palindrome Permutation](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/266.%20Palindrome%20Permutation)
 - [x] [Remove all adjacent duplicated in a string](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1047.%20Remove%20all%20adjacent%20duplicated%20in%20String)
+- [x] [Remove Vowel from a String]()
 - [x] [Valid Anagram](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/242.%20Valid%20Anagram)
 - [x] [Longest Substring Without Repeating Characters](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/3.%20Longest%20Substring%20without%20Repeating%20Characters)
 - [x] [Minimum Window Substring](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/76.%20Minimum%20Window%20Substring)
