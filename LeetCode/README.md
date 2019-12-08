@@ -128,7 +128,7 @@
 - [x] [Two Sum BSTs](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1214.%20Two%20Sum%20BSTs)
 - [x] [Flatten a Binary Tree to a LinkedList](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/114.%20Flatten%20Binary%20Tree%20to%20LinkedList)
 - [x] [Unique Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/96.%20Unique%20Binary%20Search%20Trees)
-- [x] [All Nodes with distance K in Binary Tree]()
+- [x] [All Nodes with distance K in Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/863.%20All%20Nodes%20with%20Distance%20K%20in%20Binary%20Tree)
 
 ## Graphs
 - [x] [Clone Graph](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/133.%20Clone%20Graph)
@@ -164,6 +164,7 @@
 - [x] [Divide Two Integers](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/29.%20Divide%20two%20integers)
 - [x] [Integer to English Words](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/273.%20Integer%20to%20English%20Words)
 - [x] [String to Integer (atoi)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/8.%20String%20to%20Integer%20(atoi))
+- [x] [Basic Calculator]()
 
 ## Sorting
 - [x] [Meeting Rooms](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/252.%20Meeting%20Rooms)
