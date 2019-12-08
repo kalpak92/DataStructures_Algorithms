@@ -72,6 +72,7 @@
 - [ ] Asteroid Collision
 - [x] [Remove all adjacent duplicated in a string](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1047.%20Remove%20all%20adjacent%20duplicated%20in%20String)
 - [x] [Simplify Path](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/71.%20Simplify%20Path)
+- [x] [132 Pattern]
 
 ## Hash Tables
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
@@ -157,7 +158,7 @@
 - [x] [Word Search](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/79.%20Word%20Search)
 - [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
 - [x] [Compare Version Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/165.%20Compare%20Version%20Numbers)
-- [x] [Partition Labels]()
+- [x] [Partition Labels](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/763.%20Partition%20Labels)
 
 ## Mathematics
 - [x] [Pow(x, n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/50.%20Pow(x%2C%20n))
