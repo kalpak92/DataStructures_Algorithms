@@ -164,7 +164,8 @@
 - [x] [Divide Two Integers](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/29.%20Divide%20two%20integers)
 - [x] [Integer to English Words](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/273.%20Integer%20to%20English%20Words)
 - [x] [String to Integer (atoi)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/8.%20String%20to%20Integer%20(atoi))
-- [x] [Basic Calculator]()
+- [x] [Basic Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/224.%20Basic%20Calculator)
+- [x] [Basic Calculator II]()
 
 ## Sorting
 - [x] [Meeting Rooms](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/252.%20Meeting%20Rooms)
