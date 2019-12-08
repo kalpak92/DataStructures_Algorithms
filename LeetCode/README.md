@@ -139,7 +139,7 @@
 
 ## Strings
 - [x] [Reverse String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/344.%20Reverse%20String)
-- [x] [Longest Common Prefix]()
+- [x] [Longest Common Prefix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/14.%20Longest%20Common%20Prefix)
 - [x] [Valid Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/125.%20Valid%20Palindrome)
 - [x] [Valid Palindrome II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/680.%20Valid%20Palindrome%20II)
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
@@ -188,6 +188,7 @@
 - [x] [Walls and Gates](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/286.%20Walls%20and%20Gates)
 - [x] [Word Search](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/79.%20Word%20Search)
 - [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
+- [x] [Rotten Oranges]()
 
 ## Dynamic Programming
 - [x] [Longest Increasing Subsequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/300%20Longest%20Increasing%20Subsequence)
