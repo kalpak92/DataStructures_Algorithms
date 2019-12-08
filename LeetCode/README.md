@@ -139,12 +139,13 @@
 
 ## Strings
 - [x] [Reverse String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/344.%20Reverse%20String)
+- [x] [Longest Common Prefix]()
 - [x] [Valid Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/125.%20Valid%20Palindrome)
 - [x] [Valid Palindrome II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/680.%20Valid%20Palindrome%20II)
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
 - [x] [Palindrome Permutation](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/266.%20Palindrome%20Permutation)
 - [x] [Remove all adjacent duplicated in a string](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1047.%20Remove%20all%20adjacent%20duplicated%20in%20String)
-- [x] [Remove Vowel from a String]()
+- [x] [Remove Vowel from a String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1119.%20Remove%20Vowels%20from%20a%20String)
 - [x] [Valid Anagram](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/242.%20Valid%20Anagram)
 - [x] [Longest Substring Without Repeating Characters](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/3.%20Longest%20Substring%20without%20Repeating%20Characters)
 - [x] [Minimum Window Substring](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/76.%20Minimum%20Window%20Substring)
