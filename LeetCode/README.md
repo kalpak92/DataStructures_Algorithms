@@ -37,7 +37,7 @@
 - [x] [Permutations](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/46.%20Permutations)
 - [x] [Permutations II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/47.%20Permutation%20II)
 - [x] [Combination Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/39.%20Combination%20Sum)
-- [x] [Combination Sum II]()
+- [x] [Combination Sum II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/40.%20Combination%20Sum%20II)
 - [x] [Path Sum II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/113.%20Path%20Sum%20II)
 - [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
 - [x] [Generate Parenthesis](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/22.%20Generate%20Parenthesis)
@@ -195,7 +195,7 @@
 
 ## Dynamic Programming
 - [x] [Longest Increasing Subsequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/300%20Longest%20Increasing%20Subsequence)
-- [x] [Longest Common Subsequence]()
+- [x] [Longest Common Subsequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1143.%20Longest%20Common%20Subsequence)
 - [x] [Word Break](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/139.%20Word%20Break)
 - [x] [Fibonacci Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/509.%20Fibonacci%20Number)
 - [x] [Climbing Stairs](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/70.%20Climbing%20Stairs)
