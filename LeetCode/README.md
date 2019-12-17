@@ -41,6 +41,7 @@
 - [x] [Path Sum II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/113.%20Path%20Sum%20II)
 - [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
 - [x] [Generate Parenthesis](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/22.%20Generate%20Parenthesis)
+- [x] [Letter Combinations of a Phone Number]()
 
 ## Linked List
 
@@ -86,7 +87,7 @@
 - [x] [Intersection of Two Arrays II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/350.%20Intersection%20of%20Two%20Arrays%20II)
 - [x] [LRU Cache](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/146.%20LRU%20Cache)
 - [x] [Group Anagrams](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/49.%20Group%20Anagrams)
-- [x] [Insert Delete GetRandom in O(1)]()
+- [x] [Insert Delete GetRandom in O(1)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/380.%20Insert%20Delete%20GetRandom%20O(1))
 
 
 ## Heaps
