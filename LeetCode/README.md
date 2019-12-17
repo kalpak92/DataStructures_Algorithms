@@ -180,6 +180,7 @@
 - [x] [String to Integer (atoi)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/8.%20String%20to%20Integer%20(atoi))
 - [x] [Basic Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/224.%20Basic%20Calculator)
 - [x] [Basic Calculator II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/227.%20Basic%20Calculator%20II)
+- [x] [Broken Calculator]()
 
 ## Sorting
 - [x] [Meeting Rooms](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/252.%20Meeting%20Rooms)
