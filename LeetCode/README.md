@@ -97,7 +97,8 @@
 - [x] [Top k frequent words](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/692.%20Top%20K%20frequent%20words)
 - [x] [K closest points to origin](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/973.%20K%20closest%20points%20to%20origin)
 - [x] [Find Median from Data Stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/295.%20Find%20Median%20from%20Data%20Stream)
-- [x] [Find K pairs with the smallest sum]()
+- [x] [Find K pairs with the smallest sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/373.%20Find%20K%20Pairs%20with%20Smallest%20Sum)
+- [x] [Kth Smallest Element in a Sorted Matrix]()
 
 ## Trees
 - [x] [Binary Tree Preorder Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/144.%20Binary%20Tree%20Preorder%20Traversal)
