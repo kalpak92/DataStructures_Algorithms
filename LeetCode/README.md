@@ -174,7 +174,7 @@
 - [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
 - [x] [Compare Version Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/165.%20Compare%20Version%20Numbers)
 - [x] [Partition Labels](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/763.%20Partition%20Labels)
-- [x] [Decode String]()
+- [x] [Decode String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/394.%20Decode%20String)
 
 ## Mathematics
 - [x] [Pow(x, n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/50.%20Pow(x%2C%20n))
