@@ -30,6 +30,7 @@
 - [x] [Rotate Image](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/48.%20Word%20Ladder)
 - [x] [First Bad Version](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/278.%20First%20Bad%20Version)
 - [x] [Two Sum Less Than K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1099.%20Two%20Sum%20less%20than%20K)
+- [x] [Jump Game II]()
 
 ## Backtracking
 - [x] [Subsets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/78.%20Subsets)
@@ -180,7 +181,7 @@
 - [x] [String to Integer (atoi)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/8.%20String%20to%20Integer%20(atoi))
 - [x] [Basic Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/224.%20Basic%20Calculator)
 - [x] [Basic Calculator II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/227.%20Basic%20Calculator%20II)
-- [x] [Broken Calculator]()
+- [x] [Broken Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/991.%20Broken%20Calculator)
 
 ## Sorting
 - [x] [Meeting Rooms](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/252.%20Meeting%20Rooms)
@@ -211,3 +212,4 @@
 - [x] [Unique Paths II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/63.%20Unique%20Paths%20II)
 - [x] [Coin Change](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/322.%20Coin%20Change)
 - [x] [Unique Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/96.%20Unique%20Binary%20Search%20Trees)
+- [x] [Frog Jump]()
