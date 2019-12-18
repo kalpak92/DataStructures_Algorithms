@@ -32,7 +32,7 @@
 - [x] [Two Sum Less Than K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1099.%20Two%20Sum%20less%20than%20K)
 - [x] [Jump Game II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/45.%20Jump%20Game%20II)
 - [x] [Grumpy Bookstore Owner](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1052.%20Grumpy%20Bookstore%20Owner)
-- [x] [Container with most water]()
+- [x] [Container with most water](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/11.%20Container%20with%20most%20water)
 
 ## Backtracking
 - [x] [Subsets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/78.%20Subsets)
@@ -174,6 +174,7 @@
 - [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
 - [x] [Compare Version Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/165.%20Compare%20Version%20Numbers)
 - [x] [Partition Labels](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/763.%20Partition%20Labels)
+- [x] [Decode String]()
 
 ## Mathematics
 - [x] [Pow(x, n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/50.%20Pow(x%2C%20n))
