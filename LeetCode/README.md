@@ -30,7 +30,8 @@
 - [x] [Rotate Image](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/48.%20Word%20Ladder)
 - [x] [First Bad Version](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/278.%20First%20Bad%20Version)
 - [x] [Two Sum Less Than K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1099.%20Two%20Sum%20less%20than%20K)
-- [x] [Jump Game II]()
+- [x] [Jump Game II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/45.%20Jump%20Game%20II)
+- [x] [Grumpy Bookstore Owner]()
 
 ## Backtracking
 - [x] [Subsets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/78.%20Subsets)
@@ -212,4 +213,4 @@
 - [x] [Unique Paths II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/63.%20Unique%20Paths%20II)
 - [x] [Coin Change](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/322.%20Coin%20Change)
 - [x] [Unique Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/96.%20Unique%20Binary%20Search%20Trees)
-- [x] [Frog Jump]()
+- [x] [Frog Jump](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/403.%20Frog%20Jump)
