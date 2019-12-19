@@ -31,10 +31,7 @@ class Solution {
         }
 
         int odd = set.size();
-        if (odd > 0)
-            return s.length() - odd + 1;
-        else
-            return s.length() - odd;
+        return (odd > 0) ? s.length() - odd + 1 : s.length();
     }
 
     public static void main(String args[])
