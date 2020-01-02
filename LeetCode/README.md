@@ -217,4 +217,4 @@
 - [x] [Coin Change](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/322.%20Coin%20Change)
 - [x] [Unique Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/96.%20Unique%20Binary%20Search%20Trees)
 - [x] [Frog Jump](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/403.%20Frog%20Jump)
-- [x] [Min Cost Climbing Stairs]()
+- [x] [Min Cost Climbing Stairs](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/746.%20Min%20Cost%20Climbing%20Stairs)
