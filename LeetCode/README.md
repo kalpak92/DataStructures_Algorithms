@@ -218,4 +218,4 @@
 - [x] [Unique Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/96.%20Unique%20Binary%20Search%20Trees)
 - [x] [Frog Jump](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/403.%20Frog%20Jump)
 - [x] [Min Cost Climbing Stairs](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/746.%20Min%20Cost%20Climbing%20Stairs)
-- [x] [Minimum cost flying tickets]()
+- [x] [Minimum cost flying tickets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/983.%20Minimum%20Cost%20for%20Tickets)
