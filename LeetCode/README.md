@@ -33,7 +33,7 @@
 - [x] [Jump Game II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/45.%20Jump%20Game%20II)
 - [x] [Grumpy Bookstore Owner](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1052.%20Grumpy%20Bookstore%20Owner)
 - [x] [Container with most water](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/11.%20Container%20with%20most%20water)
-- [x] [Trapping Rain Water]()
+- [x] [Trapping Rain Water](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/42.%20Trapping%20Rain%20Water)
 - [x] [Task Scheduler](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/621.%20Task%20Scheduler)
 
 ## Backtracking
