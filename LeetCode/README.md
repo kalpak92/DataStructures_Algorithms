@@ -1,6 +1,7 @@
 # Leetcode Problems
 
 ## Arrays
+- [x] [Fizz Buzz]()
 - [x] [Two Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1.%20Two%20Sum)
 - [x] [Subarray Sum Equals K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/560.%20SubArray%20Sum%20equals%20K)
 - [x] [Subarray Product less than K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/713.%20Subarray%20Product%20less%20than%20K)
