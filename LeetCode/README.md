@@ -148,6 +148,7 @@
 - [x] [Flatten a Binary Tree to a LinkedList](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/114.%20Flatten%20Binary%20Tree%20to%20LinkedList)
 - [x] [Unique Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/96.%20Unique%20Binary%20Search%20Trees)
 - [x] [All Nodes with distance K in Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/863.%20All%20Nodes%20with%20Distance%20K%20in%20Binary%20Tree)
+- [x] [Verify Preorder sequence in Binary Search Tree]()
 
 ## Graphs
 - [x] [Clone Graph](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/133.%20Clone%20Graph)
@@ -192,7 +193,7 @@
 - [x] [Broken Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/991.%20Broken%20Calculator)
 
 ## Sorting
-- [x] [Sort Colors]()
+- [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
 - [x] [Meeting Rooms](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/252.%20Meeting%20Rooms)
 - [x] [Merge Intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/56.%20Merge%20Intervals)
 - [x] [Meeting Rooms II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/253.%20Meeting%20Rooms%20II)
