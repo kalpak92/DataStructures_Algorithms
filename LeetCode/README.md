@@ -148,7 +148,7 @@
 - [x] [Flatten a Binary Tree to a LinkedList](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/114.%20Flatten%20Binary%20Tree%20to%20LinkedList)
 - [x] [Unique Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/96.%20Unique%20Binary%20Search%20Trees)
 - [x] [All Nodes with distance K in Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/863.%20All%20Nodes%20with%20Distance%20K%20in%20Binary%20Tree)
-- [x] [Verify Preorder sequence in Binary Search Tree]()
+- [x] [Verify Preorder sequence in Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/255.%20Verify%20Preorder%20sequence%20in%20Binary%20Search%20Tree)
 
 ## Graphs
 - [x] [Clone Graph](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/133.%20Clone%20Graph)
