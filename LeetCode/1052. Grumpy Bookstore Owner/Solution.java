@@ -36,19 +36,30 @@ class Solution {
             }
             else if(grumpy[i] == 1)
             {
+                System.out.print("r = " + r);
                 window[r] = customers[i];
                 window_sum += customers[i];
+                System.out.println(" window_sum = " + window_sum);
             }
             
+            // Use a sliding window win to record the number of unsatisfied customers for X minutes. 
+            // Deduct the unsatisfied customers from left end of the sliding window when it is wider than X:
             if(r >= X)
             {
+                System.out.println("r = " + r);
                 window_sum -= window[l];
                 l++;
             }
             
             max_window_sum = Math.max(max_window_sum, window_sum);
             r++;
+            //System.out.println(i + " " + l + " " + r + " " + window_sum);
         }
+        
+        for(int i = 0; i < window.length; i++)
+            System.out.print(window[i] + " ");
+        System.out.println();
+        
         return result + max_window_sum;
     }
 }
