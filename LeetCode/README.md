@@ -87,6 +87,7 @@
 - [x] [Simplify Path](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/71.%20Simplify%20Path)
 - [x] [132 Pattern](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/456.%20132%20Pattern)
 - [x] [Flatten a Nested List Iterator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/341.%20Flatten%20Nested%20List%20Iterator)
+- [x] [Flatten a multilevel Double Linked List]()
 
 ## Hash Tables
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
