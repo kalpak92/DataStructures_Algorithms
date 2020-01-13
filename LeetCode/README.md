@@ -70,6 +70,7 @@
 - [ ] Reverse Linked List II
 - [x] [Remove Nth Node from End of list](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/19.%20Remove%20Nth%20Node%20from%20End%20of%20List)
 - [ ] Linked List Components
+- [x] [Flatten a multilevel Double Linked List](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/430.%20Flatten%20a%20Multilevel%20Doubly%20LinkedList)
 
 ## Stacks and Queues
 
@@ -87,7 +88,7 @@
 - [x] [Simplify Path](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/71.%20Simplify%20Path)
 - [x] [132 Pattern](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/456.%20132%20Pattern)
 - [x] [Flatten a Nested List Iterator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/341.%20Flatten%20Nested%20List%20Iterator)
-- [x] [Flatten a multilevel Double Linked List]()
+
 
 ## Hash Tables
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
