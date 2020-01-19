@@ -5,6 +5,7 @@
 - [x] [Two Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1.%20Two%20Sum)
 - [x] [Subarray Sum Equals K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/560.%20SubArray%20Sum%20equals%20K)
 - [x] [Subarray Product less than K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/713.%20Subarray%20Product%20less%20than%20K)
+- [x] [Degree of an Array]()
 - [x] [3 Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/15.%203Sum)
 - [x] [3Sum Closest](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/16.%203Sum%20closest)
 - [x] [Find the Duplicate Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/287.%20Find%20the%20Duplicate%20Number)
