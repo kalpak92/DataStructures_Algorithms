@@ -152,6 +152,7 @@
 - [x] [Unique Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/96.%20Unique%20Binary%20Search%20Trees)
 - [x] [All Nodes with distance K in Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/863.%20All%20Nodes%20with%20Distance%20K%20in%20Binary%20Tree)
 - [x] [Verify Preorder sequence in Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/255.%20Verify%20Preorder%20sequence%20in%20Binary%20Search%20Tree)
+-[x] [Binary Tree Vertical Order Traversal]()
 
 ## Graphs
 - [x] [Clone Graph](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/133.%20Clone%20Graph)
@@ -194,7 +195,7 @@
 - [x] [Basic Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/224.%20Basic%20Calculator)
 - [x] [Basic Calculator II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/227.%20Basic%20Calculator%20II)
 - [x] [Broken Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/991.%20Broken%20Calculator)
-- [x] [Bulb Switcher]()
+- [x] [Bulb Switcher](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/319.%20Bulb%20Switcher)
 
 ## Sorting
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
