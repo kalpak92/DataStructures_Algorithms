@@ -194,6 +194,7 @@
 - [x] [Basic Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/224.%20Basic%20Calculator)
 - [x] [Basic Calculator II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/227.%20Basic%20Calculator%20II)
 - [x] [Broken Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/991.%20Broken%20Calculator)
+- [x] [Bulb Switcher]()
 
 ## Sorting
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
