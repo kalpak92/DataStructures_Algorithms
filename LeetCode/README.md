@@ -145,6 +145,7 @@
 - [x] [Path Sum II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/113.%20Path%20Sum%20II)
 - [x] [Path Sum III](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/437.%20Path%20Sum%20III)
 - [x] [Binary Tree Maximum Path Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/124.%20Binary%20Tree%20Maximum%20Path%20Sum)
+- [x] [Longest Univalue Path]()
 - [x] [Binary Tree Right Sided View](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/199.%20Binary%20Tree%20RightSideView)
 - [x] [Boundary of a Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/545.%20Boundary%20of%20a%20Binary%20Tree)
 - [x] [Two Sum BSTs](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1214.%20Two%20Sum%20BSTs)
