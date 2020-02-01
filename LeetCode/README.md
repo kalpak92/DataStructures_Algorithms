@@ -27,7 +27,7 @@
 - [x] [Search a 2D Matrix II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/240.%20Search%20a%202D%20matrix%20II)
 - [x] [Majority Element](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/169.%20Majority%20Element)
 - [x] [K closest points to origin](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/973.%20K%20closest%20points%20to%20origin)
-- [x] [Find K Closest Points]()
+- [x] [Find K Closest Points](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/658.%20Find%20K%20closest%20elements)
 - [x] [Merge Intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/56.%20Merge%20Intervals)
 - [x] [Meeting Rooms II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/253.%20Meeting%20Rooms%20II)
 - [x] [Product of array without self](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/238.%20Product%20of%20Array%20except%20self)
@@ -75,7 +75,6 @@
 - [x] [Flatten a multilevel Double Linked List](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/430.%20Flatten%20a%20Multilevel%20Doubly%20LinkedList)
 
 ## Stacks and Queues
-
 - [x] [Min Stack](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/155.%20Min%20Stack)
 - [x] [Binary Search Tree Iterator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/173.%20Binary%20Search%20Tree%20Iterator)
 - [ ] Daily Temperatures
@@ -200,6 +199,8 @@
 - [x] [Broken Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/991.%20Broken%20Calculator)
 - [x] [Bulb Switcher](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/319.%20Bulb%20Switcher)
 
+## Binary Search
+- [x] [Find K Closest Points](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/658.%20Find%20K%20closest%20elements)
 
 ## Sorting
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
