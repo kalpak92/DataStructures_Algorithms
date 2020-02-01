@@ -18,6 +18,39 @@
  */
 
 class Solution {
+    // Time Complexity: O(log(n - k))
+    public List<Integer> findClosestElementsImproved(int[] arr, int k, int x) {
+        // provided k >= 1
+        int left = 0;
+        int right = arr.length - k;
+        
+        while (left < right) 
+        {
+            int mid = left + (right - left) /2;
+            
+            // this determines how to shift the range
+            if ( Math.abs(arr[mid] -x)  > Math.abs(arr[mid + k] - x) ) 
+            {
+                // because the range can start from mid + 1 as the
+                // arr[mid] is more than the arr[mid+k]
+                left = mid + 1;
+            } 
+            else { 
+                // arr[mid] - x <= arr[mid+k] - x
+                // then, this range [mid, mid + k - 1] is safe comparing to  mid + k because of this comparison
+                right = mid;
+            }
+        }
+
+        List<Integer> list = new LinkedList<>();
+        
+        for (int i = left; i < left + k; i++) {
+            list.add(arr[i]);
+        }
+
+        return list;
+    }
+
     // Time Complexity : O(n)
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
         int low = 0;
