@@ -199,6 +199,9 @@
 - [x] [Broken Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/991.%20Broken%20Calculator)
 - [x] [Bulb Switcher](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/319.%20Bulb%20Switcher)
 
+## Divide and Conquer
+- [x] [Different Ways  to Add Parenthesis]()
+
 ## Binary Search
 - [x] [Find K Closest Points](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/658.%20Find%20K%20closest%20elements)
 
