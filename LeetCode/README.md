@@ -200,7 +200,10 @@
 - [x] [Bulb Switcher](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/319.%20Bulb%20Switcher)
 
 ## Divide and Conquer
-- [x] [Different Ways  to Add Parenthesis]()
+- [x] [Different Ways  to Add Parenthesis](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/241.%20Different%20Ways%20to%20add%20Parenthesis)
+- [x] [Find Median of Two Sorted Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/4.%20Median%20of%20Two%20Sorted%20Arrays)
+- [x] [Merge k Sorted Lists](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/23.%20Merge%20k%20Sorted%20Lists)
+
 
 ## Binary Search
 - [x] [Find K Closest Points](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/658.%20Find%20K%20closest%20elements)
