@@ -198,7 +198,7 @@
 - [x] [Basic Calculator II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/227.%20Basic%20Calculator%20II)
 - [x] [Broken Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/991.%20Broken%20Calculator)
 - [x] [Bulb Switcher](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/319.%20Bulb%20Switcher)
-- [x] [Maximum Number of Ones]()
+- [x] [Maximum Number of Ones](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1183.%20Maximum%20Number%20of%20Ones)
 
 ## Divide and Conquer
 - [x] [Different Ways  to Add Parenthesis](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/241.%20Different%20Ways%20to%20add%20Parenthesis)
