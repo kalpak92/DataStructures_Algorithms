@@ -43,6 +43,14 @@ class TargetSum {
         
         return (sum < S || ((sum + S) % 2) != 0) ? 0 : subsetSum(nums, (S + sum) >>> 1);
     }
+
+    /*
+    let's start with int[][] dp = new int[nums.length][s + 1] 
+    where dp is 2-d array with dp[i][j] means number of ways to get sum j with first i elements from nums.
+
+    Then you have the transition dp[i][j] = dp[i-1][j] + dp[i][j-nums[i]], 
+        i.e. you can get the sum j either by just repeating all the ways to get sum j by using first i-1 elements, or add nums[i] on top of each way to get sum j-nums[i] using first i elements
+    */
     
     public int subsetSum(int[] nums, int target)
     {
