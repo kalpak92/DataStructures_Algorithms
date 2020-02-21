@@ -246,6 +246,7 @@
 - [x] [2 Keys Keyboard](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/650.%202%20Keys%20Keyboard)
 - [x] [Triangle](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/120.%20Triangle)
 - [x] [Maximal Square](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/221.%20Maximal%20Square)
+- [x] [Partition Equal Subset Sum]()
 - [x] [Longest Increasing Subsequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/300%20Longest%20Increasing%20Subsequence)
 - [x] [Longest Common Subsequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1143.%20Longest%20Common%20Subsequence)
 - [x] [Word Break](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/139.%20Word%20Break)

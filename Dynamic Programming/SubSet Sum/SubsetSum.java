@@ -14,7 +14,7 @@
          for(int i = 0; i < data.length + 1; i++)
             dp[i][0] = true;
 
-        // Fill up the DP Array but putting dp[i-i][j] in dp[i][j] if num < sum
+        // Fill up the DP Array by putting dp[i-i][j] in dp[i][j] if num < sum
         // else decide between dp[i-1][j] || dp[i - 1][j - data[i]]
 
         for(int num = 1; num < data.length + 1; num++)

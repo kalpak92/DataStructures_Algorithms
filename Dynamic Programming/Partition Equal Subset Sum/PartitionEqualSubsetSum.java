@@ -1,0 +1,73 @@
+/**
+ * Given a non-empty array containing only positive integers, 
+ * find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.
+ * Note:
+ * 
+ * Each of the array element will not exceed 100.
+ * The array size will not exceed 200.
+ * 
+ * Example 1:
+ * Input: [1, 5, 11, 5]
+ * Output: true
+ * Explanation: The array can be partitioned as [1, 5, 5] and [11].
+ * 
+ * Example 2:
+ * Input: [1, 2, 3, 5]
+ * Output: false
+ * Explanation: The array cannot be partitioned into equal sum subsets.
+ */
+
+ public class PartitionEqualSubsetSum
+ {
+    public boolean canPartition(int[] nums) {
+        int target = 0;
+        
+        for(int i : nums)
+            target += i;
+        
+        if((target & 1) == 1)
+            return false;
+        
+        target /= 2;
+        
+        int n = nums.length;
+        boolean[][] dp = new boolean[n+1][target + 1];
+              
+        dp[0][0] = true;
+        
+        // first column of the DP array is TRUE because we can make ZERO sum with an empty set
+        for (int i = 1; i < n + 1; i++) 
+        {
+            dp[i][0] = true;
+        }
+        
+        // Fill up the DP Array by putting dp[i-i][j] in dp[i][j] if num < sum
+        // else decide between dp[i-1][j] || dp[i - 1][j - data[i]]
+        
+        for (int num = 1; num < n + 1; num++) 
+        {
+        for (int sum = 1; sum < target + 1; sum++) 
+        {
+            
+            if (sum >= nums[num - 1]) 
+            {
+                dp[num][sum] = (dp[num - 1][sum] || dp[num - 1][sum -nums[num - 1]]);
+            }
+            else{
+                dp[num][sum] = dp[num - 1][sum];
+            }
+        }
+    }
+   
+    return dp[nums.length][target];
+        
+    }
+
+
+    public static void main(String[] args)
+    {
+        PartitionEqualSubsetSum pess = new PartitionEqualSubsetSum();
+        int arr[] = {1, 3, 5, 5, 2, 1, 1, 6};
+        System.out.println(pess.canPartition(arr));
+    }
+ }
