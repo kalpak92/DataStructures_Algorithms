@@ -239,6 +239,7 @@
 - [x] [Fibonacci Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/509.%20Fibonacci%20Number)
 - [x] [Climbing Stairs](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/70.%20Climbing%20Stairs)
 - [x] [Coin Change](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/322.%20Coin%20Change)
+- [x] [Perfect Squares]()
 - [x] [Min Cost Climbing Stairs](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/746.%20Min%20Cost%20Climbing%20Stairs)
 - [x] [Minimum cost flying tickets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/983.%20Minimum%20Cost%20for%20Tickets)
 - [x] [Minimum Falling Path Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/931.%20Minimum%20Falling%20Path%20Sum)
