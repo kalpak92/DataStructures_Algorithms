@@ -18,6 +18,39 @@
  */
 
 class Solution {
+
+    public boolean canPartitionImproved(int[] nums) {
+        int target = 0;
+        
+        for(int i : nums)
+            target += i;
+        
+        if((target & 1) == 1)
+            return false;
+        
+        target /= 2;
+        
+        // Transition function for 1d solution
+        //      dp[i] = dp[i] || dp[i - nums[i]];
+        // 
+        // dp[i] will depend on dp[i - nums[i]];
+        // "i" always large than "i - nums[i]" , we can't have dp[i-nums] be calculated and overwrite before we do it for dp[i]
+        // that's why the loop go from high to low.
+        
+        boolean[] dp = new boolean[target + 1];
+        dp[0] = true;
+        
+        for(int num: nums)
+        {
+            for(int i = target; i >= num; i--) 
+            {     
+                dp[i] = dp[i] || dp[i - num];
+            }
+        }
+        return dp[target];
+    }
+
+
     public boolean canPartition(int[] nums) {
         int target = 0;
         

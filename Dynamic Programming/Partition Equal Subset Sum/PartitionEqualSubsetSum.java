@@ -19,6 +19,36 @@
 
  public class PartitionEqualSubsetSum
  {
+    public boolean canPartitionImproved(int[] nums) {
+        int target = 0;
+        
+        for(int i : nums)
+            target += i;
+        
+        if((target & 1) == 1)
+            return false;
+        
+        target /= 2;
+        
+        // Transition function for 1d solution
+        //      dp[i] = dp[i] || dp[i - nums[i]];
+        // 
+        // dp[i] will depend on dp[i - nums[i]];
+        // "i" always large than "i - nums[i]" , we can't have dp[i-nums] be calculated and overwrite before we do it for dp[i]
+        // that's why the loop go from high to low.
+        
+        boolean[] dp = new boolean[target + 1];
+        dp[0] = true;
+        
+        for(int num: nums)
+        {
+            for(int i = target; i >= num; i--) 
+            {     
+                dp[i] = dp[i] || dp[i - num];
+            }
+        }
+        return dp[target];
+    }
     public boolean canPartition(int[] nums) {
         int target = 0;
         
@@ -46,21 +76,19 @@
         
         for (int num = 1; num < n + 1; num++) 
         {
-        for (int sum = 1; sum < target + 1; sum++) 
-        {
-            
-            if (sum >= nums[num - 1]) 
+            for (int sum = 1; sum < target + 1; sum++) 
             {
-                dp[num][sum] = (dp[num - 1][sum] || dp[num - 1][sum -nums[num - 1]]);
-            }
-            else{
-                dp[num][sum] = dp[num - 1][sum];
+                
+                if (sum >= nums[num - 1]) 
+                {
+                    dp[num][sum] = (dp[num - 1][sum] || dp[num - 1][sum -nums[num - 1]]);
+                }
+                else{
+                    dp[num][sum] = dp[num - 1][sum];
+                }
             }
         }
-    }
-   
-    return dp[nums.length][target];
-        
+        return dp[nums.length][target];
     }
 
 
@@ -69,5 +97,6 @@
         PartitionEqualSubsetSum pess = new PartitionEqualSubsetSum();
         int arr[] = {1, 3, 5, 5, 2, 1, 1, 6};
         System.out.println(pess.canPartition(arr));
+        System.out.println(pess.canPartitionImproved(arr));
     }
  }
