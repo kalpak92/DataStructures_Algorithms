@@ -243,7 +243,6 @@
 - [x] [Minimum cost flying tickets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/983.%20Minimum%20Cost%20for%20Tickets)
 - [x] [Minimum Falling Path Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/931.%20Minimum%20Falling%20Path%20Sum)
 - [x] [2 Keys Keyboard](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/650.%202%20Keys%20Keyboard)
-
 - [x] [Longest Increasing Subsequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/300%20Longest%20Increasing%20Subsequence)
 - [x] [Longest Common Subsequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1143.%20Longest%20Common%20Subsequence)
 - [x] [Word Break](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/139.%20Word%20Break)
