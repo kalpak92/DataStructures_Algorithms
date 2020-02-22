@@ -32,19 +32,39 @@ class SolutionBottomUpMemoized {
     *          rob(i) = Math.max( rob(i - 2) + currentHouseValue, rob(i - 1) )
     */
     
-    public int rob(int[] nums) {
-        if (nums.length == 0)
-            return 0;
+    class Solution {
+        /*
+        * - robbery of current house + loot from houses before the previous
+        * - loot from the previous house robbery and any loot captured before that
+        *
+        *          rob(i) = Math.max( rob(i - 2) + currentHouseValue, rob(i - 1) )
+        */
         
-        int[] dp = new int[nums.length + 1];
-        dp[0] = 0;
-        dp[1] = nums[0];
-        
-        for(int i = 1; i < nums.length; i++)
-        {
-            dp[i + 1] = Math.max(dp[i], dp[i - 1] + nums[i]); 
+        public int rob(int[] nums) {
+            if(nums == null || nums.length == 0)
+                return 0;
+            
+            // If  there is 1 house, return the house itself.
+            if(nums.length == 1)
+                return nums[0];
+            
+            // If there are 2 houses, return the maximum of the two houses.
+            if(nums.length == 2)
+                return Math.max(nums[0], nums[1]);
+            
+            // Create the DP array.
+            int[] dp = new int [nums.length];
+            
+            // The 1st two elements will be based on the same conditions as mentioned previously/
+            dp[0] = nums[0];
+            dp[1] = Math.max(nums[0], nums[1]);
+            
+            for(int i = 2; i < dp.length; i++)
+            {
+                dp[i] = Math.max(nums[i] + dp[i - 2], dp[i - 1]);   // Either rob the current house and the (i - 2)th house or the previous house.
+            }
+            
+            return dp[nums.length - 1];
         }
-        
-        return dp[nums.length];
     }
 }
