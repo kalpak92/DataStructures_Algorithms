@@ -52,6 +52,7 @@
 - [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
 - [x] [Generate Parenthesis](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/22.%20Generate%20Parenthesis)
 - [x] [Letter Combinations of a Phone Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/17.%20Letter%20combinations%20of%20a%20Phone%20Number)
+- [x] [Palindromic Partitioning](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/131.%20Palindromic%20Partitioning)
 
 ## Linked List
 
@@ -259,8 +260,9 @@
 - [x] [Edit Distance](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/72.%20Edit%20Distance)
 - [x] [Longest Palindromic Subsequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/516.%20Longest%20Palindromic%20Subsequence)
 - [x] [Longest Palindromic Substring](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/5.%20Longest%20Palindromic%20Substring)
-- [x] [Longest Increasing Subsequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/300%20Longest%20Increasing%20Subsequence)
 - [x] [Palindromic Substrings](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/647.%20Palindromic%20Substring)
+- [x] [Palindromic Partitioning](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/131.%20Palindromic%20Partitioning)
+- [x] [Longest Increasing Subsequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/300%20Longest%20Increasing%20Subsequence)
 - [x] [Longest Common Subsequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1143.%20Longest%20Common%20Subsequence)
 - [x] [Word Break](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/139.%20Word%20Break)
 - [x] [Decode Ways](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/91.%20Decode%20Ways)
