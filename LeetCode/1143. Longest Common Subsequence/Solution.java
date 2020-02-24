@@ -26,19 +26,22 @@
 
 class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
-        //vector<vector<short>> m(a.size() + 1, vector<short>(b.size() + 1));
+        
         int[][] dp = new int[text1.length() + 1][text2.length() + 1];
         
         // If a[i] == b[j], LCS for i and j would be 1 plus LCS till the i-1 and j-1 indexes.
         // Otherwise, we will take the largest LCS if we skip a charracter from one of the string (max(m[i - 1][j], m[i][j - 1]).
-        
         for (int i = 1; i <= text1.length(); i++)
+        {
             for (int j = 1; j <= text2.length(); j++)
+            {
+                
                 if (text1.charAt(i - 1) == text2.charAt(j - 1)) 
-                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                    dp[i][j] = dp[i - 1][j - 1] + 1;        // Add one to the diagonal value in the DP table
                 else 
-                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
-        
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]); // Max of top and left
+            }
+        }
         return dp[text1.length()][text2.length()];
     }
 }
