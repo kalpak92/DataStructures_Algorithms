@@ -264,6 +264,7 @@
 - [x] [Palindromic Partitioning](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/131.%20Palindromic%20Partitioning)
 - [x] [Maximum Length of Repeated Subarray - Longest Common Substring](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/718.%20Maximum%20Length%20of%20Repeated%20Subarray)
 - [x] [Longest Common Subsequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1143.%20Longest%20Common%20Subsequence)
+- [x] [Delete Operations for Two Strings]()
 - [x] [Longest Increasing Subsequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/300%20Longest%20Increasing%20Subsequence)
 - [x] [Word Break](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/139.%20Word%20Break)
 - [x] [Decode Ways](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/91.%20Decode%20Ways)
