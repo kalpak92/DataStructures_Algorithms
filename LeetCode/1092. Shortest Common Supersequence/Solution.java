@@ -34,6 +34,16 @@ class Solution {
             }
         }
         
+        /**
+         * Reversely append the chars to StringBuilder.
+         * If the char is among the LCS, choose either one between the two strings.
+         *      a) start from i = m - 1 and j = n - 1, check if the corresponding chars are equal, 
+         *      that is, s1.charAt(i) == s2.charAt(j); 
+         *          if yes, append either of them; 
+         *          if no, append the char with larger dp value.
+         * 
+         *      b) If we reach left end of s1 or s2 first, continue to append remaining chars in the other string.
+         */
         // Build result.
         StringBuilder sb = new StringBuilder();
         
