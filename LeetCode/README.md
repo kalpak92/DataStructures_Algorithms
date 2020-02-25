@@ -209,6 +209,9 @@
 - [x] [K closest points to origin](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/973.%20K%20closest%20points%20to%20origin)
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
 
+## Greedy
+- [x] [Gas Station]()
+
 ## Binary Search
 - [x] [Find K Closest Points](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/658.%20Find%20K%20closest%20elements)
 
