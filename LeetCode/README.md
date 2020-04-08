@@ -100,8 +100,8 @@
 - [x] [LRU Cache](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/146.%20LRU%20Cache)
 - [x] [Group Anagrams](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/49.%20Group%20Anagrams)
 - [x] [Insert Delete GetRandom in O(1)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/380.%20Insert%20Delete%20GetRandom%20O(1))
-- [x] [Find Duplicate files in a system]()
-- [x] [Time based Key Value Storage]()
+- [x] [Find Duplicate files in a system](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/609.%20Find%20Duplicate%20files%20in%20a%20System)
+- [x] [Time based Key Value Storage](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/981.%20Time%20based%20Key%20Value%20Storage)
 
 
 ## Heaps
