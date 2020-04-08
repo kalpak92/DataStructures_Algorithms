@@ -189,7 +189,8 @@
 - [x] [Compare Version Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/165.%20Compare%20Version%20Numbers)
 - [x] [Partition Labels](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/763.%20Partition%20Labels)
 - [x] [Decode String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/394.%20Decode%20String)
-- [x] [Break a Palindrome]()
+- [x] [Break a Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1328.%20Break%20a%20Palindrome)
+
 ## Mathematics
 - [x] [Pow(x, n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/50.%20Pow(x%2C%20n))
 - [x] [Sqrt(x)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/69.%20Sqrt(x))
