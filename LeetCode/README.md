@@ -102,7 +102,7 @@
 - [x] [Insert Delete GetRandom in O(1)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/380.%20Insert%20Delete%20GetRandom%20O(1))
 - [x] [Find Duplicate files in a system](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/609.%20Find%20Duplicate%20files%20in%20a%20System)
 - [x] [Time based Key Value Storage](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/981.%20Time%20based%20Key%20Value%20Storage)
-- [x] [Longest String Chain]()
+- [x] [Longest String Chain](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1048.%20Longest%20String%20Chain)
 
 
 ## Heaps
@@ -282,4 +282,4 @@
 - [x] [Unique Paths II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/63.%20Unique%20Paths%20II)
 - [x] [Unique Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/96.%20Unique%20Binary%20Search%20Trees)
 - [x] [Frog Jump](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/403.%20Frog%20Jump)
-- [x] [Longest String Chain]()
+- [x] [Longest String Chain](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1048.%20Longest%20String%20Chain)
