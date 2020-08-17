@@ -218,6 +218,7 @@
 - [x] [Gas Station]()
 
 ## Binary Search
+- [x] [Binary Search]()
 - [x] [Find K Closest Points](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/658.%20Find%20K%20closest%20elements)
 
 ## Sorting
