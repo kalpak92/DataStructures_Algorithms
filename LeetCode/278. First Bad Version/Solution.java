@@ -17,25 +17,27 @@
  * Then 4 is the first bad version. 
  */
 
- /* The isBadVersion API is defined in the parent class VersionControl.
-      boolean isBadVersion(int version); */
+/* The isBadVersion API is defined in the parent class VersionControl.
+    boolean isBadVersion(int version); */
 
 public class Solution extends VersionControl {
     public int firstBadVersion(int n) {
-        int low = 1;
-        int high = n;
+        int left = 1;
+        int right = n;
         
-        while(low <= high)
-        {
-            int mid = low + (high - low)/2;
-            
+        while(left <= right) {
+            int mid  = left + (right - left)/2;
             if(isBadVersion(mid))
-            {
-                high = mid - 1;
-            }
+                right = mid - 1;
             else
-                low = mid + 1;
+                left = mid + 1;
         }
-        return low;
+        /**
+         * During the last iteration of loop mid == low == high, 
+         * mid can either be good or bad version. 
+         * if mid is good version (low = mid +1) we need to return mid +1 (i.e. low) as the first bad    version, 
+         * if mid was bad version (high = mid -1) low was already pointing to first bad version. So we always return low.
+         */
+        return left;
     }
 }
