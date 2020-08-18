@@ -16,33 +16,33 @@
  * Output: -1
  */
 
- class Solution {
+class Solution {
     public int search(int[] nums, int target) {
-        int start = 0;
-        int end = nums.length - 1;
+        int left = 0;
+        int right = nums.length - 1;
         
-        while(start <= end)
-        {
-            int mid = start + (end - start)/2;
+        while(left <= right) {
+            int mid = left + (right - left)/2;
             
-            if (nums[mid] == target)
+            if(nums[mid] == target)
                 return mid;
-            else if (nums[mid] >= nums[start])  // pivot > start element so part of the array from the start to the pivot is not rotated.
-            {
-                if(target >= nums[start] && target < nums[mid]) // if target < pivot, go left
-                    end = mid - 1;
+            
+            // pivot > start element so part of the array from the start to the pivot is not rotated.
+            if(nums[mid] >= nums[left]) {
+                if(nums[left] <= target && nums[mid] > target) { 
+                    right = mid - 1;    // if target < pivot, go left
+                }
                 else
-                    start = mid + 1;            // go right
+                    left = mid + 1;     // go right
             }
-            else {
-                // pivot is less than the start element. So rotation has happened somewhere from 0 to pivot.
-                if (target > nums[mid] && target <= nums[end])
-                    start = mid + 1;                            // go right if target is in that range
+            else { // pivot is less than the start element. So rotation has happened somewhere from 0 to pivot.
+                if(nums[mid] < target && nums[right] >= target) {
+                    left = mid + 1;     // go right if target is in that range
+                }
                 else
-                    end = mid - 1;
+                    right = mid - 1;    // go left
             }
         }
-        
-        return -1; // if target does not exist.
+        return -1;
     }
 }
