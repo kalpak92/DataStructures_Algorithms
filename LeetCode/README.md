@@ -224,7 +224,7 @@
 - [x] [Peak Index in a Mountain Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/852.%20Peak%20Index%20In%20a%20Mountain%20Array)
 - [x] [Find Peak Element](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/162.%20Find%20Peak%20Element)
 - [x] [Find minimum in Rotated Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/153.%20Find%20minimum%20in%20Rotated%20Sorted%20Array)
-- [x] [Find minimum in Rotated Sorted Array with Duplicates]()
+- [x] [Find minimum in Rotated Sorted Array with Duplicates](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II)
 - [x] [Find K Closest Points](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/658.%20Find%20K%20closest%20elements)
 
 ## Sorting
