@@ -14,34 +14,24 @@
  * Output: 0
  */
 
- class Solution {
+class Solution {
     public int findMin(int[] nums) {
         int low = 0;
         int high = nums.length - 1;
-        int result = -1;
         
-        if (low == high)
-            return nums[low];
+        // loop invariant: 1. low < high
+        //                 2. mid != high and thus A[mid] != A[high] (no duplicate exists)
+        //                 3. minimum is between [low, high]
+        // The proof that the loop will exit: after each iteration either the 'high' decreases
+        // or the 'low' increases, so the interval [low, high] will always shrink.
         
-        if (nums[low] < nums[high])
-            return nums[low];
-        
-        while(low <= high)
-        {
-            int mid = low + (high - low)/2;
-            //System.out.println(mid);
-            
-            if (nums[mid] > nums[mid + 1])
-                return nums[mid + 1];
-            
-            if (nums[mid] < nums[mid - 1])
-                return nums[mid];
-        
-            if(nums[mid] > nums[low])
-                low = mid + 1;
-            else 
-                high = mid - 1;
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+            if (nums[mid] < nums[high])
+                high = mid;             // the mininum is in the left part
+            else if (nums[mid] > nums[high])
+                low = mid + 1;          // the mininum is in the right part
         }
-        return result;
+        return nums[low];
     }
 }

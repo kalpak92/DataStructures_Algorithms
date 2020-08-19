@@ -18,7 +18,6 @@
  * Follow up: Your solution should be in logarithmic complexity.
  */
 
-
 class Solution {
     public int findPeakElement(int[] nums) {
         if (nums.length == 1)
