@@ -214,8 +214,6 @@
 - [x] [K closest points to origin](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/973.%20K%20closest%20points%20to%20origin)
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
 
-## Greedy
-- [x] [Gas Station]()
 
 ## Binary Search
 - [x] [Binary Search](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/704.%20Binary%20Search)
@@ -223,9 +221,10 @@
 - [x] [Guess Number Higher or Lower](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/374.%20Guess%20Number%20Higher%20or%20Lower)
 - [x] [Search in Rotated Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/33.%20Search%20in%20Rotated%20Sorted%20Array)
 - [x] [First Bad Version](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/278.%20First%20Bad%20Version)
-- [x] [Peak Index in a Mountain Array]()
+- [x] [Peak Index in a Mountain Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/852.%20Peak%20Index%20In%20a%20Mountain%20Array)
 - [x] [Find Peak Element](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/162.%20Find%20Peak%20Element)
 - [x] [Find minimum in Rotated Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/153.%20Find%20minimum%20in%20Rotated%20Sorted%20Array)
+- [x] [Find minimum in Rotated Sorted Array with Duplicates]()
 - [x] [Find K Closest Points](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/658.%20Find%20K%20closest%20elements)
 
 ## Sorting
@@ -243,6 +242,9 @@
 - [x] [Longest substring with Atmost Two Distinct Characters](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/159.%20Longest%20Substring%20with%20Atmost%20two%20distinct%20characters)
 - [x] [Sliding Window Maximum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/239.%20Sliding%20Window%20Maximum)
 
+
+## Greedy
+- [x] [Gas Station]()
 
 ## DFS
 - [x] [Number of Islands](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/200.%20Number%20of%20Islands)
