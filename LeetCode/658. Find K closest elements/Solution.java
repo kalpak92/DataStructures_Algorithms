@@ -18,19 +18,33 @@
  */
 
 class Solution {
+    
     // Time Complexity: O(log(n - k))
     public List<Integer> findClosestElementsImproved(int[] arr, int k, int x) {
-        // provided k >= 1
+        /**
+         * -------- Main idea behind the binary search algorithm ----------
+         * We can fully take advantage of the "sorted array", the idea is that we use binary search to minimize the range we're searching, 
+         * and use the arr[mid] and arr[mid+k] to decide to move left or right
+         * 
+         * The binary search here is used to find the best left index rather than finding the closest element to x
+         * 
+         * 1) res will be a consecutive subarray of k size
+         * 2) say if we need to pick 4 elements, 
+         *      then we r looking at 5 elem n1, n2, n3, n4, n5
+         * 
+         * We need to compare two ends: 
+         *      diff(x, n1) and diff(x, n5), the number with bigger diff on the end will be eleminated
+         * 
+         * left and right: range of all possible start of subarray with size k + 1, so we could compare both ends
+         */
         int left = 0;
         int right = arr.length - k;
         
-        while (left < right) 
-        {
+        while (left < right) {
             int mid = left + (right - left) /2;
             
             // this determines how to shift the range
-            if ( Math.abs(arr[mid] -x)  > Math.abs(arr[mid + k] - x) ) 
-            {
+            if ( Math.abs(arr[mid] - x) > Math.abs(arr[mid + k] - x))  {
                 // because the range can start from mid + 1 as the
                 // arr[mid] is more than the arr[mid+k]
                 left = mid + 1;
