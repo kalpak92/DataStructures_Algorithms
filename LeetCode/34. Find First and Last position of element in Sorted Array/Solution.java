@@ -14,83 +14,54 @@
  * Output: [-1,-1]
  */
 
- class Solution 
- {
-    public int[] searchRange(int[] nums, int target) 
-    {
-        int result[] = {-1, -1};
+class Solution {
+    public int[] searchRange(int[] nums, int target) {
+        // Check for base condition
+        if(nums == null || nums.length == 0)
+            return new int[]{-1, -1};
         
-        result[0]  = findFirstOccurence(nums, target);
-        result[1]  = findLastOccurence(nums, target);
+        int[] result = new int[2];
+        int left = 0;
+        int right = nums.length - 1;
         
-        return result;
-    }
-    
-    private int findFirstOccurence(int[] arr, int key)
-    {
-        int low = 0;
-        int high = arr.length - 1;
-        int result = -1;
+        
+        // If A[mid] < target, then the range must begins on the right of mid (hence left = mid+1 for the next iteration)
+        // If A[mid] > target, it means the range must begins on the left of mid (right = mid - 1)
+        // If A[mid] = target, then the range must begins on the left of or at mid (right = mid)
+        
+        // Again, we can merge condition 2 and 3 into:
+        // 2 * If A[mid] <= target, then i = mid;
 
-        while(low <= high)
-        {
-            int mid = low + (high - low)/2;
-
-            if(arr[mid] > key)      // we go left
-            {
-                high = mid - 1;
-            }
-            else if (arr[mid] == key)   // there's a match but we dont know if it is the first one.
-            {
-                result = mid;   // update the result 
-                // check if the mid element is greater than the element before it.
-                // if mid is 0, then break out.
-                if (mid == 0 || (arr[mid] > arr[mid - 1]))
-                    break;
-
-                // else continue going left.
-                high = mid - 1;
+        while(left < right) {
+            int mid = left + (right - left)/2;
+            
+            if(target > nums[mid]) {
+                left = mid + 1;
             }
             else
-            {
-                // mid is less than the key to be searched. so go right.
-                low = mid + 1;
-            } 
+                right = mid;
         }
-        return result;
-    }
-    
-    private int findLastOccurence(int[] arr, int key)
-    {
-        int low = 0;
-        int high = arr.length - 1;
-        int result = -1;
-
-        while(low <= high)
-        {
-            int mid = low + (high - low)/2;
-
-            if(arr[mid] > key)      // we go left
-            {
-                high = mid - 1;
-            }
-            else if (arr[mid] == key)   // there's a match but we dont know if it is the first one.
-            {
-                result = mid;   // update the result 
-                // check if the mid element is lesser than the element after it.
-                // if mid is arr.length - 1, then break out.
-                if (mid == arr.length - 1 || (arr[mid] < arr[mid + 1]))
-                    break;
-
-                // else continue going right.
-                low = mid + 1;
-            }
+        if(target == nums[left])
+            result[0] = left;
+        else
+            result[0] = -1;
+        
+        right = nums.length - 1;
+        while(left < right) {
+            // mid always tends to the floor value.
+            // By adding 1, we asking mid to go to ceil, which is what we want.
+            int mid = left + (right - left)/2 + 1;
+            
+            if(target < nums[mid])
+                right = mid - 1;
             else
-            {
-                // mid is less than the key to be searched. so go right.
-                low = mid + 1;
-            } 
+                left = mid;
         }
+        if(target == nums[right])
+            result[1] = right;
+        else
+            result[1] = -1;
+        
         return result;
     }
 }
