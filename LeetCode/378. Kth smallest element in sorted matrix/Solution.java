@@ -27,10 +27,11 @@
   */
 class Solution {
     public int kthSmallest(int[][] matrix, int k) {
-        int n = matrix.length;
+        int n = matrix.length; // no. of rows
         
         PriorityQueue<Pair> minHeap = new PriorityQueue<>((a, b) -> a.val - b.val);
         
+        // Add the first row
         for(int j = 0; j < n; j++)
         {
             //System.out.println(matrix[0][j]);

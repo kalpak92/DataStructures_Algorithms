@@ -41,10 +41,10 @@ class Solution {
         int right = arr.length - k;
         
         while (left < right) {
-            int mid = left + (right - left) /2;
+            int mid = (left + right) /2;
             
             // this determines how to shift the range
-            if ( Math.abs(arr[mid] - x) > Math.abs(arr[mid + k] - x))  {
+            if ((x - arr[mid]) > (arr[mid + k] - x))  {
                 // because the range can start from mid + 1 as the
                 // arr[mid] is more than the arr[mid+k]
                 left = mid + 1;
@@ -56,13 +56,12 @@ class Solution {
             }
         }
 
-        List<Integer> list = new LinkedList<>();
+        List<Integer> result = new ArrayList<>();
         
         for (int i = left; i < left + k; i++) {
-            list.add(arr[i]);
+            result.add(arr[i]);
         }
-
-        return list;
+        return result;
     }
 
     // Time Complexity : O(n)

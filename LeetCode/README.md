@@ -227,6 +227,7 @@
 - [x] [Find minimum in Rotated Sorted Array with Duplicates](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II)
 - [x] [Find First and Last position of element in Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/34.%20Find%20First%20and%20Last%20position%20of%20element%20in%20Sorted%20Array)
 - [x] [Find K Closest Points](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/658.%20Find%20K%20closest%20elements)
+- [x] [Kth Smallest Element in a Sorted Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/378.%20Kth%20smallest%20element%20in%20sorted%20matrix)
 
 ## Sorting
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
