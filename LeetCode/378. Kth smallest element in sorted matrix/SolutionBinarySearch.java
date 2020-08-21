@@ -15,6 +15,8 @@
  * 
  * Note:
  * You may assume k is always valid, 1 ≤ k ≤ n2.
+ * 
+ * Time Complexity: O(nlog(maxVal))
  */
 
 class Solution {

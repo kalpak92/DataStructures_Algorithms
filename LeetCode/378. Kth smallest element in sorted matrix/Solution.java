@@ -25,44 +25,45 @@
             (so we can create a tuple class here), 
         b)  Replace that root with the next element from the same column.
   */
-class Solution {
+  class Solution {
     public int kthSmallest(int[][] matrix, int k) {
-        int n = matrix.length; // no. of rows
+        // Base Condition
+        if(matrix == null || matrix.length == 0 || matrix[0].length == 0)
+            return -1;
         
-        PriorityQueue<Pair> minHeap = new PriorityQueue<>((a, b) -> a.val - b.val);
+        PriorityQueue<Pair> minHeap = new PriorityQueue<>((a, b) -> (a.val - b.val));
+        int row = matrix.length;
         
-        // Add the first row
-        for(int j = 0; j < n; j++)
-        {
-            //System.out.println(matrix[0][j]);
-            minHeap.offer(new Pair (0, j, matrix[0][j]));
+        // Add the elements of the first row
+        for(int col = 0; col < matrix[0].length; col++) {
+            minHeap.offer(new Pair(0, col, matrix[0][col]));
         }
-        //System.out.println("---------------------");
-        for(int i = 0; i < k - 1; i++)
-        {
-            Pair p = minHeap.poll();
-            //System.out.println("i = " + i +" | "+p.a + " " + p.b + " " +p.val);
+        
+        // Now loop k-1 times, as the first row is already added.
+        for(int i = 0; i < k - 1; i++) {
+            // pop out an element from the minHeap.
+            // insert corresponding next element in that row.
+            Pair temp = minHeap.poll();
             
-            if(p.a == n - 1)
+            // check if it's the last row. Then don't do anything.
+            if(temp.row == matrix.length - 1)
                 continue;
             
-            minHeap.offer(new Pair(p.a + 1, p.b, matrix[p.a + 1][p.b]));
+            minHeap.offer(new Pair(temp.row + 1, temp.col, matrix[temp.row + 1][temp.col]));
         }
         
         return minHeap.poll().val;
-        
     }
+    
 }
 
 class Pair {
-    int a;
-    int b;
+    int row;
+    int col;
     int val;
-    
-    public Pair(int a, int b, int val)
-    {
-        this.a = a;
-        this.b = b;
+    Pair(int row, int col, int val) {
+        this.row = row;
+        this.col = col;
         this.val = val;
     }
 }

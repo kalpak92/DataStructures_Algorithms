@@ -52,30 +52,22 @@ class Solution {
 
     public boolean searchMatrixII(int[][] matrix, int target)
     {
-        if(matrix.length == 0)
+        if(matrix == null || matrix.length == 0 || matrix[0].length == 0)
             return false;
         
-        int m = matrix.length;
-        int n = matrix[0].length;
+        int left = 0;
+        int right = matrix.length*matrix[0].length - 1;
         
-        // a binary search anstracting the entire 2D matrix as an array with row = mid // n and column = mid % n
-        int low  = 0;
-        int high = m*n -1;
-        int pivotElement;
-        
-        while(low <= high)
-        {
-            int mid = low + (high - low) / 2;
-            pivotElement = matrix[mid / n][mid %n];
+        while(left <= right) {
+            int mid = left + (right - left)/2;
+            int middleElement = matrix[mid/matrix[0].length][mid % matrix[0].length];
             
-            if (target == pivotElement)
+            if(target == middleElement)
                 return true;
-            else {
-                if(target < pivotElement)
-                    high = mid -1;
-                else
-                    low = mid + 1;
-            }
+            else if(target > middleElement)
+                left = mid + 1;
+            else
+                right = mid - 1;
         }
         return false;
     }
