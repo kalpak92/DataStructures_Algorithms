@@ -29,43 +29,42 @@ class Solution {
         if(nums1 == null || nums1.length == 0 || nums2 == null || nums2.length == 0 || k < 0)
             return result;
         
-        PriorityQueue<Pair> minHeap = new PriorityQueue<>((a, b) -> a.val - b.val);
+        PriorityQueue<Pair> minHeap = new PriorityQueue<>((a, b) -> (a.val - b.val));
         
+        //Take the first number from nums1 array and pair it up with all the numbers from the nums2 array.
         for(int j = 0; j < nums2.length; j++)
-        {
-            minHeap.offer(new Pair (0, j, nums1[0] + nums2[j]));
-        }
+            minHeap.offer(new Pair(0, j, nums1[0] + nums2[j]));
         
-        for(int i = 0; i < Math.min(k, nums1.length*nums2.length); i++)
-        {
-            Pair p = minHeap.poll();
+        // Pop from the minHeap and store the result.
+        // Push a new pair - nums1+1 and nums2
+        for(int i = 0; i < Math.min(k, nums1.length*nums2.length); i++) {
+            Pair temp = minHeap.poll();
             
-            List<Integer> temp = new ArrayList<>();
-            temp.add(nums1[p.a]);
-            temp.add(nums2[p.b]);
+            List<Integer> res = new ArrayList<>();
+            res.add(nums1[temp.nums1_idx]);
+            res.add(nums2[temp.nums2_idx]);
+            result.add(res);
             
-            result.add(temp);
-            
-            if(p.a == nums1.length - 1)
+            // Check for completion of all elements from nums1 array. 
+            // Warning: Don't forget the -1. It's an index
+            if(temp.nums1_idx == nums1.length - 1)
                 continue;
             
-            minHeap.offer(new Pair(p.a + 1, p.b, nums1[p.a + 1] + nums2[p.b]));
+            minHeap.offer(new Pair(temp.nums1_idx + 1, temp.nums2_idx, nums1[temp.nums1_idx + 1] + nums2[temp.nums2_idx]));
         }
-        
         return result;
-        
     }
 }
 
+
 class Pair {
-    int a;
-    int b;
+    int nums1_idx;
+    int nums2_idx;
     int val;
     
-    public Pair(int a, int b, int val)
-    {
-        this.a = a;
-        this.b = b;
+    Pair(int i, int j, int val) {
+        this.nums1_idx = i;
+        this.nums2_idx = j;
         this.val = val;
     }
 }
