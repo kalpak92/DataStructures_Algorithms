@@ -230,7 +230,7 @@
 - [x] [Search a 2D Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/74.%20Search%20a%202D%20Matrix)
 - [x] [Kth Smallest Element in a Sorted Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/378.%20Kth%20smallest%20element%20in%20sorted%20matrix)
 - [x] [Random pick with Weight](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/528.%20Random%20Pick%20with%20Weight)
-
+- [x] [Capacity To Ship Packages Within D Days]()
 
 ## Sorting
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
@@ -242,7 +242,7 @@
 
 ## Sliding Window
 - [x] [Minimum Window Substring](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/76.%20Minimum%20Window%20Substring)
-- [x] [Minimum Size SubArray Sum]()
+- [x] [Minimum Size SubArray Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/209.%20Minimize%20Size%20Subarray%20Sum)
 - [x] [Grumpy Bookstore Owner](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1052.%20Grumpy%20Bookstore%20Owner)
 - [x] [Longest Substring Without Repeating Characters](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/3.%20Longest%20Substring%20without%20Repeating%20Characters)
 - [x] [Longest substring with Atmost Two Distinct Characters](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/159.%20Longest%20Substring%20with%20Atmost%20two%20distinct%20characters)
