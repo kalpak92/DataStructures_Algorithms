@@ -218,6 +218,7 @@
 ## Binary Search
 - [x] [Binary Search](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/704.%20Binary%20Search)
 - [x] [Sqrt(x)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/69.%20Sqrt(x))
+- [x] [Search Insert position](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/35.%20Search%20Insert%20position)
 - [x] [Guess Number Higher or Lower](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/374.%20Guess%20Number%20Higher%20or%20Lower)
 - [x] [Search in Rotated Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/33.%20Search%20in%20Rotated%20Sorted%20Array)
 - [x] [First Bad Version](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/278.%20First%20Bad%20Version)
@@ -230,7 +231,7 @@
 - [x] [Search a 2D Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/74.%20Search%20a%202D%20Matrix)
 - [x] [Kth Smallest Element in a Sorted Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/378.%20Kth%20smallest%20element%20in%20sorted%20matrix)
 - [x] [Random pick with Weight](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/528.%20Random%20Pick%20with%20Weight)
-- [x] [Capacity To Ship Packages Within D Days]()
+- [x] [Capacity To Ship Packages Within D Days](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1011.%20Capacity%20to%20ship%20packages%20within%20D%20days)
 
 ## Sorting
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)

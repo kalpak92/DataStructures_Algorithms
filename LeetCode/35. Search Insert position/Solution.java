@@ -20,26 +20,25 @@
  * Output: 0
  */
 
- class Solution {
+class Solution {
     public int searchInsert(int[] nums, int target) {
-        int low = 0;
-        int high = nums.length - 1;
+        if(nums == null || nums.length == 0)
+            return -1;
         
-        while(low <= high)
-        {
-            int mid = low + (high - low) / 2;
+        int left = 0;
+        // Note that the input target might be larger than all elements in nums.
+        // Therefore needs to placed at the end of the array. 
+        // So, initialize right = nums.length instead of right = len(nums) - 1.
+        int right = nums.length;
+        
+        while(left < right) {
+            int mid = left + (right - left)/2;
             
-            if (nums[mid] == target)
-                return mid;
-            else if (nums[mid] > target)
-            {
-                high = mid - 1;
-            }
-            else {
-                low = mid + 1;
-            }
+            if(nums[mid] >= target)
+                right = mid;
+            else
+                left = mid + 1;
         }
-
-        return (low > high) ? low : high;
+        return left;
     }
 }

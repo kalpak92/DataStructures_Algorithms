@@ -23,8 +23,8 @@ public class SolutionIntuitive {
         
         int left = 1;
         int right = x;
-        int result = 0;
         
+        // First we need to search for minimal k satisfying condition k^2 > x, then k - 1 is the answer to the question.
         while(left <= right) {
             int mid = left + (right - left) / 2;
             
@@ -35,9 +35,8 @@ public class SolutionIntuitive {
             }
             else {
                 left = mid + 1;
-                result = mid;
             }
         }
-        return result;
+        return result - 1;
     }
 }
