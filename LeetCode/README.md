@@ -232,6 +232,7 @@
 - [x] [Kth Smallest Element in a Sorted Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/378.%20Kth%20smallest%20element%20in%20sorted%20matrix)
 - [x] [Random pick with Weight](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/528.%20Random%20Pick%20with%20Weight)
 - [x] [Capacity To Ship Packages Within D Days](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1011.%20Capacity%20to%20ship%20packages%20within%20D%20days)
+- [x] [Koko Eating Bananas]()
 
 ## Sorting
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)

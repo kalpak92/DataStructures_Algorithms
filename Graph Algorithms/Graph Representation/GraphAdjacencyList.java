@@ -22,8 +22,8 @@ public class GraphAdjacencyList {
     }
 
     public void printGraph(){
-        for (int i = 0; i <vertex ; i++) {
-            if(list[i].size()>0) {
+        for (int i = 0; i < vertex ; i++) {
+            if(list[i].size() > 0) {
                 System.out.print("Vertex " + i + " is connected to: ");
                 for (int j = 0; j < list[i].size(); j++) {
                     System.out.print(list[i].get(j) + " ");
@@ -36,13 +36,14 @@ public class GraphAdjacencyList {
     public static void main(String[] args) {
         GraphAdjacencyList GraphAdjacencyList = new GraphAdjacencyList(5);
         
-        GraphAdjacencyList.addEdge(0,1);
+        GraphAdjacencyList.addEdge(0, 1);
         GraphAdjacencyList.addEdge(0, 4);
         GraphAdjacencyList.addEdge(1, 2);
         GraphAdjacencyList.addEdge(1, 3);
         GraphAdjacencyList.addEdge(1, 4);
         GraphAdjacencyList.addEdge(2, 3);
         GraphAdjacencyList.addEdge(3, 4);
+
         GraphAdjacencyList.printGraph();
     }
 }
