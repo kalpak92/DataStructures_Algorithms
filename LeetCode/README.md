@@ -213,11 +213,11 @@
 - [x] [Merge k Sorted Lists](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/23.%20Merge%20k%20Sorted%20Lists)
 - [x] [K closest points to origin](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/973.%20K%20closest%20points%20to%20origin)
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
-
+- [x] [Count of Smaller Items after Self]()
 
 ## Binary Search
 - [x] [Binary Search](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/704.%20Binary%20Search)
-- [x] [Two Sum II - Input Array is Sorted]()
+- [x] [Two Sum II - Input Array is Sorted](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/167.%20Two%20Sum%20II%20-%20Input%20Array%20is%20Sorted)
 - [x] [Sqrt(x)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/69.%20Sqrt(x))
 - [x] [Search Insert position](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/35.%20Search%20Insert%20position)
 - [x] [Guess Number Higher or Lower](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/374.%20Guess%20Number%20Higher%20or%20Lower)
