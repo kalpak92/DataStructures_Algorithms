@@ -233,7 +233,8 @@
 - [x] [Random pick with Weight](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/528.%20Random%20Pick%20with%20Weight)
 - [x] [Capacity To Ship Packages Within D Days](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1011.%20Capacity%20to%20ship%20packages%20within%20D%20days)
 - [x] [Koko Eating Bananas](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/875.%20Koko%20Eating%20Bananas)
-- [x] [Minimum Number of Days to Make M Bouquets]()
+- [x] [Minimum Number of Days to Make M Bouquets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20M%20Bouquets)
+- [x] [Find the Smallest Divisor given a Threshold]()
 
 ## Sorting
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
