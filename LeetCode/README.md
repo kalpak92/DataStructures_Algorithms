@@ -213,7 +213,7 @@
 - [x] [Merge k Sorted Lists](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/23.%20Merge%20k%20Sorted%20Lists)
 - [x] [K closest points to origin](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/973.%20K%20closest%20points%20to%20origin)
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
-- [x] [Count of Smaller Items after Self]()
+- [x] [Count of Smaller Items after Self](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/315.%20Count%20%20of%20Smaller%20Items%20after%20Self)
 
 ## Binary Search
 - [x] [Binary Search](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/704.%20Binary%20Search)
@@ -236,6 +236,7 @@
 - [x] [Koko Eating Bananas](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/875.%20Koko%20Eating%20Bananas)
 - [x] [Minimum Number of Days to Make M Bouquets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20M%20Bouquets)
 - [x] [Find the Smallest Divisor given a Threshold](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1283.%20Find%20the%20Smallest%20Divisor%20given%20a%20Threshold)
+- [x] [Missing Element in Sorted Array]()
 
 ## Sorting
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
