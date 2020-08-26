@@ -92,7 +92,7 @@
 - [x] [Flatten a Nested List Iterator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/341.%20Flatten%20Nested%20List%20Iterator)
 
 
-## Hash Tables
+## HashMaps
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
 - [x] [Palindrome Permutation](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/266.%20Palindrome%20Permutation)
 - [x] [Intersection of Two Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/349.%20Intersection%20of%20Two%20Arrays)
@@ -103,7 +103,7 @@
 - [x] [Find Duplicate files in a system](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/609.%20Find%20Duplicate%20files%20in%20a%20System)
 - [x] [Time based Key Value Storage](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/981.%20Time%20based%20Key%20Value%20Storage)
 - [x] [Longest String Chain](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1048.%20Longest%20String%20Chain)
-
+- [x] [Data Streams as Disjoint Intervals]()
 
 ## Heaps
 - [x] [Kth Largest element in a stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/703.%20Kth%20largest%20element%20in%20a%20stream)
