@@ -222,6 +222,7 @@
 - [x] [Search Insert position](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/35.%20Search%20Insert%20position)
 - [x] [Guess Number Higher or Lower](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/374.%20Guess%20Number%20Higher%20or%20Lower)
 - [x] [Search in Rotated Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/33.%20Search%20in%20Rotated%20Sorted%20Array)
+- [x] [Find First and Last position of element in Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/34.%20Find%20First%20and%20Last%20position%20of%20element%20in%20Sorted%20Array)
 - [x] [First Bad Version](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/278.%20First%20Bad%20Version)
 - [x] [Peak Index in a Mountain Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/852.%20Peak%20Index%20In%20a%20Mountain%20Array)
 - [x] [Find Peak Element](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/162.%20Find%20Peak%20Element)
@@ -236,7 +237,7 @@
 - [x] [Koko Eating Bananas](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/875.%20Koko%20Eating%20Bananas)
 - [x] [Minimum Number of Days to Make M Bouquets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20M%20Bouquets)
 - [x] [Find the Smallest Divisor given a Threshold](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1283.%20Find%20the%20Smallest%20Divisor%20given%20a%20Threshold)
-- [x] [Missing Element in Sorted Array]()
+- [x] [Missing Element in Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1060.%20Missing%20Element%20in%20Sorted%20Array)
 
 ## Sorting
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
