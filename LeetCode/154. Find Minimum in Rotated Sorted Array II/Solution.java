@@ -24,20 +24,14 @@ class Solution {
         int right = nums.length - 1;
         
         while(left < right) {
-            int mid = left + (right - left) / 2;
+            int mid = left + (right - left)/2;
             
-            if (nums[mid] > nums[right]) {
-                // go right
-                left = mid + 1;
-            }
-            else if (nums[mid] < nums[right]) {
-                // go left
+            if(nums[mid] < nums[right])
                 right = mid;
-            }
-            else { 
-                // when nums[mid] and num[right] are same
+            else if (nums[mid] > nums[right])
+                left = mid + 1;
+            else if(nums[mid] == nums[right]) // when num[mid] and num[hi] are same
                 right--;
-            }
         }
         return nums[left];
     }
