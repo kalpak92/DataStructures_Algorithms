@@ -238,6 +238,7 @@
 - [x] [Minimum Number of Days to Make M Bouquets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20M%20Bouquets)
 - [x] [Find the Smallest Divisor given a Threshold](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1283.%20Find%20the%20Smallest%20Divisor%20given%20a%20Threshold)
 - [x] [Missing Element in Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1060.%20Missing%20Element%20in%20Sorted%20Array)
+- [x] [Find Median of Two Sorted Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/4.%20Median%20of%20Two%20Sorted%20Arrays)
 
 ## Sorting
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
