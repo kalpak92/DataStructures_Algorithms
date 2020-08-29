@@ -58,24 +58,22 @@ class Solution {
     }
 
     // Improved Solution using max heap. Time Complexity: O(NlogK)
-    public int[][] kClosestII(int[][] points, int K) {
-        PriorityQueue<int[]> pq = new PriorityQueue<int[]>((p1, p2) -> p2[0] * p2[0] + p2[1] * p2[1] - p1[0] * p1[0] - p1[1] * p1[1]);
-        
-    for (int[] p : points) 
-    {
-        pq.offer(p);
-        if (pq.size() > K) 
-        {
-            pq.poll();
+    
+    public int[][] kClosest(int[][] points, int K) {
+        PriorityQueue<int[]> maxHeap = new PriorityQueue<>((a, b) -> (b[0] * b[0] + b[1] * b[1]) - (a[0] * a[0] + a[1] * a[1]));
+
+        for(int[] p : points) {
+            maxHeap.offer(p);
+            // check the size of the heap and pop out unnecessary elements
+            if(maxHeap.size() > K)
+                maxHeap.poll();   
         }
-    }
-        
-    int[][] res = new int[K][2];
-        
-    while (K > 0) 
-    {
-        res[--K] = pq.poll();
-    }
-    return res;
+
+        int[][] result = new int[K][2];
+        while(K > 0) {
+            result[K-1] = maxHeap.poll();   // Note: K-1 because of 0 based indexing.
+            K--;
+        }
+        return result;
     }
 }
