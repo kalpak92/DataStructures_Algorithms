@@ -41,18 +41,7 @@
 - [x] [Trapping Rain Water](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/42.%20Trapping%20Rain%20Water)
 - [x] [Task Scheduler](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/621.%20Task%20Scheduler)
 
-## Backtracking
-- [x] [Subsets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/78.%20Subsets)
-- [x] [Subsets II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/80.%20Subsets%20II)
-- [x] [Permutations](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/46.%20Permutations)
-- [x] [Permutations II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/47.%20Permutation%20II)
-- [x] [Combination Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/39.%20Combination%20Sum)
-- [x] [Combination Sum II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/40.%20Combination%20Sum%20II)
-- [x] [Path Sum II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/113.%20Path%20Sum%20II)
-- [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
-- [x] [Generate Parenthesis](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/22.%20Generate%20Parenthesis)
-- [x] [Letter Combinations of a Phone Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/17.%20Letter%20combinations%20of%20a%20Phone%20Number)
-- [x] [Palindromic Partitioning](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/131.%20Palindromic%20Partitioning)
+
 
 ## Linked List
 
@@ -114,6 +103,58 @@
 - [x] [Find Median from Data Stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/295.%20Find%20Median%20from%20Data%20Stream)
 - [x] [Find K pairs with the smallest sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/373.%20Find%20K%20Pairs%20with%20Smallest%20Sum)
 - [x] [Kth Smallest Element in a Sorted Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/378.%20Kth%20smallest%20element%20in%20sorted%20matrix)
+
+## Divide and Conquer
+- [x] [Maximum SubArray](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/53.%20Maximum%20Subarray)
+- [x] [Different Ways  to Add Parenthesis](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/241.%20Different%20Ways%20to%20add%20Parenthesis)
+- [x] [Find Median of Two Sorted Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/4.%20Median%20of%20Two%20Sorted%20Arrays)
+- [x] [Merge k Sorted Lists](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/23.%20Merge%20k%20Sorted%20Lists)
+- [x] [K closest points to origin](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/973.%20K%20closest%20points%20to%20origin)
+- [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
+- [x] [Count of Smaller Items after Self](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/315.%20Count%20%20of%20Smaller%20Items%20after%20Self)
+
+## Binary Search
+- [x] [Binary Search](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/704.%20Binary%20Search)
+- [x] [Two Sum II - Input Array is Sorted](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/167.%20Two%20Sum%20II%20-%20Input%20Array%20is%20Sorted)
+- [x] [Sqrt(x)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/69.%20Sqrt(x))
+- [x] [Search Insert position](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/35.%20Search%20Insert%20position)
+- [x] [Guess Number Higher or Lower](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/374.%20Guess%20Number%20Higher%20or%20Lower)
+- [x] [Search in Rotated Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/33.%20Search%20in%20Rotated%20Sorted%20Array)
+- [x] [Find First and Last position of element in Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/34.%20Find%20First%20and%20Last%20position%20of%20element%20in%20Sorted%20Array)
+- [x] [First Bad Version](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/278.%20First%20Bad%20Version)
+- [x] [Peak Index in a Mountain Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/852.%20Peak%20Index%20In%20a%20Mountain%20Array)
+- [x] [Find Peak Element](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/162.%20Find%20Peak%20Element)
+- [x] [Find minimum in Rotated Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/153.%20Find%20minimum%20in%20Rotated%20Sorted%20Array)
+- [x] [Find minimum in Rotated Sorted Array with Duplicates](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II)
+- [x] [Find First and Last position of element in Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/34.%20Find%20First%20and%20Last%20position%20of%20element%20in%20Sorted%20Array)
+- [x] [Find K Closest Points](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/658.%20Find%20K%20closest%20elements)
+- [x] [Search a 2D Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/74.%20Search%20a%202D%20Matrix)
+- [x] [Kth Smallest Element in a Sorted Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/378.%20Kth%20smallest%20element%20in%20sorted%20matrix)
+- [x] [Random pick with Weight](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/528.%20Random%20Pick%20with%20Weight)
+- [x] [Capacity To Ship Packages Within D Days](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1011.%20Capacity%20to%20ship%20packages%20within%20D%20days)
+- [x] [Koko Eating Bananas](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/875.%20Koko%20Eating%20Bananas)
+- [x] [Minimum Number of Days to Make M Bouquets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20M%20Bouquets)
+- [x] [Find the Smallest Divisor given a Threshold](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1283.%20Find%20the%20Smallest%20Divisor%20given%20a%20Threshold)
+- [x] [Missing Element in Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1060.%20Missing%20Element%20in%20Sorted%20Array)
+- [x] [Find Median of Two Sorted Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/4.%20Median%20of%20Two%20Sorted%20Arrays)
+
+## Sorting
+- [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
+- [x] [Meeting Rooms](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/252.%20Meeting%20Rooms)
+- [x] [Merge Intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/56.%20Merge%20Intervals)
+- [x] [Meeting Rooms II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/253.%20Meeting%20Rooms%20II)
+- [x] [Minimum of Arrow to Burst Balloons](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons)
+- [x] [Non-overlapping intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/435.%20Non-overlapping%20intervals)
+
+
+## Sliding Window
+- [x] [Minimum Window Substring](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/76.%20Minimum%20Window%20Substring)
+- [x] [Minimum Size SubArray Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/209.%20Minimize%20Size%20Subarray%20Sum)
+- [x] [Grumpy Bookstore Owner](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1052.%20Grumpy%20Bookstore%20Owner)
+- [x] [Longest Substring Without Repeating Characters](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/3.%20Longest%20Substring%20without%20Repeating%20Characters)
+- [x] [Longest substring with Atmost Two Distinct Characters](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/159.%20Longest%20Substring%20with%20Atmost%20two%20distinct%20characters)
+- [x] [Sliding Window Maximum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/239.%20Sliding%20Window%20Maximum)
+
 
 ## Trees
 - [x] [Binary Tree Preorder Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/144.%20Binary%20Tree%20Preorder%20Traversal)
@@ -193,70 +234,6 @@
 - [x] [Decode String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/394.%20Decode%20String)
 - [x] [Break a Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1328.%20Break%20a%20Palindrome)
 
-## Mathematics
-- [x] [Pow(x, n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/50.%20Pow(x%2C%20n))
-- [x] [Sqrt(x)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/69.%20Sqrt(x))
-- [x] [Happy Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/202.%20Happy%20Number)
-- [x] [Ugly Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/263.%20Ugly%20Number)
-- [x] [Divide Two Integers](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/29.%20Divide%20two%20integers)
-- [x] [Integer to English Words](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/273.%20Integer%20to%20English%20Words)
-- [x] [String to Integer (atoi)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/8.%20String%20to%20Integer%20(atoi))
-- [x] [Basic Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/224.%20Basic%20Calculator)
-- [x] [Basic Calculator II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/227.%20Basic%20Calculator%20II)
-- [x] [Broken Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/991.%20Broken%20Calculator)
-- [x] [Bulb Switcher](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/319.%20Bulb%20Switcher)
-- [x] [Maximum Number of Ones](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1183.%20Maximum%20Number%20of%20Ones)
-
-## Divide and Conquer
-- [x] [Different Ways  to Add Parenthesis](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/241.%20Different%20Ways%20to%20add%20Parenthesis)
-- [x] [Find Median of Two Sorted Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/4.%20Median%20of%20Two%20Sorted%20Arrays)
-- [x] [Merge k Sorted Lists](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/23.%20Merge%20k%20Sorted%20Lists)
-- [x] [K closest points to origin](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/973.%20K%20closest%20points%20to%20origin)
-- [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
-- [x] [Count of Smaller Items after Self](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/315.%20Count%20%20of%20Smaller%20Items%20after%20Self)
-
-## Binary Search
-- [x] [Binary Search](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/704.%20Binary%20Search)
-- [x] [Two Sum II - Input Array is Sorted](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/167.%20Two%20Sum%20II%20-%20Input%20Array%20is%20Sorted)
-- [x] [Sqrt(x)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/69.%20Sqrt(x))
-- [x] [Search Insert position](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/35.%20Search%20Insert%20position)
-- [x] [Guess Number Higher or Lower](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/374.%20Guess%20Number%20Higher%20or%20Lower)
-- [x] [Search in Rotated Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/33.%20Search%20in%20Rotated%20Sorted%20Array)
-- [x] [Find First and Last position of element in Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/34.%20Find%20First%20and%20Last%20position%20of%20element%20in%20Sorted%20Array)
-- [x] [First Bad Version](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/278.%20First%20Bad%20Version)
-- [x] [Peak Index in a Mountain Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/852.%20Peak%20Index%20In%20a%20Mountain%20Array)
-- [x] [Find Peak Element](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/162.%20Find%20Peak%20Element)
-- [x] [Find minimum in Rotated Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/153.%20Find%20minimum%20in%20Rotated%20Sorted%20Array)
-- [x] [Find minimum in Rotated Sorted Array with Duplicates](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II)
-- [x] [Find First and Last position of element in Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/34.%20Find%20First%20and%20Last%20position%20of%20element%20in%20Sorted%20Array)
-- [x] [Find K Closest Points](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/658.%20Find%20K%20closest%20elements)
-- [x] [Search a 2D Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/74.%20Search%20a%202D%20Matrix)
-- [x] [Kth Smallest Element in a Sorted Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/378.%20Kth%20smallest%20element%20in%20sorted%20matrix)
-- [x] [Random pick with Weight](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/528.%20Random%20Pick%20with%20Weight)
-- [x] [Capacity To Ship Packages Within D Days](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1011.%20Capacity%20to%20ship%20packages%20within%20D%20days)
-- [x] [Koko Eating Bananas](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/875.%20Koko%20Eating%20Bananas)
-- [x] [Minimum Number of Days to Make M Bouquets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20M%20Bouquets)
-- [x] [Find the Smallest Divisor given a Threshold](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1283.%20Find%20the%20Smallest%20Divisor%20given%20a%20Threshold)
-- [x] [Missing Element in Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1060.%20Missing%20Element%20in%20Sorted%20Array)
-- [x] [Find Median of Two Sorted Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/4.%20Median%20of%20Two%20Sorted%20Arrays)
-
-## Sorting
-- [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
-- [x] [Meeting Rooms](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/252.%20Meeting%20Rooms)
-- [x] [Merge Intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/56.%20Merge%20Intervals)
-- [x] [Meeting Rooms II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/253.%20Meeting%20Rooms%20II)
-- [x] [Minimum of Arrow to Burst Balloons](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons)
-- [x] [Non-overlapping intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/435.%20Non-overlapping%20intervals)
-
-## Sliding Window
-- [x] [Minimum Window Substring](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/76.%20Minimum%20Window%20Substring)
-- [x] [Minimum Size SubArray Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/209.%20Minimize%20Size%20Subarray%20Sum)
-- [x] [Grumpy Bookstore Owner](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1052.%20Grumpy%20Bookstore%20Owner)
-- [x] [Longest Substring Without Repeating Characters](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/3.%20Longest%20Substring%20without%20Repeating%20Characters)
-- [x] [Longest substring with Atmost Two Distinct Characters](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/159.%20Longest%20Substring%20with%20Atmost%20two%20distinct%20characters)
-- [x] [Sliding Window Maximum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/239.%20Sliding%20Window%20Maximum)
-
-
 ## Greedy
 - [x] [Gas Station]()
 
@@ -308,3 +285,30 @@
 - [x] [Unique Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/96.%20Unique%20Binary%20Search%20Trees)
 - [x] [Frog Jump](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/403.%20Frog%20Jump)
 - [x] [Longest String Chain](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1048.%20Longest%20String%20Chain)
+
+## Backtracking
+- [x] [Subsets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/78.%20Subsets)
+- [x] [Subsets II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/80.%20Subsets%20II)
+- [x] [Permutations](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/46.%20Permutations)
+- [x] [Permutations II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/47.%20Permutation%20II)
+- [x] [Combination Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/39.%20Combination%20Sum)
+- [x] [Combination Sum II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/40.%20Combination%20Sum%20II)
+- [x] [Path Sum II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/113.%20Path%20Sum%20II)
+- [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
+- [x] [Generate Parenthesis](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/22.%20Generate%20Parenthesis)
+- [x] [Letter Combinations of a Phone Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/17.%20Letter%20combinations%20of%20a%20Phone%20Number)
+- [x] [Palindromic Partitioning](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/131.%20Palindromic%20Partitioning)
+
+## Mathematics
+- [x] [Pow(x, n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/50.%20Pow(x%2C%20n))
+- [x] [Sqrt(x)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/69.%20Sqrt(x))
+- [x] [Happy Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/202.%20Happy%20Number)
+- [x] [Ugly Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/263.%20Ugly%20Number)
+- [x] [Divide Two Integers](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/29.%20Divide%20two%20integers)
+- [x] [Integer to English Words](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/273.%20Integer%20to%20English%20Words)
+- [x] [String to Integer (atoi)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/8.%20String%20to%20Integer%20(atoi))
+- [x] [Basic Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/224.%20Basic%20Calculator)
+- [x] [Basic Calculator II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/227.%20Basic%20Calculator%20II)
+- [x] [Broken Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/991.%20Broken%20Calculator)
+- [x] [Bulb Switcher](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/319.%20Bulb%20Switcher)
+- [x] [Maximum Number of Ones](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1183.%20Maximum%20Number%20of%20Ones)
