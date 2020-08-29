@@ -23,34 +23,28 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-class SolutionImproved {
+class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
-        PriorityQueue<ListNode> minHeap = new PriorityQueue<>((a,b)->a.val-b.val);
+        PriorityQueue<ListNode> minHeap = new PriorityQueue<>((a, b) -> (a.val - b.val));
         
-        for(ListNode head: lists)   // insert the first nodes into the priority queue.
-        {
-            if(head != null)
-            {
-                minHeap.add(head);
-            }
+        for(ListNode temp : lists) {
+            if(temp != null)
+                minHeap.offer(temp);
         }
         
-        ListNode head = new ListNode(-1);
-        ListNode current = head;
+        ListNode result = new ListNode(-1);
+        ListNode current = result;
         
-        while(!minHeap.isEmpty())
-        {
-            ListNode temp = minHeap.poll();     // get the smallest node.
-            current.next = temp;                // attach to the output list. 
+        while(!minHeap.isEmpty()) {
+            ListNode temp = minHeap.poll();
+            current.next = temp;
             
-            if(temp.next != null)               // if the node received from the priority queue is not null, add the next item of it from that list.
-            {
-                minHeap.add(temp.next); 
+            if(temp.next != null) {
+                minHeap.offer(temp.next);
             }
-
+            
             current = current.next;
         }
-        
-        return head.next;
+        return result.next;
     }
 }
