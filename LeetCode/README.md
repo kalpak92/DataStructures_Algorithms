@@ -107,7 +107,7 @@
 - [x] [Find K pairs with the smallest sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/373.%20Find%20K%20Pairs%20with%20Smallest%20Sum)
 - [x] [Kth Smallest Element in a Sorted Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/378.%20Kth%20smallest%20element%20in%20sorted%20matrix)
 - [x] [Reorganize String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/767.%20Reorganize%20String)
-- [x] [ReArrange String k Distance Apart]()
+- [x] [ReArrange String k Distance Apart](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/358.%20Rearrange%20String%20k%20Distance%20Apart)
 
 
 ## Divide and Conquer
@@ -243,13 +243,13 @@
 - [x] [Decode String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/394.%20Decode%20String)
 - [x] [Break a Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1328.%20Break%20a%20Palindrome)
 - [x] [Reorganize String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/767.%20Reorganize%20String)
-- [x] [ReArrange String k Distance Apart]()
+- [x] [ReArrange String k Distance Apart](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/358.%20Rearrange%20String%20k%20Distance%20Apart)
 
 
 ## Greedy
 - [x] [Gas Station](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/134.%20Gas%20Station)
 - [x] [Reorganize String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/767.%20Reorganize%20String)
-- [x] [ReArrange String k Distance Apart]()
+- [x] [ReArrange String k Distance Apart](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/358.%20Rearrange%20String%20k%20Distance%20Apart)
 
 ## DFS
 - [x] [Number of Islands](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/200.%20Number%20of%20Islands)
