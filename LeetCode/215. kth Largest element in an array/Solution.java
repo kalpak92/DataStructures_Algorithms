@@ -17,54 +17,17 @@
 class Solution {
 
 	public int findKthLargestII(int[] nums, int k) {
-        PriorityQueue<Integer> heap = new PriorityQueue<Integer>();
+        if(nums == null || nums.length == 0)
+            return -1;
         
-        for(int i : nums)
-        {
-            heap.add(i);
-            if(heap.size() > k)
-                heap.poll();
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>((a, b) -> (a - b));
+        
+        for(int i = 0; i < nums.length; i++) {
+            minHeap.offer(nums[i]);
+            if(minHeap.size() > k) {
+                minHeap.poll();
+            }
         }
-        
-        return heap.poll();
+        return minHeap.peek();
 	}
-	
-    public int findKthLargest(int[] nums, int k) {
-        return select(nums, 0, nums.length - 1, k - 1);
-	}
-	
-    private int select(int[] arr, int low, int high, int k)
-	{
-		int pivot = partition(arr, low, high);
-		
-		if (pivot == k)
-			return arr[pivot];
-		else
-		{
-			if (pivot > k)
-				return select(arr, low, pivot - 1, k);
-			else
-				return select(arr, pivot + 1, high, k);
-		}
-        
-    }
-    
-    private int partition(int[] arr, int low, int high)
-	{
-		int pivot = arr[high];
-		int i = low - 1;
-		for(int j = low; j < high; j++)
-		{
-			if(arr[j] > pivot)
-			{
-				i = i + 1;
-				int temp = arr[j];
-				arr[j] = arr[i];
-				arr[i] = temp;
-			}
-		}
-		arr[high] = arr[i+1];
-		arr[i+1] = pivot;
-		return i+1;
-    }
 }
