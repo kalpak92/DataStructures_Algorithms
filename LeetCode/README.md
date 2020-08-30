@@ -94,7 +94,7 @@
 - [x] [Time based Key Value Storage](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/981.%20Time%20based%20Key%20Value%20Storage)
 - [x] [Longest String Chain](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1048.%20Longest%20String%20Chain)
 - [x] [Data Streams as Disjoint Intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/352.%20Data%20Streams%20as%20Disjoint%20Intervals)
-- [x] [Analyze User Website Visit Pattern]()
+- [x] [Analyze User Website Visit Pattern](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1152.%20Analyze%20User%20Website%20Visit%20Pattern)
 
 
 ## Heaps
@@ -106,6 +106,7 @@
 - [x] [Find Median from Data Stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/295.%20Find%20Median%20from%20Data%20Stream)
 - [x] [Find K pairs with the smallest sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/373.%20Find%20K%20Pairs%20with%20Smallest%20Sum)
 - [x] [Kth Smallest Element in a Sorted Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/378.%20Kth%20smallest%20element%20in%20sorted%20matrix)
+- [x] [Reorganize String]()
 
 ## Divide and Conquer
 - [x] [Maximum SubArray](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/53.%20Maximum%20Subarray)
@@ -242,6 +243,8 @@
 
 ## Greedy
 - [x] [Gas Station]()
+- [x] [Reorganize String]()
+
 
 ## DFS
 - [x] [Number of Islands](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/200.%20Number%20of%20Islands)
@@ -251,6 +254,7 @@
 - [x] [Word Search](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/79.%20Word%20Search)
 - [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
 - [x] [Rotten Oranges](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/994.%20Rotten%20Oranges)
+- [x] [Reorganize String]()
 
 ## Dynamic Programming
 - [x] [Fibonacci Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/509.%20Fibonacci%20Number)
