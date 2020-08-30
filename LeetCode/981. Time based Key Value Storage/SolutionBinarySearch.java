@@ -34,23 +34,53 @@
  *     TimeMap.set and TimeMap.get functions will be called a total of 120000 times (combined) per test case.
  */
 
+class Data {
+    String val;
+    int time;
+    
+    Data(String val, int time) {
+        this.val = val;
+        this.time = time;
+    }
+}
+
 class TimeMap {
 
-    Map<String, TreeMap<Integer, String>> cacheMap;
+    /** Initialize your data structure here. */
+    Map<String, List> map;
+    
     public TimeMap() {
-        cacheMap = new HashMap<>();
+        map = new HashMap<>();
     }
     
     public void set(String key, String value, int timestamp) {
-        cacheMap.computeIfAbsent(key, k -> new TreeMap<>()).put(timestamp, value);
+        if (!map.containsKey(key)) 
+            map.put(key, new ArrayList<Data>());
+        
+        map.get(key).add(new Data(value, timestamp));
     }
     
     public String get(String key, int timestamp) {
-        if(!cacheMap.containsKey(key))
+        if (!map.containsKey(key)) 
             return "";
         
-        Map.Entry<Integer,String> resultKey = cacheMap.get(key).floorEntry(timestamp);
-        return (resultKey != null) ? resultKey.getValue() : "";
+        int left = 0;
+        int right = map.get(key).size();
+        List<Data> data = map.get(key);
+        
+        while(left < right) {
+            int mid = left + (right - left)/2;
+            if(data.get(mid).time > timestamp)
+                right = mid;
+            else
+                left = mid + 1;
+        }
+        
+        // data.get(left) would return the first occurrence of "next" value. 
+        // To get the last occurrence we want to previous value hence data.get(left - 1).val.
+        // if(left > 0 and left <= data.size()) is to make sure we are not out of bounds.
+        
+        return left > 0 && left <= data.size() ? data.get(left - 1).val : "";
     }
 }
 
