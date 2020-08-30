@@ -106,7 +106,7 @@
 - [x] [Find Median from Data Stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/295.%20Find%20Median%20from%20Data%20Stream)
 - [x] [Find K pairs with the smallest sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/373.%20Find%20K%20Pairs%20with%20Smallest%20Sum)
 - [x] [Kth Smallest Element in a Sorted Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/378.%20Kth%20smallest%20element%20in%20sorted%20matrix)
-- [x] [Reorganize String]()
+- [x] [Reorganize String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/767.%20Reorganize%20String)
 
 ## Divide and Conquer
 - [x] [Maximum SubArray](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/53.%20Maximum%20Subarray)
@@ -240,10 +240,11 @@
 - [x] [Partition Labels](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/763.%20Partition%20Labels)
 - [x] [Decode String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/394.%20Decode%20String)
 - [x] [Break a Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1328.%20Break%20a%20Palindrome)
+- [x] [Reorganize String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/767.%20Reorganize%20String)
 
 ## Greedy
 - [x] [Gas Station]()
-- [x] [Reorganize String]()
+- [x] [Reorganize String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/767.%20Reorganize%20String)
 
 
 ## DFS
@@ -254,7 +255,6 @@
 - [x] [Word Search](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/79.%20Word%20Search)
 - [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
 - [x] [Rotten Oranges](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/994.%20Rotten%20Oranges)
-- [x] [Reorganize String]()
 
 ## Dynamic Programming
 - [x] [Fibonacci Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/509.%20Fibonacci%20Number)
