@@ -63,6 +63,7 @@
 - [x] [Remove Nth Node from End of list](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/19.%20Remove%20Nth%20Node%20from%20End%20of%20List)
 - [ ] Linked List Components
 - [x] [Flatten a multilevel Double Linked List](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/430.%20Flatten%20a%20Multilevel%20Doubly%20LinkedList)
+- [x] [Sort list]()
 
 ## Stacks and Queues
 - [x] [Min Stack](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/155.%20Min%20Stack)
@@ -111,7 +112,9 @@
 - [x] [Merge k Sorted Lists](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/23.%20Merge%20k%20Sorted%20Lists)
 - [x] [K closest points to origin](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/973.%20K%20closest%20points%20to%20origin)
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
+- [x] [Sort List]()
 - [x] [Count of Smaller Items after Self](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/315.%20Count%20%20of%20Smaller%20Items%20after%20Self)
+
 
 ## Binary Search
 - [x] [Binary Search](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/704.%20Binary%20Search)
