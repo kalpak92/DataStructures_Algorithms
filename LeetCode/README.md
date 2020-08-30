@@ -94,6 +94,8 @@
 - [x] [Time based Key Value Storage](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/981.%20Time%20based%20Key%20Value%20Storage)
 - [x] [Longest String Chain](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1048.%20Longest%20String%20Chain)
 - [x] [Data Streams as Disjoint Intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/352.%20Data%20Streams%20as%20Disjoint%20Intervals)
+- [x] [Analyze User Website Visit Pattern]()
+
 
 ## Heaps
 - [x] [Kth Largest element in a stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/703.%20Kth%20largest%20element%20in%20a%20stream)
