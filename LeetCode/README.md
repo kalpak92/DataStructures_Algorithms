@@ -96,7 +96,7 @@
 - [x] [Data Streams as Disjoint Intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/352.%20Data%20Streams%20as%20Disjoint%20Intervals)
 - [x] [Analyze User Website Visit Pattern](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1152.%20Analyze%20User%20Website%20Visit%20Pattern)
 - [x] [High Five](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1086.%20High%20Five)
-- [x] [Design a LeaderBoard]()
+- [x] [Design a LeaderBoard](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1244.%20Design%20a%20LeaderBoard)
 
 
 ## Heaps
@@ -121,6 +121,7 @@
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
 - [x] [Sort List](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/148.%20Sort%20List)
 - [x] [Count of Smaller Items after Self](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/315.%20Count%20%20of%20Smaller%20Items%20after%20Self)
+- [x] [Maximum Performance of a Team]()
 
 
 ## Binary Search
@@ -157,7 +158,7 @@
 - [x] [Meeting Rooms II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/253.%20Meeting%20Rooms%20II)
 - [x] [Minimum of Arrow to Burst Balloons](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons)
 - [x] [Non-overlapping intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/435.%20Non-overlapping%20intervals)
-
+- [x] [Maximum Performance of a Team]()
 
 ## Sliding Window
 - [x] [Minimum Window Substring](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/76.%20Minimum%20Window%20Substring)
@@ -253,6 +254,7 @@
 - [x] [Gas Station](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/134.%20Gas%20Station)
 - [x] [Reorganize String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/767.%20Reorganize%20String)
 - [x] [ReArrange String k Distance Apart](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/358.%20Rearrange%20String%20k%20Distance%20Apart)
+- [x] [Maximum Performance of a Team]()
 
 ## DFS
 - [x] [Number of Islands](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/200.%20Number%20of%20Islands)
