@@ -62,15 +62,17 @@ class Solution {
             for (int i = 0; i < userData.size(); i++) {
                 for (int j = i + 1; j < userData.size(); j++) {
                     for (int k = j + 1; k < userData.size(); k++) {
-                        String temp = userData.get(i).website + " " + userData.get(j).website + " " + userData.get(k).website;
+                        String temp = userData.get(i).website + " " + userData.get(j).website + " " + 
+                                        userData.get(k).website;
                         
                         if (!set.contains(temp)) {
                             count.put(temp, count.getOrDefault(temp, 0) + 1);
                             set.add(temp);
                         }
                         
-                        if (result.equals("") || count.get(result) < count.get(temp) || (count.get(result) == count.get(temp) && result.compareTo(temp) > 0)) {
-                            // make sure the right lexi order
+                        if (result.equals("") || count.get(result) < count.get(temp) || 
+                                (count.get(result) == count.get(temp) && result.compareTo(temp) > 0)) {
+                            // make sure of the right lexicographic  order
                             result = temp;
                         }
                     }
