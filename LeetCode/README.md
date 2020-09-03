@@ -95,7 +95,7 @@
 - [x] [Longest String Chain](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1048.%20Longest%20String%20Chain)
 - [x] [Data Streams as Disjoint Intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/352.%20Data%20Streams%20as%20Disjoint%20Intervals)
 - [x] [Analyze User Website Visit Pattern](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1152.%20Analyze%20User%20Website%20Visit%20Pattern)
-- [x] [High Five]()
+- [x] [High Five](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1086.%20High%20Five)
 
 
 ## Heaps

@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 /**
  * Given a list of scores of different students, return the average score of each student's top five scores in the order of each student's id.
  * Each entry items[i] has items[i][0] the student's id, and items[i][1] the student's score.  
@@ -20,7 +22,7 @@
 
 class Solution {
     public int[][] highFive(int[][] items) {
-        Map<Integer, PriorityQueue<Integer>> map = new TreeMap<>();
+        Map<Integer, PriorityQueue<Integer>> map = new HashMap()<>();
         
         for(int[] i : items) {
             int studentId = i[0];
