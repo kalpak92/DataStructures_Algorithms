@@ -95,6 +95,7 @@
 - [x] [Longest String Chain](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1048.%20Longest%20String%20Chain)
 - [x] [Data Streams as Disjoint Intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/352.%20Data%20Streams%20as%20Disjoint%20Intervals)
 - [x] [Analyze User Website Visit Pattern](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1152.%20Analyze%20User%20Website%20Visit%20Pattern)
+- [x] [High Five]()
 
 
 ## Heaps
@@ -149,7 +150,7 @@
 
 ## Sorting
 - [x] [Sort Colors](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/75.%20Sort%20Colors)
-- [x] [Largest Number]()
+- [x] [Largest Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/179.%20Largest%20Number)
 - [x] [Meeting Rooms](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/252.%20Meeting%20Rooms)
 - [x] [Merge Intervals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/56.%20Merge%20Intervals)
 - [x] [Meeting Rooms II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/253.%20Meeting%20Rooms%20II)
