@@ -305,7 +305,7 @@
 - [x] [Unique Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/96.%20Unique%20Binary%20Search%20Trees)
 - [x] [Frog Jump](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/403.%20Frog%20Jump)
 - [x] [Longest String Chain](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1048.%20Longest%20String%20Chain)
-- [x] [Distinct Subsequences]()
+- [x] [Distinct Subsequences](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/115.%20Distinct%20Subsequences)
 
 ## Backtracking
 - [x] [Subsets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/78.%20Subsets)
