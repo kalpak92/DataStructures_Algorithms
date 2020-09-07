@@ -264,7 +264,7 @@
 - [x] [Word Search](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/79.%20Word%20Search)
 - [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
 - [x] [Rotten Oranges](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/994.%20Rotten%20Oranges)
-- [x] [Minesweeper]()
+- [x] [Minesweeper](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/529.%20Minesweeper)
 
 ## Dynamic Programming
 - [x] [Fibonacci Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/509.%20Fibonacci%20Number)
@@ -305,6 +305,7 @@
 - [x] [Unique Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/96.%20Unique%20Binary%20Search%20Trees)
 - [x] [Frog Jump](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/403.%20Frog%20Jump)
 - [x] [Longest String Chain](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1048.%20Longest%20String%20Chain)
+- [x] [Distinct Subsequences]()
 
 ## Backtracking
 - [x] [Subsets](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/78.%20Subsets)
