@@ -264,6 +264,7 @@
 - [x] [Word Search](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/79.%20Word%20Search)
 - [x] [Word Search II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/212.%20Word%20Search%20II)
 - [x] [Rotten Oranges](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/994.%20Rotten%20Oranges)
+- [x] [Minesweeper]()
 
 ## Dynamic Programming
 - [x] [Fibonacci Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/509.%20Fibonacci%20Number)
