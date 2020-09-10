@@ -41,6 +41,10 @@
 - [x] [Trapping Rain Water](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/42.%20Trapping%20Rain%20Water)
 - [x] [Task Scheduler](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/621.%20Task%20Scheduler)
 
+## Prefix Sum
+
+- [x] [Subarray Sum Equals K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/560.%20SubArray%20Sum%20equals%20K)
+- [x] [Subarray Sums divisible by K]()
 
 
 ## Linked List

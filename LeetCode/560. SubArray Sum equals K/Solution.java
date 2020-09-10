@@ -18,9 +18,10 @@ class Solution {
         
         // Remember the frequency of all prefix sums.
         // runningSum to keep track of sum of all the elements so far. 
-        // If we can find a prefix sum in the map for sum-k, 
-        //  it means we can form sum == k using the elements after the element corresponding to             that prefix sum till the current element (included). 
-        //Count all such sums at each element.
+        // If we can find a prefix sum in the map for runningSum - k, 
+        // it means we can form runningSum == k using the elements
+        
+        // Count all such sums at each element.
         
         Map<Integer, Integer> prefixSumFreq = new HashMap<>();
         
