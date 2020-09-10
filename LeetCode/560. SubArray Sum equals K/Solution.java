@@ -13,28 +13,27 @@
 
 class Solution {
     public int subarraySum(int[] nums, int k) {
-        int result = 0;
+        int[] prefixSum = new int[nums.length + 1];
         int runningSum = 0;
         
-        // Remember the frequency of all prefix sums.
-        // runningSum to keep track of sum of all the elements so far. 
-        // If we can find a prefix sum in the map for runningSum - k, 
-        // it means we can form runningSum == k using the elements
+        for(int i = 0; i < nums.length; i++) {
+            runningSum += nums[i];
+            prefixSum[i + 1] = runningSum;
+        }
         
-        // Count all such sums at each element.
+        // Now the problem becomes find two items from this prefixSum array 
+        // such that prefixSum[j] - prefixSum[i] = k (similar to two sum)
         
-        Map<Integer, Integer> prefixSumFreq = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<>();
+        int result = 0;
         
-        prefixSumFreq.put(0, 1);
-        
-        for(int i = 0; i < nums.length; i++)
-        {
-            runningSum += nums[i];                      // prefix sum
+        for(int i = 0; i < prefixSum.length; i++) {
+            if(map.containsKey(prefixSum[i])) {
+                result += map.get(prefixSum[i]);
+            }
             
-            if(prefixSumFreq.containsKey(runningSum - k))
-                result += prefixSumFreq.get(runningSum - k);
-            
-            prefixSumFreq.put(runningSum, prefixSumFreq.getOrDefault(runningSum, 0) + 1);
+            int target = k + prefixSum[i];
+            map.put(target, map.getOrDefault(target, 0) + 1);
         }
         return result;
     }

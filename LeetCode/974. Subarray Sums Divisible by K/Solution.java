@@ -48,6 +48,11 @@
 
 class Solution {
     public int subarraysDivByK(int[] A, int K) {
+        /**
+         * There K mod groups 0...K-1
+         * For each prefix sum that does not have remainder 0 it needs to be paired with 1 with the same remainder
+         * this is so that the remainders cancel out.
+         */
         int[] modFrequency = new int[K];
         int result = 0;
         int runningSum = 0;
@@ -55,7 +60,7 @@ class Solution {
         for(int i : A) {
             runningSum += i;
             
-            int rem = runningSum % K;
+            int rem = runningSum % K;   // Java has negative remainders
             if(rem < 0) {
                 rem += K;
             }    
@@ -66,6 +71,6 @@ class Solution {
                 result += mod*(mod - 1)/2;
             }
         }
-        return result + modFrequency[0];        
+        return result + modFrequency[0];    // including all numbers that divide K  
     }
 }
