@@ -11,30 +11,28 @@
  * Could you solve it with constant space complexity? (The output array does not count as extra space for the purpose of space complexity analysis.)
  */
 
-// The trick is to construct the arrays (in the case for 4 elements)
-
-// {              1,         a[0],    a[0]*a[1],    a[0]*a[1]*a[2],  }
-// { a[1]*a[2]*a[3],    a[2]*a[3],         a[3],                 1,  }
-
-// Both of which can be done in O(n) by starting at the left and right edges respectively.
-
-// Then multiplying the two arrays element by element gives the required result
-
 class Solution {
     public int[] productExceptSelf(int[] nums) {
-        int[] l  = new int[nums.length];
-        int[] r = new int[nums.length];
+        int[] leftRunningProduct = new int[nums.length];
+        int[] rightRunningProduct = new int[nums.length];
         
-        l[0] = 1;
-        for(int i = 1; i < nums.length; i++)
-            l[i] = l[i-1] * nums[i-1];
+        leftRunningProduct[0] = 1;
+        rightRunningProduct[nums.length - 1] = 1;
         
-        r[nums.length - 1] = 1;
-        for(int i = nums.length - 2; i >= 0; i--)
-            r[i] = r[i+1]*nums[i+1];
+        /**
+         * {              1,         a[0],    a[0]*a[1],    a[0]*a[1]*a[2],  }
+         * { a[1]*a[2]*a[3],    a[2]*a[3],         a[3],                 1,  }
+         */
+        for(int i = 1; i < nums.length; i++) {
+            leftRunningProduct[i] = leftRunningProduct[i - 1] * nums[i - 1];
+        }
+        
+        for(int j = nums.length - 2; j >= 0; j--) {
+            rightRunningProduct[j] = rightRunningProduct[j + 1] * nums[j + 1];
+        }
         
         for(int i = 0; i < nums.length; i++)
-            nums[i] = l[i] * r[i];
+            nums[i] = leftRunningProduct[i] * rightRunningProduct[i];
         
         return nums;
     }
