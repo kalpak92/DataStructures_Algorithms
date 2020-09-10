@@ -43,7 +43,7 @@
 
 ## Prefix Sum
 
-- [x] [Find Pivot Index]()
+- [x] [Find Pivot Index](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/724.%20Find%20Pivot%20Index)
 - [x] [Subarray Sum Equals K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/560.%20SubArray%20Sum%20equals%20K)
 - [x] [Subarray Sums divisible by K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/974.%20Subarray%20Sums%20Divisible%20by%20K)
 - [x] [Continuous Subarray Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/523.%20Continuous%20Subarray%20Sum)
