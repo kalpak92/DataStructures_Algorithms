@@ -92,6 +92,7 @@
 ## HashMaps
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
 - [x] [Palindrome Permutation](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/266.%20Palindrome%20Permutation)
+- [x] [Verifying an Alien Dictionary]()
 - [x] [Intersection of Two Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/349.%20Intersection%20of%20Two%20Arrays)
 - [x] [Intersection of Two Arrays II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/350.%20Intersection%20of%20Two%20Arrays%20II)
 - [x] [Repeated DNA Sequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/187.%20Repeated%20DNA%20Sequence)
@@ -105,7 +106,7 @@
 - [x] [Analyze User Website Visit Pattern](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1152.%20Analyze%20User%20Website%20Visit%20Pattern)
 - [x] [High Five](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1086.%20High%20Five)
 - [x] [Design a LeaderBoard](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1244.%20Design%20a%20LeaderBoard)
-- [x] [Two Sum III - Data Structure Design]()
+- [x] [Two Sum III - Data Structure Design](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/170.%20Two%20Sum%20III%20-%20Data%20Structure%20Design)
 
 ## Heaps
 - [x] [Kth Largest element in a stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/703.%20Kth%20largest%20element%20in%20a%20stream)
