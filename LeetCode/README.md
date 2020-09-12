@@ -94,7 +94,7 @@
 - [x] [Palindrome Permutation](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/266.%20Palindrome%20Permutation)
 - [x] [Intersection of Two Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/349.%20Intersection%20of%20Two%20Arrays)
 - [x] [Intersection of Two Arrays II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/350.%20Intersection%20of%20Two%20Arrays%20II)
-- [x] [Repeated DNA Sequence]()
+- [x] [Repeated DNA Sequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/187.%20Repeated%20DNA%20Sequence)
 - [x] [LRU Cache](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/146.%20LRU%20Cache)
 - [x] [Group Anagrams](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/49.%20Group%20Anagrams)
 - [x] [Insert Delete GetRandom in O(1)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/380.%20Insert%20Delete%20GetRandom%20O(1))
