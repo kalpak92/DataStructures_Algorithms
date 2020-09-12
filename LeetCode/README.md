@@ -105,7 +105,7 @@
 - [x] [Analyze User Website Visit Pattern](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1152.%20Analyze%20User%20Website%20Visit%20Pattern)
 - [x] [High Five](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1086.%20High%20Five)
 - [x] [Design a LeaderBoard](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1244.%20Design%20a%20LeaderBoard)
-
+- [x] [Two Sum III - Data Structure Design]()
 
 ## Heaps
 - [x] [Kth Largest element in a stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/703.%20Kth%20largest%20element%20in%20a%20stream)
