@@ -27,28 +27,25 @@
 
 class Solution {
     public List<String> topKFrequent(String[] words, int k) {
-        HashMap<String, Integer> count = new HashMap<>();
-        
-        for(String w : words)
-            count.put(w, count.getOrDefault(w, 0) + 1);
-        
-        PriorityQueue<String> heap = new PriorityQueue<String>(
-                                        (w1, w2) -> count.get(w1).equals(count.get(w2)) 
-                                        ? w2.compareTo(w1) : count.get(w1) - count.get(w2));
-        
-        for(String word : count.keySet())
-        {
-            heap.offer(word);
-            
-            if(heap.size() > k)
-                heap.poll();
-        }
-        
+        Map<String, Integer> wordFrequency = new HashMap<>();
+        PriorityQueue<String> pq = new PriorityQueue<>((word1, word2) -> 
+                                                        wordFrequency.get(word1).equals(wordFrequency.get(word2)) ? 
+                                                        word2.compareTo(word1) : wordFrequency.get(word1) - wordFrequency.get(word2));
         List<String> result = new ArrayList<>();
         
-        while(!heap.isEmpty())
-        {
-            result.add(0, heap.poll());
+        for(String word : words) {
+            wordFrequency.put(word, wordFrequency.getOrDefault(word, 0) + 1);
+        }
+        
+        for(String word : wordFrequency.keySet()) {
+            pq.offer(word);
+            
+            if(pq.size() > k)
+                pq.poll();
+        }
+        
+        while(!pq.isEmpty()) {
+            result.add(0, pq.poll());
         }
         
         return result;
