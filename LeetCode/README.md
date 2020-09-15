@@ -90,6 +90,7 @@
 
 
 ## HashMaps
+- [x] [Design HashMap]()
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
 - [x] [Palindrome Permutation](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/266.%20Palindrome%20Permutation)
 - [x] [Verifying an Alien Dictionary](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/953.%20Verifying%20An%20Alien%20Dictionary)
