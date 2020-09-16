@@ -14,28 +14,22 @@
  * Output: true
  * 
  */
-import java.util.*;
+
 
 class Solution {
     public boolean canPermutePalindrome(String s) {
-        Set<Character> set = new HashSet<>();
-        for (char c : s.toCharArray())
-        {
-            if (set.contains(c))
-                set.remove(c);
-            else
-                set.add(c);
+        Set<Character> uniqueCharacter = new HashSet<>();
+        
+        for(int i = 0; i < s.length(); i++) {
+            if(uniqueCharacter.contains(s.charAt(i)))
+                uniqueCharacter.remove(s.charAt(i));
+            else {
+                uniqueCharacter.add(s.charAt(i));
+            }
         }
-            if (set.size() < 2)
-                return true;
-            else
-                return false;
-    }
-
-    public static void main(String args[])
-    {
-        Solution s = new Solution();
-        System.out.println(s.canPermutePalindrome("abccccdde"));
-        System.out.println(s.canPermutePalindrome("a"));
+        
+        if(uniqueCharacter.size() > 1)
+            return false;
+        return true;
     }
 }
