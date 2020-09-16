@@ -92,7 +92,8 @@
 ## HashMaps
 - [x] [Design HashMap](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/706.%20Design%20Hashmap)
 - [x] [Encode and Decode TinyURL](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/535.%20Encode%20and%20Decode%20TinyURL)
-- [x] [Logger Rate Limiter]()
+- [x] [Logger Rate Limiter](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/359.%20Logger%20Rate%20Limiter)
+- [x] [First Unique character in a string]()
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
 - [x] [Palindrome Permutation](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/266.%20Palindrome%20Permutation)
 - [x] [Verifying an Alien Dictionary](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/953.%20Verifying%20An%20Alien%20Dictionary)
