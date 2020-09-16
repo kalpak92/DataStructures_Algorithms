@@ -90,7 +90,8 @@
 
 
 ## HashMaps
-- [x] [Design HashMap]()
+- [x] [Design HashMap](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/706.%20Design%20Hashmap)
+- [x] [Encode and Decode TinyURL]()
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
 - [x] [Palindrome Permutation](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/266.%20Palindrome%20Permutation)
 - [x] [Verifying an Alien Dictionary](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/953.%20Verifying%20An%20Alien%20Dictionary)
