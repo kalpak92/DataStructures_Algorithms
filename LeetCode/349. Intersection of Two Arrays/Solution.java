@@ -15,33 +15,27 @@
  * The result can be in any order.
  */
 
- class Solution {
-    public int[] intersection(int[] nums1, int[] nums2) 
-    {        
-        Set<Integer> set = new HashSet<>();
-        Set<Integer> intersect = new HashSet<>();
+class Solution {
+    public int[] intersection(int[] nums1, int[] nums2) {
+        Set<Integer> uniqueElements = new HashSet<>();
+        List<Integer> common = new ArrayList<>();
         
-        for (int i = 0; i < nums1.length; i++) 
-        {
-            set.add(nums1[i]);
+        for(int i : nums1) {
+            uniqueElements.add(i);
         }
-
-        for (int i = 0; i < nums2.length; i++) 
-        {
-            if (set.contains(nums2[i])) 
-            {
-                intersect.add(nums2[i]);
+        
+        for(int i : nums2) {
+            if(uniqueElements.contains(i)) {
+                if(!common.contains(i))
+                    common.add(i);
             }
         }
-
-        int[] result = new int[intersect.size()];
         
-        int i = 0;
-        for (Integer num : intersect) 
-        {
-            result[i++] = num;
+        int[] result = new int[common.size()];
+        int idx = 0;
+        for(int i : common) {
+            result[idx++] = i;
         }
-        
         return result;
     }
 }

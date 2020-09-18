@@ -20,8 +20,7 @@
  * What if elements of nums2 are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?
  */
 
-
- class Solution {
+class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         HashMap<Integer, Integer> map = new HashMap<>();
         
@@ -34,24 +33,27 @@
         // if a match is found, decrease the count in the hashmap
         // if the count becomes 0, remove that element.
         
-        ArrayList<Integer> result = new ArrayList<>();
+        ArrayList<Integer> common = new ArrayList<>();
         
         for (int num : nums2)
         {
             if(map.containsKey(num))
             {
-                result.add(num); // add the element to the result since it is present in the other set
+                common.add(num); // add the element to the result since it is present in the other set
                 map.put(num, map.get(num) - 1); // decrement the frequency of the occuring number in the hashmap
-                map.remove(num, 0); // remove the entry from the hasmap if the frequency of the number becomes zero.
+
+                // remove(Object key, Object value)
+                // Removes the entry for the specified key only if it is currently mapped to the specified value.
+                map.remove(num, 0); 
             }
         }
         
         // convert the result to the asked datatype
-        int[] r = new int[result.size()];
-        int id = 0;
-        for(int i : result)
-            r[id++] = i;
+        int[] result = new int[common.size()];
+        int idx = 0;
+        for(int i : common)
+            result[idx++] = i;
         
-        return r;
+        return result;
     }
 }
