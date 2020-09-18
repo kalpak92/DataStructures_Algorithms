@@ -100,6 +100,8 @@
 - [x] [Intersection of Two Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/349.%20Intersection%20of%20Two%20Arrays)
 - [x] [Intersection of Two Arrays II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/350.%20Intersection%20of%20Two%20Arrays%20II)
 - [x] [Repeated DNA Sequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/187.%20Repeated%20DNA%20Sequence)
+- [x] [Sort Characters By Frequency](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/451.%20Sort%20Characters%20by%20Frequency)
+- [x] [Fraction to Recurring Decimals]()
 - [x] [LRU Cache](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/146.%20LRU%20Cache)
 - [x] [Group Anagrams](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/49.%20Group%20Anagrams)
 - [x] [Insert Delete GetRandom in O(1)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/380.%20Insert%20Delete%20GetRandom%20O(1))
@@ -123,7 +125,7 @@
 - [x] [Kth Smallest Element in a Sorted Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/378.%20Kth%20smallest%20element%20in%20sorted%20matrix)
 - [x] [Reorganize String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/767.%20Reorganize%20String)
 - [x] [ReArrange String k Distance Apart](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/358.%20Rearrange%20String%20k%20Distance%20Apart)
-- [x] [Sort Characters By Frequency]()
+- [x] [Sort Characters By Frequency](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/451.%20Sort%20Characters%20by%20Frequency)
 
 ## Divide and Conquer
 - [x] [Maximum SubArray](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/53.%20Maximum%20Subarray)
