@@ -3,6 +3,7 @@
 ## Arrays
 - [x] [Fizz Buzz](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/412.%20Fizz%20Buzz)
 - [x] [Two Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1.%20Two%20Sum)
+- [x] [4 Sum]()
 - [x] [Subarray Sum Equals K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/560.%20SubArray%20Sum%20equals%20K)
 - [x] [Subarray Product less than K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/713.%20Subarray%20Product%20less%20than%20K)
 - [x] [Degree of an Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/697.%20Degree%20of%20an%20Array)
@@ -101,7 +102,7 @@
 - [x] [Intersection of Two Arrays II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/350.%20Intersection%20of%20Two%20Arrays%20II)
 - [x] [Repeated DNA Sequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/187.%20Repeated%20DNA%20Sequence)
 - [x] [Sort Characters By Frequency](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/451.%20Sort%20Characters%20by%20Frequency)
-- [x] [Fraction to Recurring Decimals]()
+- [x] [Fraction to Recurring Decimals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/166.%20Fraction%20to%20Recurring%20Decimal)
 - [x] [LRU Cache](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/146.%20LRU%20Cache)
 - [x] [Group Anagrams](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/49.%20Group%20Anagrams)
 - [x] [Insert Delete GetRandom in O(1)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/380.%20Insert%20Delete%20GetRandom%20O(1))
