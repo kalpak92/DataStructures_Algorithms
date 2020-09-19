@@ -3,7 +3,7 @@
 ## Arrays
 - [x] [Fizz Buzz](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/412.%20Fizz%20Buzz)
 - [x] [Two Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1.%20Two%20Sum)
-- [x] [4 Sum]()
+- [x] [4 Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/18.%204%20Sum)
 - [x] [Subarray Sum Equals K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/560.%20SubArray%20Sum%20equals%20K)
 - [x] [Subarray Product less than K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/713.%20Subarray%20Product%20less%20than%20K)
 - [x] [Degree of an Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/697.%20Degree%20of%20an%20Array)
