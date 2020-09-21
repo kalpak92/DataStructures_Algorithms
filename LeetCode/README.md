@@ -77,7 +77,7 @@
 ## Stacks and Queues
 - [x] [Min Stack](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/155.%20Min%20Stack)
 - [x] [Binary Search Tree Iterator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/173.%20Binary%20Search%20Tree%20Iterator)
-- [x] Daily Temperatures()
+- [x] [Daily Temperatures](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/739.%20Daily%20Temperatures)
 - [ ] Decode String
 - [x] [Exclusive Time of Functions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/636.%20Exclusive%20Time%20of%20Functions)
 - [ ] Flatten Nested List Iterator
