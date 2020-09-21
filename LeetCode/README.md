@@ -49,8 +49,8 @@
 - [x] [Subarray Sum Equals K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/560.%20SubArray%20Sum%20equals%20K)
 - [x] [Subarray Sums divisible by K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/974.%20Subarray%20Sums%20Divisible%20by%20K)
 - [x] [Continuous Subarray Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/523.%20Continuous%20Subarray%20Sum)
-- [x] [Contiguous array]()
-
+- [x] [Contiguous array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/525.%20Contiguous%20Array)
+- [x] [Maximum Size Subarray Sum Equals K]()
 
 ## Linked List
 
@@ -116,6 +116,8 @@
 - [x] [High Five](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1086.%20High%20Five)
 - [x] [Design a LeaderBoard](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1244.%20Design%20a%20LeaderBoard)
 - [x] [Two Sum III - Data Structure Design](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/170.%20Two%20Sum%20III%20-%20Data%20Structure%20Design)
+- [x] [Maximum Size Subarray Sum Equals K]()
+- [x] [Contiguous array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/525.%20Contiguous%20Array)
 
 ## Heaps
 - [x] [Kth Largest element in a stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/703.%20Kth%20largest%20element%20in%20a%20stream)
