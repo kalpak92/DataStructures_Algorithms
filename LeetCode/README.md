@@ -100,6 +100,7 @@
 - [x] [Verifying an Alien Dictionary](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/953.%20Verifying%20An%20Alien%20Dictionary)
 - [x] [Intersection of Two Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/349.%20Intersection%20of%20Two%20Arrays)
 - [x] [Intersection of Two Arrays II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/350.%20Intersection%20of%20Two%20Arrays%20II)
+- [x] [Jewels and Stones]()
 - [x] [Repeated DNA Sequence](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/187.%20Repeated%20DNA%20Sequence)
 - [x] [Sort Characters By Frequency](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/451.%20Sort%20Characters%20by%20Frequency)
 - [x] [Fraction to Recurring Decimals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/166.%20Fraction%20to%20Recurring%20Decimal)
