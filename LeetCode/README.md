@@ -98,6 +98,7 @@
 - [x] [Logger Rate Limiter](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/359.%20Logger%20Rate%20Limiter)
 - [x] [First Unique character in a string](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/387.%20First%20Unique%20Character%20in%20a%20String)
 - [x] [Contains Duplicate](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/217.%20Contains%20Duplicate)
+- [x] [Isomorphic Strings]()
 - [x] [Longest Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/409.%20Longest%20Palindrome)
 - [x] [Palindrome Permutation](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/266.%20Palindrome%20Permutation)
 - [x] [Verifying an Alien Dictionary](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/953.%20Verifying%20An%20Alien%20Dictionary)
