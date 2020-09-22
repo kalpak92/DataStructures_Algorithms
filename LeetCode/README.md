@@ -93,7 +93,7 @@
 
 ## HashMaps
 - [x] [Design HashMap](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/706.%20Design%20Hashmap)
-- [x] [Design HashSet]()
+- [x] [Design HashSet](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/705.%20Design%20HashSet)
 - [x] [Encode and Decode TinyURL](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/535.%20Encode%20and%20Decode%20TinyURL)
 - [x] [Logger Rate Limiter](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/359.%20Logger%20Rate%20Limiter)
 - [x] [First Unique character in a string](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/387.%20First%20Unique%20Character%20in%20a%20String)
