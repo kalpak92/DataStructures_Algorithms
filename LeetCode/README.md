@@ -122,8 +122,8 @@
 - [x] [Two Sum III - Data Structure Design](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/170.%20Two%20Sum%20III%20-%20Data%20Structure%20Design)
 - [x] [Contiguous array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/525.%20Contiguous%20Array)
 - [x] [Maximum Size Subarray Sum Equals K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/325.%20Maximum%20Size%20Subarray%20Sum%20equals%20K)
-- [x] [Minimum Area Rectangle]()
-
+- [x] [Minimum Area Rectangle](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/939.%20Minimum%20Area%20Rectangle)
+- [x] [Minimum Index Sum of Two Lists]()
 
 ## Heaps
 - [x] [Kth Largest element in a stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/703.%20Kth%20largest%20element%20in%20a%20stream)
