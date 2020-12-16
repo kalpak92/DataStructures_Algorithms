@@ -123,7 +123,8 @@
 - [x] [Contiguous array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/525.%20Contiguous%20Array)
 - [x] [Maximum Size Subarray Sum Equals K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/325.%20Maximum%20Size%20Subarray%20Sum%20equals%20K)
 - [x] [Minimum Area Rectangle](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/939.%20Minimum%20Area%20Rectangle)
-- [x] [Minimum Index Sum of Two Lists]()
+- [x] [Minimum Index Sum of Two Lists](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/599.%20Minimum%20Index%20Sum%20of%20Two%20Lists)
+
 
 ## Heaps
 - [x] [Kth Largest element in a stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/703.%20Kth%20largest%20element%20in%20a%20stream)
@@ -350,6 +351,7 @@
 ## Mathematics
 - [x] [Pow(x, n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/50.%20Pow(x%2C%20n))
 - [x] [Sqrt(x)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/69.%20Sqrt(x))
+= [x] [Reverse Integer]()
 - [x] [Happy Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/202.%20Happy%20Number)
 - [x] [Ugly Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/263.%20Ugly%20Number)
 - [x] [Divide Two Integers](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/29.%20Divide%20two%20integers)
