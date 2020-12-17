@@ -353,7 +353,7 @@
 - [x] [Pow(x, n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/50.%20Pow(x%2C%20n))
 - [x] [Sqrt(x)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/69.%20Sqrt(x))
 - [x] [Bitwise AND of Number Range](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/201.%20Bitwise%20AND%20of%20Number%20Range)
-= [x] [Reverse Integer](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/7.%20Reverse%20Integer)
+- [x] [Reverse Integer](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/7.%20Reverse%20Integer)
 - [x] [Happy Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/202.%20Happy%20Number)
 - [x] [Roman to Integer](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/13.%20Roman%20to%20Integer)
 - [x] [Ugly Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/263.%20Ugly%20Number)
