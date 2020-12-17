@@ -248,6 +248,7 @@
 
 ## Strings
 - [x] [Reverse String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/344.%20Reverse%20String)
+- [x] [ZigZag Conversion]()
 - [x] [Longest Common Prefix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/14.%20Longest%20Common%20Prefix)
 - [x] [Valid Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/125.%20Valid%20Palindrome)
 - [x] [Valid Palindrome II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/680.%20Valid%20Palindrome%20II)
@@ -358,7 +359,7 @@
 - [x] [Divide Two Integers](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/29.%20Divide%20two%20integers)
 - [x] [Integer to English Words](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/273.%20Integer%20to%20English%20Words)
 - [x] [String to Integer (atoi)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/8.%20String%20to%20Integer%20(atoi))
-- [x] [Nim Game]()
+- [x] [Nim Game](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/292.%20Nim%20Game)
 - [x] [Basic Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/224.%20Basic%20Calculator)
 - [x] [Basic Calculator II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/227.%20Basic%20Calculator%20II)
 - [x] [Broken Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/991.%20Broken%20Calculator)
