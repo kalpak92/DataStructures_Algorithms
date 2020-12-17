@@ -248,7 +248,7 @@
 
 ## Strings
 - [x] [Reverse String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/344.%20Reverse%20String)
-- [x] [ZigZag Conversion]()
+- [x] [ZigZag Conversion](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/6.%20ZigZag%20Conversion)
 - [x] [Longest Common Prefix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/14.%20Longest%20Common%20Prefix)
 - [x] [Valid Palindrome](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/125.%20Valid%20Palindrome)
 - [x] [Valid Palindrome II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/680.%20Valid%20Palindrome%20II)
@@ -352,6 +352,7 @@
 ## Mathematics
 - [x] [Pow(x, n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/50.%20Pow(x%2C%20n))
 - [x] [Sqrt(x)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/69.%20Sqrt(x))
+- [x] [Bitwise AND of Number Range]()
 = [x] [Reverse Integer](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/7.%20Reverse%20Integer)
 - [x] [Happy Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/202.%20Happy%20Number)
 - [x] [Roman to Integer](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/13.%20Roman%20to%20Integer)
