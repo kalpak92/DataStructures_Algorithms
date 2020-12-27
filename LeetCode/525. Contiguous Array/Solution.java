@@ -16,28 +16,25 @@
 
 class Solution {
     public int findMaxLength(int[] nums) {
-        Map<Integer, Integer> sumIndex = new HashMap<>();
         int sum = 0;
         int result = 0;
+        // To find the maximum length, we need a dict to store the value of count (as the key) and its associated index (as the value). 
+        // We only need to save a count value and its index at the first time, when the same count values appear again, 
+        // we use the new index subtracting the old index to calculate the length of a subarray. 
+        // A variable max_length is used to to keep track of the current maximum length.
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(0, -1);
         
         for(int i = 0; i < nums.length; i++) {
             if(nums[i] == 0)
-                nums[i] = -1;
-        }
-        
-        // for the arr [-1,1], 
-        // when entering the loop, when i=1, sum =-1+1=0. 
-        // The length is i- (-1) -> 1-(-1) = 2. 
-        // So put(0,-1) is needed.
-        
-        // It means that, before we loop this array, the sum is 0 in initial, and because we haven't starting loop, so the index = -1.
-        sumIndex.put(0, -1);
-        for(int i = 0; i < nums.length; i++) {
-            sum += nums[i];
-            if(sumIndex.containsKey(sum))
-                result = Math.max(result, i - sumIndex.get(sum));
+                sum++;
             else
-                sumIndex.put(sum, i);
+                sum--;
+            
+            if(map.containsKey(sum))
+                result = Math.max(result, i - map.get(sum));
+            else
+                map.put(sum, i);
         }
         return result;
     }
