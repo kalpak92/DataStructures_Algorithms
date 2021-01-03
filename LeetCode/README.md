@@ -51,6 +51,7 @@
 - [x] [Continuous Subarray Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/523.%20Continuous%20Subarray%20Sum)
 - [x] [Contiguous array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/525.%20Contiguous%20Array)
 - [x] [Maximum Size Subarray Sum Equals K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/325.%20Maximum%20Size%20Subarray%20Sum%20equals%20K)
+- [x] [Shortest Unsorted Contiguous Subarray]()
 
 ## Linked List
 

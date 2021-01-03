@@ -14,24 +14,20 @@
 
 class Solution {
     public int minSubArrayLen(int s, int[] nums) {
-        if(nums == null)
+        if(nums == null || nums.length == 0)
             return 0;
         
         int result = Integer.MAX_VALUE;
-        int runningSum = 0;
-        int window = 0;
-        
-        for(int i = 0, j = 0;j < nums.length; j++) { // j is the fast pointer, i is the slower pointer
-            runningSum += nums[j];
-            window++;
+        int windowSum = 0;
+        for(int i = 0, j = 0; j < nums.length; j++) {
+            windowSum += nums[j];
             
-            while(runningSum >= s) {
-                result = Math.min(result,window);// update global ans.
-                window--;
-                runningSum -= nums[i];
-                i++; // move the slower pointer forward and decrease the related nums[j], at the same time window will be decreased by 1.
+            while(windowSum >= s) {
+                result = Math.min(result, j - i + 1);
+                windowSum -= nums[i];
+                i++;
             }
         }
-        return (result == Integer.MAX_VALUE) ? 0: result;
+        return result == Integer.MAX_VALUE ? 0 : result;
     }
 }
