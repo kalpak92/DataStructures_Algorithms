@@ -51,7 +51,7 @@
 - [x] [Continuous Subarray Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/523.%20Continuous%20Subarray%20Sum)
 - [x] [Contiguous array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/525.%20Contiguous%20Array)
 - [x] [Maximum Size Subarray Sum Equals K](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/325.%20Maximum%20Size%20Subarray%20Sum%20equals%20K)
-- [x] [Shortest Unsorted Contiguous Subarray]()
+- [x] [Shortest Unsorted Contiguous Subarray](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/581.%20Shortest%20Unsorted%20Contiguous%20Subarray)
 
 ## Linked List
 
@@ -79,6 +79,7 @@
 - [x] [Min Stack](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/155.%20Min%20Stack)
 - [x] [Binary Search Tree Iterator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/173.%20Binary%20Search%20Tree%20Iterator)
 - [x] [Daily Temperatures](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/739.%20Daily%20Temperatures)
+- [x] [Next Greater Element 1]()
 - [ ] Decode String
 - [x] [Exclusive Time of Functions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/636.%20Exclusive%20Time%20of%20Functions)
 - [ ] Flatten Nested List Iterator
