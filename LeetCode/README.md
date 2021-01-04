@@ -80,7 +80,8 @@
 - [x] [Binary Search Tree Iterator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/173.%20Binary%20Search%20Tree%20Iterator)
 - [x] [Daily Temperatures](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/739.%20Daily%20Temperatures)
 - [x] [Next Greater Element 1](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/496.%20Next%20Greater%20Element%201)
-- [x] [Next Greater Element 2]()
+- [x] [Next Greater Element 2](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/503.%20Next%20Greater%20Element%20II)
+- [x] [Next Greater Element 3]()
 - [ ] Decode String
 - [x] [Exclusive Time of Functions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/636.%20Exclusive%20Time%20of%20Functions)
 - [ ] Flatten Nested List Iterator
