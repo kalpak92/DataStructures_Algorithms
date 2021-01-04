@@ -20,27 +20,27 @@
  */
 
  /**
-  * ALGORITHM:  We can start from either side but I think starting from the right allow us to finish in a single pass. 
-                The idea is to start from end and search for valid (s2,s3) pairs, we just need to remember the largest valid s3 value, using a stack will be effective for this purpose. 
-                A number becomes a candidate for s3 if there is any number on the left bigger than it.
+  * ALGORITHM
+  
+  - Create a stack and initialize a variable second with INT_MIN value.
+  - Start traversing from the end of array.
+  - Check if the current number is lesser than second. If it is, then it means our 132 pattern is satisfied as the stack is taking care of the 32 pattern and the current number satisfies the entire pattern. So return true.
+  - If the above is not true, update the peak value in the stack. Keep popping from the stack until stack is empty OR the top value is greater than the current value.
+  - Push the current number into the stack.
+  - If the loop terminates, it means that the pattern was not found in the array. So, return false.
   */
 
 class Solution {
     public boolean find132pattern(int[] nums) {
-        if (nums.length == 0)
-            return false;
+        int second = Integer.MIN_VALUE;
+        Deque<Integer> stack = new ArrayDeque<>();
         
-        Stack<Integer> stack = new Stack<>();
-        int s3 = Integer.MIN_VALUE;
-        
-        for(int i = nums.length - 1; i >= 0; i--)
-        {
-            if(nums[i] < s3)
+        for(int i = nums.length - 1; i >= 0; i--) {
+            if(nums[i] < second)
                 return true;
             else {
-                while(!stack.isEmpty() && nums[i] > stack.peek())
-                {
-                    s3 = stack.pop();
+                while(!stack.isEmpty() && nums[i] > stack.peek()) {
+                    second = stack.pop();
                 }
                 stack.push(nums[i]);
             }
