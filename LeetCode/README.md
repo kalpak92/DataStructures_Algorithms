@@ -83,6 +83,7 @@
 - [x] [Next Greater Element 2](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/503.%20Next%20Greater%20Element%20II)
 - [x] [Next Greater Element 3](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/556.%20Next%20Greater%20Element%20III)
 - [x] [Online Stock Span](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/901.%20Online%20Stock%20Span)
+- [x] [Sum of Subarray Minimums]()
 - [ ] Decode String
 - [x] [Exclusive Time of Functions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/636.%20Exclusive%20Time%20of%20Functions)
 - [ ] Flatten Nested List Iterator
