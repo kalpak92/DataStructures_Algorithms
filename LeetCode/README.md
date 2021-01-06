@@ -76,7 +76,6 @@
 - [x] [Sort list](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/148.%20Sort%20List)
 
 ## Stacks and Queues
-- [x] [Min Stack](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/155.%20Min%20Stack)
 - [x] [Binary Search Tree Iterator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/173.%20Binary%20Search%20Tree%20Iterator)
 - [x] [Daily Temperatures](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/739.%20Daily%20Temperatures)
 - [x] [Next Greater Element 1](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/496.%20Next%20Greater%20Element%201)
@@ -87,11 +86,11 @@
 - [x] [Largest Rectangle in Histogram](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/84.%20Largest%20Rectangle%20In%20Histogram)
 - [x] [Maximum Rectangle in a Binary Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/85.%20Maximal%20Rectangle)
 - [x] [Trapping Rain Water](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/42.%20Trapping%20Rain%20Water)
+- [x] [Min Stack](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/155.%20Min%20Stack)
 - [ ] Decode String
 - [x] [Exclusive Time of Functions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/636.%20Exclusive%20Time%20of%20Functions)
 - [ ] Flatten Nested List Iterator
 - [x] [Valid Parentheses](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/20.%20Valid%20Parenthesis)
-- [ ] Maximal Rectangle
 - [ ] Asteroid Collision
 - [x] [Remove all adjacent duplicated in a string](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1047.%20Remove%20all%20adjacent%20duplicated%20in%20String)
 - [x] [Simplify Path](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/71.%20Simplify%20Path)
