@@ -93,7 +93,8 @@
 - [x] [Exclusive Time of Functions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/636.%20Exclusive%20Time%20of%20Functions)
 - [ ] Flatten Nested List Iterator
 - [x] [Valid Parentheses](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/20.%20Valid%20Parenthesis)
-- [x] [Longest Valid Parenthesis]()
+ -[x] [Minimum Remove to Make Valid Parenthesis]()
+- [x] [Longest Valid Parenthesis](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/32.%20Longest%20Valid%20Parenthesis)
 - [ ] Asteroid Collision
 - [x] [Remove all adjacent duplicated in a string](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1047.%20Remove%20all%20adjacent%20duplicated%20in%20String)
 - [x] [Simplify Path](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/71.%20Simplify%20Path)
