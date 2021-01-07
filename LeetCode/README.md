@@ -87,6 +87,7 @@
 - [x] [Maximum Rectangle in a Binary Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/85.%20Maximal%20Rectangle)
 - [x] [Trapping Rain Water](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/42.%20Trapping%20Rain%20Water)
 - [x] [Min Stack](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/155.%20Min%20Stack)
+- [x] [Design Stack with Increment operation]()
 - [ ] Decode String
 - [x] [Exclusive Time of Functions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/636.%20Exclusive%20Time%20of%20Functions)
 - [ ] Flatten Nested List Iterator
