@@ -11,7 +11,7 @@
 - [x] [3Sum Closest](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/16.%203Sum%20closest)
 - [x] [Find the Duplicate Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/287.%20Find%20the%20Duplicate%20Number)
 - [x] [Fibonacci Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/509.%20Fibonacci%20Number)
-- [x] [Celebrity Problem]()
+- [x] [Celebrity Problem](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/277.%20Find%20the%20Celebrity)
 - [x] [Move Zeroes](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/283.%20Move%20Zeroes)
 - [x] [Merge Sorted Arrays](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/88.%20Merge%20Sorted%20Arrays)
 - [x] [Find all Duplicates in an Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/442.%20Find%20All%20Duplicates%20in%20an%20Array)
@@ -93,6 +93,7 @@
 - [x] [Exclusive Time of Functions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/636.%20Exclusive%20Time%20of%20Functions)
 - [ ] Flatten Nested List Iterator
 - [x] [Valid Parentheses](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/20.%20Valid%20Parenthesis)
+- [x] [Longest Valid Parenthesis]()
 - [ ] Asteroid Collision
 - [x] [Remove all adjacent duplicated in a string](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1047.%20Remove%20all%20adjacent%20duplicated%20in%20String)
 - [x] [Simplify Path](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/71.%20Simplify%20Path)
