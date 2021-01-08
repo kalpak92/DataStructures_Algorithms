@@ -84,21 +84,23 @@
 - [x] [Next Greater Element 3](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/556.%20Next%20Greater%20Element%20III)
 - [x] [Online Stock Span](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/901.%20Online%20Stock%20Span)
 - [x] [Sum of Subarray Minimums](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/907.%20Sum%20of%20Subarray%20Minimums)
+- [x] [132 Pattern](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/456.%20132%20Pattern)
 - [x] [Largest Rectangle in Histogram](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/84.%20Largest%20Rectangle%20In%20Histogram)
 - [x] [Maximum Rectangle in a Binary Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/85.%20Maximal%20Rectangle)
 - [x] [Trapping Rain Water](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/42.%20Trapping%20Rain%20Water)
 - [x] [Min Stack](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/155.%20Min%20Stack)
 - [x] [Design Stack with Increment operation](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1381.%20Design%20Stack%20with%20Increment%20Operation)
-- [ ] Decode String
-- [x] [Exclusive Time of Functions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/636.%20Exclusive%20Time%20of%20Functions)
-- [ ] Flatten Nested List Iterator
 - [x] [Valid Parentheses](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/20.%20Valid%20Parenthesis)
  -[x] [Minimum Remove to Make Valid Parenthesis](https://github.com/kalpak92/DataStructures_Algorithms/blob/master/LeetCode/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parenthesis/Solution.java)
 - [x] [Longest Valid Parenthesis](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/32.%20Longest%20Valid%20Parenthesis)
+- [x] [Basic Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/224.%20Basic%20Calculator)
+- [x] [Basic Calculator II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/227.%20Basic%20Calculator%20II)
+- [x] [Basic Calculator III]()
+- [ ] Decode String
+- [x] [Exclusive Time of Functions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/636.%20Exclusive%20Time%20of%20Functions)
 - [ ] Asteroid Collision
 - [x] [Remove all adjacent duplicated in a string](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1047.%20Remove%20all%20adjacent%20duplicated%20in%20String)
 - [x] [Simplify Path](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/71.%20Simplify%20Path)
-- [x] [132 Pattern](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/456.%20132%20Pattern)
 - [x] [Flatten a Nested List Iterator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/341.%20Flatten%20Nested%20List%20Iterator)
 
 
@@ -373,8 +375,6 @@
 - [x] [Integer to English Words](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/273.%20Integer%20to%20English%20Words)
 - [x] [String to Integer (atoi)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/8.%20String%20to%20Integer%20(atoi))
 - [x] [Nim Game](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/292.%20Nim%20Game)
-- [x] [Basic Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/224.%20Basic%20Calculator)
-- [x] [Basic Calculator II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/227.%20Basic%20Calculator%20II)
 - [x] [Broken Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/991.%20Broken%20Calculator)
 - [x] [Bulb Switcher](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/319.%20Bulb%20Switcher)
 - [x] [Maximum Number of Ones](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1183.%20Maximum%20Number%20of%20Ones)
