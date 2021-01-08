@@ -14,48 +14,42 @@
 
 class Solution {
     public String decodeString(String s) {
+        if(s.length() == 0)
+            return "";
         String result = "";
+        Deque<String> stack = new ArrayDeque<>();
+        int num = 0;
         
-        Stack<Integer> counter = new Stack<>();
-        Stack<String> character = new Stack<>();
-        
-        int index = 0;
-        
-        while(index < s.length())
-        {
-            if(Character.isDigit(s.charAt(index)))
-            {
-                int count = 0;
-                while(Character.isDigit(s.charAt(index)))
-                {
-                    count = count * 10 + (s.charAt(index) - '0');
-                    index++;
+        for(int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            
+            if(Character.isDigit(c))
+                num = num*10 + (int)(c - '0');
+            else if (c == '[') {
+                stack.push(num + "");
+                stack.push("[");
+                num = 0;
+            } else if (c == ']') {
+                String temp = "";
+                while(stack.peek() != "[")
+                    temp = stack.pop() + temp;
+                
+                stack.pop(); // pop the '[' which was used as a marker
+                
+                int repeat = Integer.valueOf(stack.pop());
+                StringBuilder sb = new StringBuilder();
+                // decode temp
+                for(int j = 0; j < repeat; j++) {
+                    sb.append(temp);
                 }
-                counter.push(count);
-            }
-            else if (s.charAt(index) == '[')
-            {
-                character.push(result);
-                result = "";
-                index ++;
-            }
-            else if (s.charAt(index) == ']')
-            {
-                StringBuilder temp = new StringBuilder(character.pop());
-                int loop = counter.pop();
-                
-                for(int i = 0; i < loop; i++)
-                    temp.append(result);
-                
-                result = temp.toString();
-                index++;
-            }
-            else 
-            {
-                result += s.charAt(index);
-                index++;
+                stack.push(sb.toString());
+             } else {
+                stack.push(c+"");
             }
         }
+        while(!stack.isEmpty())
+            result = stack.pop() + result;
+        
         return result;
     }
 }
