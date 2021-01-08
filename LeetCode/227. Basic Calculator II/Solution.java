@@ -21,46 +21,38 @@
 
 class Solution {
     public int calculate(String s) {
-        if(s == null || s.length() == 0)
-            return 0;
-        
-        Stack<Integer> stack = new Stack<>();
-        
-        char op = '+';
-        int num = 0;
-        
-        s += '+';
-        
-        for(int i = 0; i < s.length(); i++)
-        {
-            char c = s.charAt(i);
-            
-            if(Character.isDigit(c))
-            {
-                num = num*10 + (int)(c - '0');
-                continue;
-            }
-            if(c == ' ')
-                continue;
-            
-            if (op == '+')
-                stack.push(num);
-            else if (op == '-')
-                stack.push(-num);
-            else if (op == '*')
-                stack.push(stack.pop()*num);
-            else if (op == '/')
-                stack.push(stack.pop()/num);
-            
-            op = c;
-            num = 0;
-        }
-        
         int result = 0;
-        while (!stack.isEmpty())
-        {
-            result += stack.pop();
+        int number = 0;
+        int tempSum = 0;
+        char operator = '+';
+        
+        for(int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if(Character.isDigit(c))
+                number = number * 10 + (int)(c - '0');
+            
+            if(i == s.length() -1 || (!Character.isDigit(c) && c != ' ')) {
+                switch(operator) {
+                    case '+':
+                        result += tempSum;
+                        tempSum = number;
+                        break;
+                    case '-':
+                        result += tempSum;
+                        tempSum = -number;
+                        break;
+                    case '*':
+                        tempSum *= number;
+                        break;
+                    case '/':
+                        tempSum /= number;
+                        break;
+                }
+                operator = c;
+                number = 0;
+            }
         }
+        result += tempSum;
         return result;
     }
 }
