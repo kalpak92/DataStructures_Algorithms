@@ -29,26 +29,22 @@ import java.util.Stack;
 
 class Solution {
     public int[] exclusiveTime(int n, List<String> logs) {
-        int result[] = new int[n];
-        Stack<int[]> stack = new Stack<>();
+        int[] result = new int[n];
+        Deque<int[]> stack = new ArrayDeque<>();
         
-        for (String log: logs)
-        {
-            String s[] = log.split(":");
-            int pid = Integer.parseInt(s[0]);
-            int time = Integer.parseInt(s[2]);
+        for(String log : logs) {
+            String temp[] = log.split(":");
+            int pid = Integer.parseInt(temp[0]);
+            int time = Integer.parseInt(temp[2]);
             
-            if(s[1].equals("start"))
-            {
-                stack.push(new int[]{pid, time});
-            }
-            else {
-                int res = time - (stack.pop()[1]) + 1;
-                result[pid] += res;
+            if(temp[1].equals("start")) {
+                stack.push(new int []{pid, time});
+            } else {
+                int executionTime = time - stack.pop()[1] + 1;
+                result[pid] += executionTime;
                 
-                if(!stack.isEmpty())
-                {
-                    result[stack.peek()[0]] -=  res;
+                if(!stack.isEmpty()) {
+                    result[stack.peek()[0]] -= executionTime;  // penalizing the previous process that got hold because of the current process
                 }
             }
         }

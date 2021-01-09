@@ -96,12 +96,13 @@
 - [x] [Basic Calculator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/224.%20Basic%20Calculator)
 - [x] [Basic Calculator II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/227.%20Basic%20Calculator%20II)
 - [x] [Basic Calculator III](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/772.%20Basic%20Calculator%20III)
-- [x] [Exclusive Time of Functions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/636.%20Exclusive%20Time%20of%20Functions)
 - [x] [Decode String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/394.%20Decode%20String)
-- [ ] Asteroid Collision
+- [x] [Flatten a Nested List Iterator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/341.%20Flatten%20Nested%20List%20Iterator)
+- [x] [Exclusive Time of Functions](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/636.%20Exclusive%20Time%20of%20Functions)
+- [x] [Asteroid Collision]()
 - [x] [Remove all adjacent duplicated in a string](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1047.%20Remove%20all%20adjacent%20duplicated%20in%20String)
 - [x] [Simplify Path](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/71.%20Simplify%20Path)
-- [x] [Flatten a Nested List Iterator](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/341.%20Flatten%20Nested%20List%20Iterator)
+
 
 
 ## HashMaps
