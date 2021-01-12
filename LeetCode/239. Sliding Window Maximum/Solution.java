@@ -26,46 +26,31 @@
 
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
-        if(nums == null || nums.length == 0)
-            return new int[0];
-        
         int[] result = new int[nums.length - k + 1];
         int idx = 0;
+        Deque<Integer> queue = new LinkedList<>();
+        int i = 0;
+        int j = 0;
         
-        Deque<Integer> q = new LinkedList<>();
-        
-        // At each i, we keep "promising" elements, which are potentially max number in window [i-(k-1),i] or any subsequent window.
-        
-        // If an element in the deque and it is out of i-(k-1), we discard them. 
-        // We just need to poll from the head, as we are using a deque and elements are ordered as the sequence in the array.
-        
-        // Now only those elements within [i-(k-1),i] are in the deque. 
-        // We then discard elements smaller than a[i] from the tail. 
-        // This is because if a[x] <a[i] and x<i, then a[x] has no chance to be the "max" in [i-(k-1),i], or any other subsequent window: a[i] would always be a better candidate.
-
-        // At each step the head of the deque is the max element in [i-(k-1),i]
-        
-        for(int i = 0; i < nums.length; i++)
-        {
-            while(!q.isEmpty() && q.peek() < i - k + 1)
-            {
-                System.out.println("q.peek() < i - k + 1 -");
-                q.poll();
-            }    
-            
-            while(!q.isEmpty() && nums[q.peekLast()] < nums[i])
-            {
-                System.out.println("nums[q.peekLast()] < nums[i]");
-                q.pollLast();
+        while(j < nums.length) {
+            // Remove all elements smaller than the current element from the deque. 
+            while(!queue.isEmpty() && nums[j] > queue.peekLast()) {
+                queue.pollLast();
             }
+            // Add the current element
+            queue.offer(nums[j]);
             
-            q.offer(i);
-            System.out.println(q);
-            
-            if (i >= k - 1)
-            {
-                System.out.println("Adding to result");
-                result[idx++] = nums[q.peek()];
+            // Check the window size.
+            if(j - i + 1 < k)
+                j++;            // If not reached, increase the window
+            else if(j - i + 1 == k) {   // Window Size reached
+                result[idx++] = queue.peekFirst();  // query the answer from the head of the deque
+                
+                // Need to slide the window 
+                if(!queue.isEmpty() && nums[i] == queue.peekFirst()) // remove the left element of the window if present in the deque, since it is no longer needed
+                    queue.pollFirst();
+                i++;
+                j++;
             }
         }
         return result;
