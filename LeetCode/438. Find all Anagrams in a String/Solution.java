@@ -27,62 +27,44 @@
  */
 
 class Solution {
-    public List<Integer> findAnagrams(String s, String t) {
-        
+    public List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
         
-        if(t.length() > s.length())
+        if(p.length() > s.length())
             return result;
-
+        
         Map<Character, Integer> map = new HashMap<>();
-
-        for(char c : t.toCharArray())
-        {
+        
+        for(char c : p.toCharArray()) {
             map.put(c, map.getOrDefault(c, 0) + 1);
         }
-
-        int begin = 0, end = 0;
-        int len = Integer.MAX_VALUE;
+        
+        int begin = 0;
+        int end = 0;
         int counter = map.size();
-        //String res = "";
-
-        while(end < s.length())
-        {
-            char endChar = s.charAt(end);
-            
-            if(map.containsKey(endChar))
-            {
-                map.put(endChar, map.get(endChar) - 1);
-
-                if(map.get(endChar) == 0)
+        
+        while(end < s.length()) {
+            char c = s.charAt(end);
+            if(map.containsKey(c)) {
+                map.put(c, map.get(c) - 1);
+                if(map.get(c) == 0)
                     counter--;
             }
+            end++;
             
-            end ++;
-
-            while(counter == 0)
-            {
-                if(end - begin == t.length())
-                {
-                    len = end - begin;
-                    result.add(begin);          // add the starting position to the result list.
-                }
-
-                char tempC = s.charAt(begin);
-                if(map.containsKey(tempC))
-                {
-                    map.put(tempC, map.get(tempC) + 1);
-
-                    if(map.get(tempC) > 0)
+            // if counter == 0, then we have a substring with anagram present
+            while(counter == 0) {
+                char temp = s.charAt(begin);
+                if(map.containsKey(temp)) {
+                    map.put(temp, map.get(temp) +1);
+                    if(map.get(temp) > 0)
                         counter++;
                 }
+                if(end - begin == p.length())
+                    result.add(begin);          // push the start index of the substring to the result
                 begin++;
             }
         }
-
-        if(len == Integer.MAX_VALUE)
-            return new ArrayList<>();
-        
         return result;
-     }
+    }
 }
