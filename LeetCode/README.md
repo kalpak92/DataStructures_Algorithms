@@ -212,8 +212,8 @@
 - [x] [Sliding Window Maximum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/239.%20Sliding%20Window%20Maximum)
 - [x] [Minimum Window Substring](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/76.%20Minimum%20Window%20Substring)
 - [x] [Minimum Size SubArray Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/209.%20Minimize%20Size%20Subarray%20Sum)
-- [x] [Grumpy Bookstore Owner](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1052.%20Grumpy%20Bookstore%20Owner)
 - [x] [Longest Substring Without Repeating Characters](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/3.%20Longest%20Substring%20without%20Repeating%20Characters)
+- [x] [Grumpy Bookstore Owner](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1052.%20Grumpy%20Bookstore%20Owner)
 - [x] [Longest substring with Atmost Two Distinct Characters](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/159.%20Longest%20Substring%20with%20Atmost%20two%20distinct%20characters)
 
 ## Trees
