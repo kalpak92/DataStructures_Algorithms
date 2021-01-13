@@ -12,67 +12,51 @@
 
 public class SolutionII {
     public String minWindow(String s, String t) {
-        if(t.length()> s.length()) 
-            return "";
-        
-        Map<Character, Integer> map = new HashMap<>();
-        
-        for(char c : t.toCharArray())
-        {
-            map.put(c, map.getOrDefault(c, 0) + 1);
-        }
-        
-        int counter = map.size();
-        
-        int begin = 0, end = 0;
-        //int head = 0;
-        int len = Integer.MAX_VALUE;
-        String res = "";
-        
-        while(end < s.length())
-        {
-            char c = s.charAt(end);
+        ipublic String minWindow(String s, String t) {
+            if(t.length() > s.length()) 
+                return "";
             
-            if( map.containsKey(c) )
-            {
-                map.put(c, map.get(c) - 1);
-                
-                if(map.get(c) == 0) 
-                    counter--;
+            Map<Character, Integer> map = new HashMap<>();
+            int i = 0; 
+            int j = 0;
+            int counter = 0;
+            int length = Integer.MAX_VALUE;
+            String result = "";
+            
+            for(char c : t.toCharArray()) {
+                map.put(c, map.getOrDefault(c, 0) + 1);
             }
-            end++;
+            counter = map.size();
             
-            System.out.println(map + " counter " + counter);
-            
-            while(counter == 0)
-            {
-                if(end-begin < len){
-                    len = end - begin;
-                    //head = begin;
-                    res = s.substring(begin, end);
+            while(j < s.length()) {
+                // Calculation : Remove the character's counter from the map
+                char c = s.charAt(j);
+                if(map.containsKey(c)) {
+                    map.put(c, map.get(c) - 1);
+                    if (map.get(c) == 0)
+                        counter--;
                 }
+                // increase j
+                j++;
                 
-                char tempc = s.charAt(begin);
-                System.out.println("Begin: " + tempc);
-                
-                if(map.containsKey(tempc))
-                {    
-                    map.put(tempc, map.get(tempc) + 1);
-                    
-                    if(map.get(tempc) > 0){
-                        counter++;
+                while(counter == 0) {   // we have a window with all the characters of t
+                    // Update the result
+                    if(j - i < length) {
+                        length = j - i;
+                        result = s.substring(i, j);
                     }
+                    
+                    // Slide the window from the left
+                    char temp = s.charAt(i);
+                    if(map.containsKey(temp)) {
+                        map.put(temp, map.get(temp) +1);
+                        if(map.get(temp) > 0)
+                            counter++;
+                    }
+                    i++;
                 }
-                
-                
-                begin++;
             }
-            
+            return result;
         }
-        
-        if(len == Integer.MAX_VALUE) 
-            return "";
-        //return s.substring(head, head+len);
-        return res;
     }
 }
