@@ -15,36 +15,28 @@
  import java.util.*;
  class Solution {
     public int lengthOfLongestSubstringTwoDistinct(String s) {
-        Map<Character, Integer> map = new HashMap<>();
-        int left = 0;
-        int right = 0;
-        int counter = 0;
-        int result = 0;
+        if(s.length() == 0)
+            return 0;
         
-        while(right < s.length())
-        {
-            char c = s.charAt(right);
-            map.put(c, map.getOrDefault(c, 0) + 1);
-            // for every distinct character, increment the counter
-            if(map.get(c) == 1)
-            {
-                counter ++;
-            }
-            right++;
+        Map<Character, Integer> map = new HashMap<>();
+        int result = Integer.MIN_VALUE;
+        int i =0;
+        int j = 0;
+        
+        while(j < s.length()) {
+            map.put(s.charAt(j), map.getOrDefault(s.charAt(j), 0) + 1); // enter the characters into the map
             
-            // when counter goes beyond 2, slide window from left
-            while(counter > 2)
-            {
-                char temp = s.charAt(left);
-                map.put(temp, map.get(temp) - 1);   // decrement the occurrence of the character.
-                // if the character count reduces to zero, decrement counter
-                if(map.get(temp) == 0)
-                    counter--;
-                
-                left++;
+            if(map.size() <= 2) { // since the problem asks from atmost two distinct characters
+                result = Math.max(result, j - i + 1);
+            } else if(map.size() > 2) { // if more than 2 distinct characters, slide the window
+                while(map.size() > 2) { // remove characters from the left side of the window
+                    map.put(s.charAt(i), map.get(s.charAt(i)) - 1);
+                    if(map.get(s.charAt(i)) == 0)   // remove its entry from map when the character count is 0
+                        map.remove(s.charAt(i));
+                    i++;
+                }
             }
-            
-            result = Math.max(result, right - left);
+            j++;
         }
         return result;
     }
