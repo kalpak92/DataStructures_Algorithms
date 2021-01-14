@@ -215,7 +215,8 @@
 - [x] [Longest substring with Atmost Two Distinct Characters](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/159.%20Longest%20Substring%20with%20Atmost%20two%20distinct%20characters)
 - [x] [Longest substring with Atmost K Distinct Characters](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters)
 - [x] [Minimum Window Substring](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/76.%20Minimum%20Window%20Substring)
-- [x] [Longest Repeating Character Replacement]()
+- [x] [Longest Repeating Character Replacement](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/424.%20Longest%20Repeating%20Character%20Replacement)
+- [x] [Max Consecutive Ones III]()
 - [x] [Grumpy Bookstore Owner](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1052.%20Grumpy%20Bookstore%20Owner)
 
 ## Trees
