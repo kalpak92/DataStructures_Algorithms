@@ -13,27 +13,17 @@
 
 class Solution {
     public int subarraySum(int[] nums, int k) {
-        int[] prefixSum = new int[nums.length + 1];
-        int runningSum = 0;
-        
-        for(int i = 0; i < nums.length; i++) {
-            runningSum += nums[i];
-            prefixSum[i + 1] = runningSum;
-        }
-        
-        // Now the problem becomes find two items from this prefixSum array 
-        // such that prefixSum[j] - prefixSum[i] = k (similar to two sum)
-        
         Map<Integer, Integer> map = new HashMap<>();
+        int runningSum = 0;
         int result = 0;
         
-        for(int i = 0; i < prefixSum.length; i++) {
-            if(map.containsKey(prefixSum[i])) {
-                result += map.get(prefixSum[i]);
-            }
+        map.put(0, 1);
+        for(int i = 0; i < nums.length; i++) {
+            runningSum += nums[i];
+            if(map.containsKey(runningSum - k))
+                result += map.get(runningSum - k);
             
-            int target = k + prefixSum[i];
-            map.put(target, map.getOrDefault(target, 0) + 1);
+            map.put(runningSum, map.getOrDefault(runningSum, 0) + 1);
         }
         return result;
     }

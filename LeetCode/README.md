@@ -70,7 +70,7 @@
 - [x] [Reverse Nodes in k-group](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/25.%20Reverse%20Nodes%20in%20k-Group)
 - [x] [Intersection of Two Linked Lists](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/160.%20Intersection%20of%20Two%20Linked%20List)
 - [x] [Remove duplicates from Sorted List](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/83.%20Remove%20Duplicates%20from%20Sorted%20List)
-- [x] [Remove duplicated from Sorted List II]()
+- [x] [Remove duplicated from Sorted List II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/82.%20Remove%20Duplicates%20from%20Sorted%20Lists%20II)
 - [ ] Swap Nodes in Pairs
 - [x] [Reorder List](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/143.%20Reorder%20List)
 - [ ] Reverse Linked List II
