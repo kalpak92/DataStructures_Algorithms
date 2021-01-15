@@ -219,7 +219,7 @@
 - [x] [Max Consecutive Ones III](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1004.%20Max%20Consecutive%20Ones%20III)
 - [x] [Longest Substring with At Least K repeating characters](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/395.%20Longest%20Substring%20with%20AtLeast%20K%20repeating%20characters)
 - [x] [Sliding Window Median](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/480.%20SlidingWindowMedian)
-- [x] [Maximum points from cards]()
+- [x] [Maximum points from cards](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1423.%20Maximum%20Points%20obtained%20from%20cards)
 - [x] [Grumpy Bookstore Owner](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1052.%20Grumpy%20Bookstore%20Owner)
 
 ## Trees
