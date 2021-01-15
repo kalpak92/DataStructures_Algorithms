@@ -9,6 +9,7 @@
 - [x] [Degree of an Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/697.%20Degree%20of%20an%20Array)
 - [x] [3 Sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/15.%203Sum)
 - [x] [3Sum Closest](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/16.%203Sum%20closest)
+- [x] [Rotate Array]()
 - [x] [Find the Duplicate Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/287.%20Find%20the%20Duplicate%20Number)
 - [x] [Fibonacci Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/509.%20Fibonacci%20Number)
 - [x] [Celebrity Problem](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/277.%20Find%20the%20Celebrity)
