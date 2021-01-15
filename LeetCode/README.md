@@ -11,6 +11,7 @@
 - [x] [3Sum Closest](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/16.%203Sum%20closest)
 - [x] [Rotate Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/189.%20Rotate%20Array)
 - [x] [Find the Duplicate Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/287.%20Find%20the%20Duplicate%20Number)
+- [x] [Remove duplicates from Sorted Array]()
 - [x] [Fibonacci Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/509.%20Fibonacci%20Number)
 - [x] [Celebrity Problem](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/277.%20Find%20the%20Celebrity)
 - [x] [Move Zeroes](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/283.%20Move%20Zeroes)
@@ -68,7 +69,7 @@
 - [x] [Merge k Sorted Lists](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/23.%20Merge%20k%20Sorted%20Lists)
 - [x] [Reverse Nodes in k-group](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/25.%20Reverse%20Nodes%20in%20k-Group)
 - [x] [Intersection of Two Linked Lists](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/160.%20Intersection%20of%20Two%20Linked%20List)
-- [x] [Remove duplicates from Sorted List]()
+- [x] [Remove duplicates from Sorted List](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/83.%20Remove%20Duplicates%20from%20Sorted%20List)
 - [ ] Swap Nodes in Pairs
 - [x] [Reorder List](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/143.%20Reorder%20List)
 - [ ] Reverse Linked List II
