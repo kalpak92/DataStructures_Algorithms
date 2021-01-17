@@ -188,7 +188,7 @@
 - [x] [Find K Closest Points](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/658.%20Find%20K%20closest%20elements)
 - [x] [Search a 2D Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/74.%20Search%20a%202D%20Matrix)
 - [x] [Kth Smallest Element in a Sorted Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/378.%20Kth%20smallest%20element%20in%20sorted%20matrix)
-- [x] [Kth Missing Positive Number]()
+- [x] [Kth Missing Positive Number](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1539.%20Kth%20Missing%20Positive%20Number)
 - [x] [Random pick with Weight](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/528.%20Random%20Pick%20with%20Weight)
 - [x] [Capacity To Ship Packages Within D Days](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1011.%20Capacity%20to%20ship%20packages%20within%20D%20days)
 - [x] [Koko Eating Bananas](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/875.%20Koko%20Eating%20Bananas)
