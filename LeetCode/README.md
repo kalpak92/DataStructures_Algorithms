@@ -149,6 +149,7 @@
 - [x] [Kth Largest element in a stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/703.%20Kth%20largest%20element%20in%20a%20stream)
 - [x] [Kth Largest Element in an Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/215.%20kth%20Largest%20element%20in%20an%20array)
 - [x] [Top k frequent elements in an Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/347.%20Top%20K%20frequent%20elements)
+- [x] [Sort Array by Increasing Frequency]()
 - [x] [Top k frequent words](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/692.%20Top%20K%20frequent%20words)
 - [x] [K closest points to origin](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/973.%20K%20closest%20points%20to%20origin)
 - [x] [Find Median from Data Stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/295.%20Find%20Median%20from%20Data%20Stream)
