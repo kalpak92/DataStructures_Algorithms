@@ -21,42 +21,33 @@
 
 public class Solution {
     public String rearrangeString(String s, int k) {
-        if(k == 0) 
-            return s;
-        
-        int[] freq = new int[26];
+        Map<Character, Integer> map = new HashMap<>();
+        PriorityQueue<Character> maxHeap = new PriorityQueue<>((a, b) -> map.get(b) - map.get(a));
+        Queue<Character> waitQueue = new LinkedList<>();
         StringBuilder result = new StringBuilder();
-        Queue<int[]> wait = new LinkedList<>();
         
-        // Compute the frequency
-        for (char c : s.toCharArray()) 
-            freq[c - 'a']++;
+        // Build the frequency map
+        for(char c : s.toCharArray())
+            map.put(c, map.getOrDefault(c, 0) + 1);
         
-        // Create a maxHeap
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[1] - a[1]);
+        // Create the maxHeap based on the frequency
+        maxHeap.addAll(map.keySet());
         
-        for(int i = 0; i < 26; i++) {
-            if(freq[i] > 0) 
-                pq.add(new int[]{i, freq[i]});
-        }
-        
-        
-        while (!pq.isEmpty()) {
-            // Greedily, get the character with the highest frequency and add it to the result
-            int[] current = pq.poll();
-            result.append((char)(current[0] + 'a'));
-            current[1]--;       // Decrement its frequency
+        while(!maxHeap.isEmpty()) {
+            Character temp = maxHeap.poll();
+            result.append(temp);
+            map.put(temp, map.get(temp) - 1);
+            // Push it to the waitQueue
+            waitQueue.offer(temp);
             
-            // Add it to the wait queue, to be processed later, to ensure the k distance
-            wait.add(current);
+            // Check if the waitQueue is of size k
+            if(waitQueue.size() < k)
+                continue;
             
-            if (wait.size() >= k) {
-                // By FIFO, take the first character out of the queue
-                // Check if the character frequency is not zero, then add it to the maxHeap                
-                int[] front = wait.poll();
-                if (front[1] > 0) 
-                    pq.add(front);
-            }
+            // else pop from the queue
+            Character cache = waitQueue.poll();
+            if(map.get(cache) > 0)
+                maxHeap.offer(cache);
         }
         return result.length() == s.length() ? result.toString() : "";
     } 

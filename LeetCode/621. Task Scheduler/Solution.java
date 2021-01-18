@@ -19,34 +19,45 @@
 
 class Solution {
     public int leastInterval(char[] tasks, int n) {
-        HashMap<Character, Integer> map = new HashMap<>();
+        Map<Character, Integer> map = new HashMap<>();
+        PriorityQueue<Character> maxHeap = new PriorityQueue<>((a, b) -> map.get(b) - map.get(a)); // O(log(26)) 
+
+        int result = 0;
+        
+        // Build the frequency map
         for(char c : tasks)
             map.put(c, map.getOrDefault(c, 0) + 1);
         
-        PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a, b) -> b - a);
-        maxHeap.addAll(map.values());
+        // Create the maxHeap based on the frequency
+        maxHeap.addAll(map.keySet());
         
-        int result = 0;
-        
-        while(!maxHeap.isEmpty())
-        {
-            List<Integer> temp = new ArrayList<>();
+        while(!maxHeap.isEmpty()) {
+            int interval = n + 1;
+            Queue<Character> waitQueue = new LinkedList<>();
             
-            for(int i = 0; i < n + 1; i++)
-            {
-                if(!maxHeap.isEmpty())
-                    temp.add(maxHeap.poll());
+            while(interval > 0 && !maxHeap.isEmpty()) {
+                Character temp = maxHeap.poll();    // Most Frequent task
+                map.put(temp, map.get(temp) - 1);   // reduce the count of occurence, because a unit of task is done;
+                // add it to the waitQueue
+                waitQueue.offer(temp);
+            
+                interval--;     // reduce the interval
+                result++;       // update the result
             }
             
-            for(int i : temp)
-            {
-                if(--i > 0)
-                    maxHeap.add(i);
+            // Flush the waitQueue and put the tasks back to the MaxHeap
+            while(!waitQueue.isEmpty()) {
+                Character temp = waitQueue.poll();
+                if(map.get(temp) > 0)
+                    maxHeap.offer(temp);
             }
             
-            result += maxHeap.isEmpty() ? temp.size() : n + 1;
+            // if the heap is empty, no more tasks to be done
+            if(maxHeap.isEmpty())
+                break;
+            
+            result = result + interval; // // if interval > 0, then it means we need to be idle          
         }
-        
         return result;
     }
 }
