@@ -154,7 +154,6 @@
 - [x] [K closest points to origin](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/973.%20K%20closest%20points%20to%20origin)
 - [x] [Minimum Cost to Connect Sticks](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1167.%20Minimum%20Cost%20to%20Connect%20Sticks)
 - [x] [Least number of unique elements after K removals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1481.%20Least%20Number%20of%20Unique%20Elements%20after%20K%20removals)
-- [x] [Find Median from Data Stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/295.%20Find%20Median%20from%20Data%20Stream)
 - [x] [Find K pairs with the smallest sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/373.%20Find%20K%20Pairs%20with%20Smallest%20Sum)
 - [x] [Kth Smallest Element in a Sorted Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/378.%20Kth%20smallest%20element%20in%20sorted%20matrix)
 - [x] [Reorganize String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/767.%20Reorganize%20String)
@@ -162,6 +161,8 @@
 - [x] [Task Scheduler](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/621.%20Task%20Scheduler)
 - [x] [Sort Characters By Frequency](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/451.%20Sort%20Characters%20by%20Frequency)
 - [x] [Maximum Frequency Stack](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/895.%20Maximum%20Frequency%20Stack)
+- [x] [Find Median from Data Stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/295.%20Find%20Median%20from%20Data%20Stream)
+- [x] [IPO]()
 
 ## Divide and Conquer
 - [x] [Maximum SubArray](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/53.%20Maximum%20Subarray)
