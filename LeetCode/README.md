@@ -159,8 +159,9 @@
 - [x] [Kth Smallest Element in a Sorted Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/378.%20Kth%20smallest%20element%20in%20sorted%20matrix)
 - [x] [Reorganize String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/767.%20Reorganize%20String)
 - [x] [ReArrange String k Distance Apart](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/358.%20Rearrange%20String%20k%20Distance%20Apart)
+- [x] [Task Scheduler](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/621.%20Task%20Scheduler)
 - [x] [Sort Characters By Frequency](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/451.%20Sort%20Characters%20by%20Frequency)
-- [x] [Maximum Frequency Stack]()
+- [x] [Maximum Frequency Stack](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/895.%20Maximum%20Frequency%20Stack)
 
 ## Divide and Conquer
 - [x] [Maximum SubArray](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/53.%20Maximum%20Subarray)
