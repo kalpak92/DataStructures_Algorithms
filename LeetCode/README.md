@@ -161,9 +161,10 @@
 - [x] [Task Scheduler](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/621.%20Task%20Scheduler)
 - [x] [Sort Characters By Frequency](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/451.%20Sort%20Characters%20by%20Frequency)
 - [x] [Maximum Frequency Stack](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/895.%20Maximum%20Frequency%20Stack)
+- [x] [Employee Free Time]()
 - [x] [Find Median from Data Stream](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/295.%20Find%20Median%20from%20Data%20Stream)
 - [x] [IPO](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/502.%20IPO)
-- [x] [Find Right Interval]()
+- [x] [Find Right Interval](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/436.%20Find%20Right%20intervals)
 
 ## Divide and Conquer
 - [x] [Maximum SubArray](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/53.%20Maximum%20Subarray)
