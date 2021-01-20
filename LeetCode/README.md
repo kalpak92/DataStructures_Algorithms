@@ -156,7 +156,7 @@
 - [x] [Least number of unique elements after K removals](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1481.%20Least%20Number%20of%20Unique%20Elements%20after%20K%20removals)
 - [x] [Find K pairs with the smallest sum](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/373.%20Find%20K%20Pairs%20with%20Smallest%20Sum)
 - [x] [Kth Smallest Element in a Sorted Matrix](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/378.%20Kth%20smallest%20element%20in%20sorted%20matrix)
-- [x] [Smallest Range covering elements from K lists]()
+- [x] [Smallest Range covering elements from K lists](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/632.%20Smallest%20Range%20covering%20elements%20from%20K%20lists)
 - [x] [Reorganize String](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/767.%20Reorganize%20String)
 - [x] [ReArrange String k Distance Apart](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/358.%20Rearrange%20String%20k%20Distance%20Apart)
 - [x] [Task Scheduler](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/621.%20Task%20Scheduler)

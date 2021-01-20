@@ -16,24 +16,23 @@ class Solution {
         if(intervals.length <= 1)
             return intervals;
         
-        Arrays.sort(intervals, (a, b) -> (a[0] - b[0]));
+        List<int []> result = new ArrayList<>();
         
-        List<int[]> result = new ArrayList<>();
+        // Sort on the basis of the start element of each interval
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
         
-        int[] runningInterval = intervals[0];
-        result.add(runningInterval);
+        // Add the first interval to the list and then check for overlaps
+        result.add(intervals[0]);
+        int[] currentInterval = intervals[0];
         
-        for(int[] interval : intervals) {
-            if(interval[0] <= runningInterval[1]) {
-                // Need to merge the intervals
-                runningInterval[1] = Math.max(interval[1], runningInterval[1]);
-            }
+        for(int i = 1; i < intervals.length; i++) {
+            if(intervals[i][0] <= currentInterval[1])
+                currentInterval[1] = Math.max(currentInterval[1], intervals[i][1]);
             else {
-                // The intervals are disjoint.
-                runningInterval = interval;
-                result.add(runningInterval);
+                currentInterval = intervals[i];
+                result.add(intervals[i]);
             }
         }
-        return result.toArray(new int [result.size()][]);
+        return result.toArray(new int[result.size()][]);
     }
 }
