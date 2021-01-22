@@ -16,22 +16,32 @@
 
 class Solution {
     public int findMin(int[] nums) {
-        int low = 0;
-        int high = nums.length - 1;
+        int result = Integer.MIN_VALUE;
+        int left = 0;
+        int right = nums.length - 1;
         
-        // loop invariant: 1. low < high
-        //                 2. mid != high and thus A[mid] != A[high] (no duplicate exists)
-        //                 3. minimum is between [low, high]
-        // The proof that the loop will exit: after each iteration either the 'high' decreases
-        // or the 'low' increases, so the interval [low, high] will always shrink.
-        
-        while (low < high) {
-            int mid = low + (high - low) / 2;
-            if (nums[mid] < nums[high])
-                high = mid;             // the mininum is in the left part
-            else if (nums[mid] > nums[high])
-                low = mid + 1;          // the mininum is in the right part
+        while(left <= right) {
+            int mid = left + (right - left)/2;
+            
+            if(nums[left] <= nums[right])
+                return nums[left];
+            
+            // Prevents overflow
+            int next = (mid + 1) % nums.length;
+            int prev = (mid - 1 + nums.length) % nums.length;
+            
+            // Check for minimum element
+            if(nums[mid] <= nums[prev] && nums[mid] <= nums[next]) {
+                result = nums[mid];
+                break;
+            }
+            
+            // Need to go in the direction of the unsorted array
+            if(nums[left] <= nums[mid])
+                left = mid + 1;
+            else if(nums[mid] <= nums[right])
+                right = mid - 1;
         }
-        return nums[low];
+        return result;
     }
 }

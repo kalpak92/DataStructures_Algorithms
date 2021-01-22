@@ -22,6 +22,7 @@
 - [x] [Best Time to Buy and Sell Stock](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)
 - [x] [Best Time to Buy and Sell Stock II](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II)
 - [x] [Search in Rotated Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/33.%20Search%20in%20Rotated%20Sorted%20Array)
+- [x] [Search in Rotated Sorted Array with duplicates]()
 - [x] [Single Element in a Sorted Array - O(log n)](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/540.%20Single%20Element%20in%20a%20Sorted%20Array)
 - [x] [Search Insert position](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/35.%20Search%20Insert%20position)
 - [x] [Check If a Number Is Majority Element in a Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/1150.%20Check%20If%20a%20Number%20Is%20Majority%20Element%20in%20a%20Sorted%20Array)
