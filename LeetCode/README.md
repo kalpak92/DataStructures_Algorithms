@@ -191,7 +191,7 @@
 - [x] [Guess Number Higher or Lower](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/374.%20Guess%20Number%20Higher%20or%20Lower)
 - [x] [Search in Rotated Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/33.%20Search%20in%20Rotated%20Sorted%20Array)
 - [x] [Search in Rotated Sorted Array with duplicates](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/81.%20Search%20in%20a%20rotated%20sorted%20array%20II)
-- [x [Search in a Sorted Array of Unknown Size]()
+- [x [Search in a Sorted Array of Unknown Size](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/702.%20Search%20in%20a%20Sorted%20Array%20of%20Unknown%20Size)
 - [x] [Find First and Last position of element in Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/34.%20Find%20First%20and%20Last%20position%20of%20element%20in%20Sorted%20Array)
 - [x] [First Bad Version](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/278.%20First%20Bad%20Version)
 - [x] [Peak Index in a Mountain Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/852.%20Peak%20Index%20In%20a%20Mountain%20Array)

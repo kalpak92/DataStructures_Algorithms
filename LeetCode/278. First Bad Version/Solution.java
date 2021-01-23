@@ -22,23 +22,19 @@
 
 public class Solution extends VersionControl {
     public int firstBadVersion(int n) {
-        int left = 1;
+        int left = 0;
         int right = n;
+        int result = 0;
         
-        while(left < right) {
-            int mid  = left + (right - left)/2;
+        while(left <= right) {
+            int mid = left + (right - left)/2;
             
-            if(isBadVersion(mid))
-                right = mid;
-            else
+            if(isBadVersion(mid)) {
+                result = mid;
+                right = mid - 1;
+            } else
                 left = mid + 1;
         }
-        /**
-         * During the last iteration of loop mid == low == high, 
-         * mid can either be good or bad version. 
-         * if mid is good version (low = mid +1) we need to return mid +1 (i.e. low) as the first bad version, 
-         * if mid was bad version (high = mid -1) low was already pointing to first bad version. So we always return low.
-         */
-        return left;
+        return result;
     }
 }

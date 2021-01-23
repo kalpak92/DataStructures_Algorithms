@@ -22,23 +22,23 @@
 
 class Solution {
     public int searchInsert(int[] nums, int target) {
-        if(nums == null || nums.length == 0)
-            return -1;
-        
         int left = 0;
-        // Note that the input target might be larger than all elements in nums.
-        // Therefore needs to placed at the end of the array. 
-        // So, initialize right = nums.length instead of right = len(nums) - 1.
-        int right = nums.length;
+        int right = nums.length - 1;
+        int result = 0;
         
-        while(left < right) {
+        while (left <= right) {
             int mid = left + (right - left)/2;
             
-            if(nums[mid] >= target)
-                right = mid;
-            else
+            if(nums[mid] == target) {
+                return mid;
+            }
+            else if (nums[mid] < target) {
                 left = mid + 1;
+            } else if (nums[mid] > target) {
+                right = mid - 1;
+                result = mid;
+            }
         }
-        return left;
+        return (left >= nums.length) ? left : result;       // Return left, if number to be entered is at the end of the array
     }
 }
