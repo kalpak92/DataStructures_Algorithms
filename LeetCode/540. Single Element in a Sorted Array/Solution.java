@@ -15,44 +15,41 @@
 
  class Solution {
     public int singleNonDuplicate(int[] nums) {
-        int low = 0;
-        int high = nums.length - 1;
+        if(nums.length == 1) 
+            return nums[0];
         
-        /*
-            The logic behind this is: for each mid, we try to find understand whether the single number is on the left half. 
-            The if header tests that nums[mid] is not single and neither is anything on its left.
-            
-            If mid is even, then there are 2m numbers on the left of mid. 
-                For the statement of nums[mid] is not single and neither is anything on its left to hold, 
-                we need the 2m numbers to the left of mid to be m pairs, and also nums[mid] be in a pair with nums[mid + 1]. 
-                Indeed, we only have to make sure in this case that nums[mid], nums[mid + 1] is a pair. 
-                You can prove by contradiction that as long as this holds, the sole single number can't be on the left of mid. 
-                Now that the statement of nums[mid] is not single and neither is anything on its left is proven, we can just go to the right half.
-            
-            If mid is odd, then to prove nums[mid] is not single and neither is anything on its left, 
-                we only need to prove that nums[mid - 1], nums[mid] is a pair. mid - 1 is even, and as long as nums[mid - 1], 
-                nums[mid - 1 + 1] forms a pair, we can actually use the argument of previous paragraph to prove that no entry to the left of mid is single. 
-                And neither is mid itself obviously. With nums[mid] is not single and neither is anything on its left proven, we can again to the right half.
-
-            If nums[mid] is not single and neither is anything on its left not provable, then go to left half since the single number is there.
-        */
+        int left = 0;
+        int right = nums.length - 1;
         
-        
-        while (low < high)
-        {
-            int mid = low + (high - low)/2;
+        while(left <= right) {
+            int mid = left + (right - left)/2;
             
-            int even = (mid % 2 == 0) ? nums[mid] : nums[mid - 1];
-            int odd = (mid % 2 == 0) ? nums[mid + 1] :nums[mid];
-            if (even == odd) 
-            {
-                low = mid + 1;
-            } 
-            else 
-            {
-                high = (mid / 2) * 2;
+            if((mid-1 >= 0 && nums[mid-1] == nums[mid]) || (mid + 1 < nums.length && nums[mid+1] == nums[mid])){ // nums[mid] is not single
+                int currLen = right - left; // actual length - 1                
+                
+                if((currLen/2) % 2 == 0){           //Even
+                    if(nums[mid-1] == nums[mid]){   // Match is on the left hand side
+                        right = mid - 2;            // Skip mid-1 and mid as we know they are not single
+                    }
+                    else{
+                        // The element is on the right hand side
+                        left = mid + 2;
+                    }
+                }
+                else{                               // Odd
+                    if(nums[mid-1] == nums[mid]){   // Match is on the left hand side
+                        left = mid + 1;             // Go Right
+                    }
+                    else{
+                        // Go Left
+                        right = mid - 1;
+                    }
+                }
             }
+            else 
+                return nums[mid];
         }
-        return nums[low];
+        
+        return nums[left];
     }
 }
