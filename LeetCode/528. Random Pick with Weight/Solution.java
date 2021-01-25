@@ -51,48 +51,51 @@
  *     pickIndex will be called at most 10000 times.
  */
 
-class Solution {
-    
-    int[] cumulativeWeights;      // stores the probability based on the weights
-    
+public class Solution {
+    int[] cumulativeWeights;
     public Solution(int[] w) {
         cumulativeWeights = new int[w.length];
-        
-        cumulativeWeights[0] = w[0];
-        for(int i = 1; i < w.length; i++) {
-            cumulativeWeights[i] = cumulativeWeights[i - 1] + w[i];
-        }
-    }
-    
-    public int pickIndex() {
-        // Get a Random Value 
-        int randomIdx = new Random().nextInt(cumulativeWeights[cumulativeWeights.length - 1]) + 1;
-        
-        // Perform Binary Search for search position
-        // We try to find the smallest index where the sum till that index > randTotal.
 
-        int left = 0;
-        int right = cumulativeWeights.length;
-        
-        while(left < right) {
-            int mid = left + (right - left)/2;
-            
-            if(cumulativeWeights[mid] < randomIdx)
-                left = mid + 1;
-            else 
-                right = mid;
+        // build up the array
+        cumulativeWeights[0] = w[0];
+        for(int i = 1; i < w.length; i++)
+            cumulativeWeights[i] = cumulativeWeights[i-1] + w[i];
+    }
+
+    public int pickIndexLinearSearch() {
+        int target = (int)(cumulativeWeights[cumulativeWeights.length - 1] * Math.random());
+
+        for(int i = 0; i < cumulativeWeights.length; i++) {
+            if(target < cumulativeWeights[i])
+                return i;
         }
-        return left;
-        
-        // int result = Arrays.binarySearch(cumulativeWeights, randomIdx); 
-        // if(result < 0) 
-        //     result = -result - 1; //if not in the array 
-        // return result;
+        return -1;
+    }
+
+    public int pickIndex() {
+        int target = (int)(cumulativeWeights[cumulativeWeights.length - 1] * Math.random());
+        int result = -1;
+        int left = 0;
+        int right = cumulativeWeights.length - 1;
+
+        while(left <= right) {
+            int mid = left + (right - left)/2;
+
+            if (target < cumulativeWeights[mid]) {
+                result = mid;            // we got a candidate. But check if we can do better. So go left
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        RandomPickWithWeight obj = new RandomPickWithWeight(new int[]{1, 3});
+        System.out.println(obj.pickIndex());
+        System.out.println(obj.pickIndex());
+        System.out.println(obj.pickIndex());
+        System.out.println(obj.pickIndex());
     }
 }
-
-/**
- * Your Solution object will be instantiated and called as such:
- * Solution obj = new Solution(w);
- * int param_1 = obj.pickIndex();
- */
