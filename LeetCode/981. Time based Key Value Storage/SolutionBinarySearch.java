@@ -34,53 +34,49 @@
  *     TimeMap.set and TimeMap.get functions will be called a total of 120000 times (combined) per test case.
  */
 
-class Data {
-    String val;
-    int time;
-    
-    Data(String val, int time) {
-        this.val = val;
-        this.time = time;
-    }
-}
 
-class TimeMap {
+class Solution {
+    Map<String, List<Data>> map;
 
     /** Initialize your data structure here. */
-    Map<String, List> map;
-    
-    public TimeMap() {
+    public Solution() {
         map = new HashMap<>();
     }
     
     public void set(String key, String value, int timestamp) {
-        if (!map.containsKey(key)) 
-            map.put(key, new ArrayList<Data>());
-        
-        map.get(key).add(new Data(value, timestamp));
+        map.computeIfAbsent(key, k -> new ArrayList<>()).add(new Data(value, timestamp));
     }
     
     public String get(String key, int timestamp) {
-        if (!map.containsKey(key)) 
+        if(!map.containsKey(key))
             return "";
         
-        int left = 0;
-        int right = map.get(key).size();
         List<Data> data = map.get(key);
         
-        while(left < right) {
+        int left = 0;
+        int right = data.size() - 1;
+        int resultIdx = -1;
+        
+        while(left <= right) {
             int mid = left + (right - left)/2;
-            if(data.get(mid).time > timestamp)
-                right = mid;
-            else
+            
+            if(data.get(mid).timestamp <= timestamp) {
+                resultIdx = mid;            // possible candidate
                 left = mid + 1;
+            } else 
+                right = mid - 1;
         }
+        return (resultIdx == -1) ? "" : data.get(resultIdx).value;
+    }
+    
+    class Data {
+        String value;
+        int timestamp;
         
-        // data.get(left) would return the first occurrence of "next" value. 
-        // To get the last occurrence we want to previous value hence data.get(left - 1).val.
-        // if(left > 0 and left <= data.size()) is to make sure we are not out of bounds.
-        
-        return left > 0 && left <= data.size() ? data.get(left - 1).val : "";
+        public Data(String value, int timestamp) {
+            this.value = value;
+            this.timestamp = timestamp;
+        }
     }
 }
 
