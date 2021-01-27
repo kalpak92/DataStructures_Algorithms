@@ -17,33 +17,26 @@
 
 class Solution {
     public void sortColors(int[] nums) {
-        if (nums == null || nums.length == 0)
-            return;
+        int left = 0;
+        int right = nums.length - 1;
+        int current = 0;
         
-        int low = 0;
-        int high = nums.length - 1;
-        
-        for(int i = low; i <= high;)
-        {
-            if(nums[i] == 0)        // every element to the left of low pointer should be 0
-            {
-                int temp = nums[i];
-                nums[i] = nums[low];
-                nums[low] = temp;
+        while(current <= right) {
+            if(nums[current] == 0) {
+                int temp = nums[left];
+                nums[left] = nums[current];
+                nums[current] = temp;
                 
-                i++;
-                low++;
-            }
-            else if (nums[i] == 2)      // every element to the right of high pointer should be 2
-            {
-                int temp = nums[i];
-                nums[i] = nums[high];
-                nums[high] = temp;
+                current++;
+                left++;
+            } else if (nums[current] == 2) {
+                int temp = nums[right];
+                nums[right] = nums[current];
+                nums[current] = temp;
                 
-                high--;
-            }
-            else
-                i++;
+                right--;
+            } else
+                current++;
         }
     }
 

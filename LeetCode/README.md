@@ -48,7 +48,8 @@
 - [x] [Container with most water](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/11.%20Container%20with%20most%20water)
 - [x] [Trapping Rain Water](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/42.%20Trapping%20Rain%20Water)
 - [x] [Task Scheduler](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/621.%20Task%20Scheduler)
-- [x] [Squares of a Sorted Array]()
+- [x] [Squares of a Sorted Array](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/977.%20Squares%20of%20a%20Sorted%20Array)
+
 ## Prefix Sum
 
 - [x] [Find Pivot Index](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/724.%20Find%20Pivot%20Index)
