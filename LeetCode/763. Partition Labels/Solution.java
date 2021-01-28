@@ -62,33 +62,22 @@ class Solution {
 
     public List<Integer> partitionLabels(String S) {
         List<Integer> result = new ArrayList<>();
-        
-        // keep track of the end index of each of the characters in the string
-        int[] endIndex = new int[26];
+        int[] index = new int[26];
         
         for(int i = 0; i < S.length(); i++)
-        {
-            endIndex[S.charAt(i) - 'a'] = i;
-        }
+            index[S.charAt(i) - 'a'] = i;
         
-        int i = 0;
-        while(i < S.length())
-        {
-            int end = endIndex[S.charAt(i) - 'a'];  // fetch the end index of the first character
+        int partitionStart = 0;
+        for(int i = 0; i < S.length(); i++) {
+            int partitionEnd = index[S.charAt(i) - 'a'];
             
-            // check if this is the end index. Else, update the endIndex
-            int j = i;
-            while(j != end)
-            {
-                end = Math.max(end, endIndex[S.charAt(j) - 'a']);
-                j++;
+            while(i != partitionEnd) {
+                i++;
+                int tempEnd = index[S.charAt(i) - 'a'];
+                partitionEnd = Math.max(partitionEnd, tempEnd);
             }
-            
-            // the partition has been found. put it into the result list.
-            result.add(j - i + 1);
-            
-            // move the ith index to the next index of j and start the process again.
-            i = j + 1;
+            result.add(partitionEnd - partitionStart + 1);
+            partitionStart = partitionEnd + 1;
         }
         return result;
     }
