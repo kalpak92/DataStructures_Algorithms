@@ -285,7 +285,7 @@
 - [x] [Unique Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/96.%20Unique%20Binary%20Search%20Trees)
 - [x] [All Nodes with distance K in Binary Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/863.%20All%20Nodes%20with%20Distance%20K%20in%20Binary%20Tree)
 - [x] [Verify Preorder sequence in Binary Search Tree](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/255.%20Verify%20Preorder%20sequence%20in%20Binary%20Search%20Tree)
--[x] [Binary Tree Vertical Order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/314.%20Binary%20Tree%20Vertical%20Order%20Traversal)
+- [x] [Binary Tree Vertical Order Traversal](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/314.%20Binary%20Tree%20Vertical%20Order%20Traversal)
 
 ## Graphs
 - [x] [Clone Graph](https://github.com/kalpak92/DataStructures_Algorithms/tree/master/LeetCode/133.%20Clone%20Graph)
